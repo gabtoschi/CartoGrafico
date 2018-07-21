@@ -1,0 +1,20 @@
+{
+    "name":"Teste",
+    "capacity":2,
+    "questions":[
+        {
+            "id":0,
+            "question":"aperte na primeira alternativa",
+            "answers":["1 Certa", "2 Errada", "3 Errada","4 Errada"],
+            "correct":0,
+            "fact":"parabains mamae"
+        },
+        {
+            "id":1,
+            "question":"aperte na ultima alternativa",
+            "answers":["1 Errada", "2 Errada", "3 Errada","4 Certa"],
+            "correct":3,
+            "fact":"parabains cindy"
+        }
+    ]
+}
