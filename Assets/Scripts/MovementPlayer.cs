@@ -10,29 +10,28 @@ public class MovementPlayer : MonoBehaviour{
     public GameObject buttons;
      
     public void AbreQuestao(){
-            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>()));
+            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>())); //set the selected button position as parameter
     }
 
     public IEnumerator MovePlayer(RectTransform finalPos)
     {
         Button[] btn = buttons.GetComponentsInChildren<Button>();
-        player = GameObject.FindGameObjectWithTag("Player");
-        var currentPos = player.GetComponent<RectTransform>().position;
+        var currentPos = player.GetComponent<RectTransform>().position; 
         var t = 0f;
         foreach(Button b in btn)
         {
-            b.enabled = false;
+            b.enabled = false; //disable buttons to prevent starting another movement without finishing the last one
         }
         while (t < 1)
         {
             t += Time.deltaTime / tempoMov;
 
-            player.GetComponent<RectTransform>().position = Vector3.Lerp(currentPos,finalPos.position , t);
+            player.GetComponent<RectTransform>().position = Vector3.Lerp(currentPos,finalPos.position , t); //translates object smoothly according to given time
             yield return null;
         }
         foreach (Button b in btn)
         {
-            b.enabled = true;
+            b.enabled = true; //enables buttons agains
         }
 
     }
