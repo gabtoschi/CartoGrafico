@@ -31,7 +31,7 @@ public class MovementPlayer : MonoBehaviour{
         }
         foreach (Button b in btn)
         {
-            b.enabled = true; //enables buttons agains
+            b.enabled = true; //enables buttons again
         }
 
     }
