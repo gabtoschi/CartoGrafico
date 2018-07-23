@@ -229,6 +229,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -454,6 +472,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -578,6 +614,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -657,7 +711,8 @@ GameObject:
   m_Component:
   - component: {fileID: 371913700}
   - component: {fileID: 371913701}
-  m_Layer: 0
+  - component: {fileID: 371913702}
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -671,7 +726,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 371913699}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 29.600002, y: 29.600002, z: 29.600002}
   m_Children: []
   m_Father: {fileID: 278315006}
@@ -714,8 +769,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -148328131
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cabc5e3ef858e324aa5bdd8226fefb58, type: 3}
   m_Color: {r: 0.14733891, g: 0.7264151, b: 0.22453685, a: 1}
@@ -728,6 +783,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &371913702
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 371913699}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &393696658
 Prefab:
   m_ObjectHideFlags: 0
@@ -843,6 +918,24 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.033779997
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -968,6 +1061,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -1092,6 +1203,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033783782
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -1201,7 +1330,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1417635588}
+      objectReference: {fileID: 1858191228}
     - target: {fileID: 224446558115394778, guid: fc9848cec3ade95458abd4704bcc8ba4,
         type: 2}
       propertyPath: m_LocalScale.x
@@ -1216,6 +1345,19 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.033783782
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -1335,6 +1477,24 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.033779997
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -1535,6 +1695,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -1659,6 +1829,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -1768,7 +1956,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1417635588}
+      objectReference: {fileID: 1858191228}
     - target: {fileID: 224446558115394778, guid: fc9848cec3ade95458abd4704bcc8ba4,
         type: 2}
       propertyPath: m_LocalScale.x
@@ -1787,6 +1975,19 @@ Prefab:
     - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
       propertyPath: m_Name
       value: Button (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -1964,6 +2165,24 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.033779997
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -2166,6 +2385,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -2289,6 +2526,24 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.033779997
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -2414,6 +2669,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -2523,7 +2796,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1417635588}
+      objectReference: {fileID: 1858191228}
     - target: {fileID: 224446558115394778, guid: fc9848cec3ade95458abd4704bcc8ba4,
         type: 2}
       propertyPath: m_LocalScale.x
@@ -2543,6 +2816,24 @@ Prefab:
       propertyPath: m_Name
       value: Button (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 222571969491389214, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -2551,12 +2842,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224446558115394778, guid: fc9848cec3ade95458abd4704bcc8ba4,
     type: 2}
   m_PrefabInternal: {fileID: 1393038791}
---- !u!114 &1417635588 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114899303257480244, guid: c720257288fa8dc4d9a1a1b5ed2ef939,
-    type: 2}
-  m_PrefabInternal: {fileID: 2027432965}
-  m_Script: {fileID: 11500000, guid: 62223f35494fd33418b3f7082a31b8b5, type: 3}
 --- !u!1001 &1430197109
 Prefab:
   m_ObjectHideFlags: 0
@@ -2672,6 +2957,24 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.033779997
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -2797,6 +3100,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -2920,6 +3241,24 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.033779997
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -3045,6 +3384,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -3053,6 +3410,25 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224446558115394778, guid: fc9848cec3ade95458abd4704bcc8ba4,
     type: 2}
   m_PrefabInternal: {fileID: 1857735025}
+--- !u!1 &1858191226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1813444144234768, guid: c720257288fa8dc4d9a1a1b5ed2ef939,
+    type: 2}
+  m_PrefabInternal: {fileID: 2027432965}
+--- !u!114 &1858191228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1858191226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62223f35494fd33418b3f7082a31b8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 371913699}
+  tempoMov: 0.5
+  buttons: {fileID: 1101425360}
 --- !u!1001 &1877765004
 Prefab:
   m_ObjectHideFlags: 0
@@ -3154,7 +3530,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1417635588}
+      objectReference: {fileID: 1858191228}
     - target: {fileID: 224446558115394778, guid: fc9848cec3ade95458abd4704bcc8ba4,
         type: 2}
       propertyPath: m_LocalScale.x
@@ -3173,6 +3549,19 @@ Prefab:
     - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
       propertyPath: m_Name
       value: Button (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -3298,6 +3687,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -3362,7 +3769,8 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 371913699}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114899303257480244, guid: c720257288fa8dc4d9a1a1b5ed2ef939, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: c720257288fa8dc4d9a1a1b5ed2ef939, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &2055117387
@@ -3466,7 +3874,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1417635588}
+      objectReference: {fileID: 1858191228}
     - target: {fileID: 224446558115394778, guid: fc9848cec3ade95458abd4704bcc8ba4,
         type: 2}
       propertyPath: m_LocalScale.x
@@ -3485,6 +3893,19 @@ Prefab:
     - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
       propertyPath: m_Name
       value: Button (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
@@ -3610,6 +4031,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.033779997
       objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
   m_IsPrefabAsset: 0
@@ -3733,6 +4172,24 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 0.033779997
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1858191228}
+    - target: {fileID: 114690687408101036, guid: fc9848cec3ade95458abd4704bcc8ba4,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AbreQuestao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136336142244132, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063080995933446, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9848cec3ade95458abd4704bcc8ba4, type: 2}
