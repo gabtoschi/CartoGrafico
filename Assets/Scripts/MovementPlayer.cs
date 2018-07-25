@@ -5,18 +5,47 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class MovementPlayer : MonoBehaviour{
-    public GameObject player;
     public float tempoMov;
     public GameObject buttons;
-     
+    private RaycastHit2D hitUp, hitDown, hitLeft, hitRight;
+    
+    private void Update()
+    {
+        //Raycast in 4 directions
+        hitUp = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.up);
+        hitDown = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.down);
+        hitLeft = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.left);
+        hitRight = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.right);
+    }
     public void AbreQuestao(){
-            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>())); //set the selected button position as parameter
+
+        //Check if the name of the button got from the raycast has the same name as the selected button
+        if (hitUp.collider != null && hitUp.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
+        {  
+            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>())); //set the selected button position as parameter       
+        }
+
+        if (hitDown.collider != null && hitDown.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
+        {    
+            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>())); 
+        }
+        if (hitLeft.collider != null && hitLeft.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
+        { 
+            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>()));      
+        }
+        if (hitRight.collider != null && hitRight.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
+        {
+            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>()));
+        }
+        
+
+
     }
 
     public IEnumerator MovePlayer(RectTransform finalPos)
     {
         Button[] btn = buttons.GetComponentsInChildren<Button>();
-        var currentPos = player.GetComponent<RectTransform>().position; 
+        var currentPos = GetComponent<RectTransform>().position; 
         var t = 0f;
         foreach(Button b in btn)
         {
@@ -26,14 +55,14 @@ public class MovementPlayer : MonoBehaviour{
         {
             t += Time.deltaTime / tempoMov;
 
-            player.GetComponent<RectTransform>().position = Vector3.Lerp(currentPos,finalPos.position , t); //translates object smoothly according to given time
+            GetComponent<RectTransform>().position = Vector3.Lerp(currentPos,finalPos.position , t); //translates object smoothly according to given time
             yield return null;
         }
         foreach (Button b in btn)
         {
-            b.enabled = true; //enables buttons agains
+            b.enabled = true; //enables buttons again
         }
-
+        
     }
 
 }
