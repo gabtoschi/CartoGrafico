@@ -7,39 +7,28 @@ using UnityEngine.UI;
 public class MovementPlayer : MonoBehaviour{
     public float tempoMov;
     public GameObject buttons;
-    private RaycastHit2D hitUp, hitDown, hitLeft, hitRight;
-    
-    private void Update()
+    //private RaycastHit2D hitUp, hitDown, hitLeft, hitRight;
+    private RaycastHit2D hit;
+
+  /*  private void Update()
     {
         //Raycast in 4 directions
         hitUp = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.up);
         hitDown = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.down);
         hitLeft = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.left);
         hitRight = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.right);
-    }
+    }*/
     public void AbreQuestao(){
 
         //Check if the name of the button got from the raycast has the same name as the selected button
-        if (hitUp.collider != null && hitUp.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
-        {  
-            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>())); //set the selected button position as parameter       
-        }
 
-        if (hitDown.collider != null && hitDown.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
-        {    
-            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>())); 
-        }
-        if (hitLeft.collider != null && hitLeft.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
-        { 
-            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>()));      
-        }
-        if (hitRight.collider != null && hitRight.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
+        Vector3 or = transform.position;
+        Vector3 dir = EventSystem.current.currentSelectedGameObject.transform.position;
+        hit = Physics2D.Raycast(or, dir);
+        if(hit.collider !=null && hit.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
         {
             StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>()));
         }
-        
-
-
     }
 
     public IEnumerator MovePlayer(RectTransform finalPos)
