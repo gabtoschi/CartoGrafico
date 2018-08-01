@@ -11,19 +11,12 @@ public class MovementPlayer : MonoBehaviour{
     private RaycastHit2D hit;
     public GameObject[] btnAdj;
 
-  /*  private void Update()
-    {
-        //Raycast in 4 directions
-        hitUp = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.up);
-        hitDown = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.down);
-        hitLeft = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.left);
-        hitRight = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.right);
-    }*/
+
     public void AbreQuestao(){
         GameObject btnSelected = EventSystem.current.currentSelectedGameObject;
         for(int i=0; i<btnAdj.Length; i++)
         {
-            if (btnSelected.name.Equals(btnAdj[i].name))
+            if (btnSelected.name.Equals(btnAdj[i].name)) //Check if selected button is in list
             {
                 StartCoroutine(MovePlayer(btnSelected.GetComponent<RectTransform>()));
             }
