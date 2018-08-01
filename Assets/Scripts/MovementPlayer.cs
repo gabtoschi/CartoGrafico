@@ -9,6 +9,7 @@ public class MovementPlayer : MonoBehaviour{
     public GameObject buttons;
     //private RaycastHit2D hitUp, hitDown, hitLeft, hitRight;
     private RaycastHit2D hit;
+    public GameObject[] btnAdj;
 
   /*  private void Update()
     {
@@ -19,15 +20,13 @@ public class MovementPlayer : MonoBehaviour{
         hitRight = Physics2D.Raycast(GetComponent<RectTransform>().position, Vector2.right);
     }*/
     public void AbreQuestao(){
-
-        //Check if the name of the button got from the raycast has the same name as the selected button
-
-        Vector3 or = transform.position;
-        Vector3 dir = EventSystem.current.currentSelectedGameObject.transform.position;
-        hit = Physics2D.Raycast(or, dir);
-        if(hit.collider !=null && hit.collider.name.Equals(EventSystem.current.currentSelectedGameObject.name))
+        GameObject btnSelected = EventSystem.current.currentSelectedGameObject;
+        for(int i=0; i<btnAdj.Length; i++)
         {
-            StartCoroutine(MovePlayer(EventSystem.current.currentSelectedGameObject.GetComponent<RectTransform>()));
+            if (btnSelected.name.Equals(btnAdj[i].name))
+            {
+                StartCoroutine(MovePlayer(btnSelected.GetComponent<RectTransform>()));
+            }
         }
     }
 
