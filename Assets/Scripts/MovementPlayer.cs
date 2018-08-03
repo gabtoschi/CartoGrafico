@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class MovementPlayer : MonoBehaviour{
     public float tempoMov;
     public GameObject buttons;
-    //private RaycastHit2D hitUp, hitDown, hitLeft, hitRight;
     private RaycastHit2D hit;
     public GameObject[] btnAdj;
 
