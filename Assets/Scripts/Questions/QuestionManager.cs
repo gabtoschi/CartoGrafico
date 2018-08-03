@@ -13,7 +13,9 @@ public class QuestionManager : MonoBehaviour {
 	public char[] checker;
 	public QuestionPack currentPack;
 
-	private string jsonExtension = ".json";
+	[Header("Question Manager Variables")]
+	public int nextQuestion = -1;
+
 	private string checkerSuffix = "-checker";
 	private bool packIsReady = false;
 	private char usedToken = 't';
@@ -61,6 +63,7 @@ public class QuestionManager : MonoBehaviour {
 			// create a new checker
 			Debug.Log("checker for " + packFilename + " DON'T exists in playerprefs");
 			createChecker();
+			saveChecker();
 		}
 
 		Debug.Log(StringTools.charArrayToString(checker));
@@ -84,23 +87,51 @@ public class QuestionManager : MonoBehaviour {
 	}
 
 	/* Return true if the indicate question have already been used. */
-	public bool isQuestionUsed(int id){
+	private bool isQuestionUsed(int id){
 		return checker[id] == usedToken ? true : false;
 	}
 
 	/* Marks in the checker that a question has used. */
-	public void useQuestion(int id){
+	private void useQuestion(int id){
 		checker[id] = usedToken;
 	}
 
 	/* Save the current checker in the system. */
-	public void saveChecker(){
+	private void saveChecker(){
 		PlayerPrefs.SetString(packFilename + checkerSuffix, StringTools.charArrayToString(checker));
 		PlayerPrefs.Save();
+	}
+
+	/* When the checker is full, recreate them and reshuffle the pack. */
+	private void resetChecker(){
+		shuffleQuestions();
+		createChecker();
+		saveChecker();
+		nextQuestion = 0;
+		Debug.Log("checker reset: " + checker);
 	}
 
 	/* Return true if the manager finished the load pack process.*/
 	public bool isReady(){
 		return packIsReady;
+	}
+
+	/* Return the next question (and update the checker and pack if necessary) */
+	public Question getNextQuestion(){
+		if (nextQuestion >= currentPack.capacity) resetChecker();
+
+		do {
+			nextQuestion++;
+			if (nextQuestion >= currentPack.capacity) resetChecker();
+		} while (isQuestionUsed(currentPack.questions[nextQuestion].id));
+
+		Question returnQuestion = currentPack.questions[nextQuestion];
+		useQuestion(returnQuestion.id);
+		nextQuestion++;
+		saveChecker();
+
+		Debug.Log("return question " + returnQuestion.question);
+
+		return returnQuestion;
 	}
 }
