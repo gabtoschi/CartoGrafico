@@ -11,15 +11,8 @@ public class PlayerEnter : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            gameObject.layer = 2;
             mp.btnAdj = btnAdj;
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            gameObject.layer = 8;
-        }
-    }
+    
 }
