@@ -84,6 +84,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24d0fc035189b740af32c4c49112bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  btnAdj: []
+  mp: {fileID: 0}
 --- !u!114 &114697367448616374
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,7 +127,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
           type: 2}
-        m_MethodName: AbreQuestao
+        m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

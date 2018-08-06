@@ -13,9 +13,9 @@ public class MovementPlayer : MonoBehaviour{
     public Text panelText, stepText;
     public Text[] answerTexts;
     public GameObject questionPanel, grid, closeButton;
-    private int selectedBtn = -1;
+    private int btnIndex = -1;
     private GameObject btnSelected;
-    public int stepCount=0;
+    private int stepCount=0;
 
     public void OpenQuestion(){
         btnSelected = EventSystem.current.currentSelectedGameObject; //Get the selected movement button
@@ -25,6 +25,7 @@ public class MovementPlayer : MonoBehaviour{
         buttons.SetActive(false);
         grid.SetActive(false);
 
+        GetComponent<SpriteRenderer>().enabled = false;
         for (int i = 0; i < 3; i++)
         {
             answerTexts[i].GetComponentInParent<Image>().enabled = true;
@@ -45,7 +46,7 @@ public class MovementPlayer : MonoBehaviour{
 
     public void AnswerQuestion(int answer)
     {
-        selectedBtn = answer; //Gets answer button index for further checking
+        btnIndex = answer; //Gets answer button index for further checking
         updateEndPanel(answer == currentQuestion.correct ? true : false);
     }
 
@@ -67,7 +68,8 @@ public class MovementPlayer : MonoBehaviour{
         questionPanel.SetActive(false); //   V
         buttons.SetActive(true); //    Deactivates question panel and activates buttons and grid 
         grid.SetActive(true); //      ^
-        if (currentQuestion.correct == selectedBtn)
+        GetComponent<SpriteRenderer>().enabled = true;
+        if (currentQuestion.correct == btnIndex)
         {
             for (int i = 0; i < btnAdj.Length; i++)
             {

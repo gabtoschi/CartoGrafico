@@ -7,8 +7,8 @@ public class BtnController : MonoBehaviour {
 
 	public void StartBtn()
     {
-        Debug.Log("OI");
-        //SceneManager.LoadScene("TestLevel");
+        //Debug.Log("OI");
+        SceneManager.LoadScene("TestLevel");
     }
     public void TutorialBtn()
     {
@@ -19,4 +19,5 @@ public class BtnController : MonoBehaviour {
     {
         SceneManager.LoadScene("Creditos");
     }
+    
 }
