@@ -44,7 +44,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1191945820610288
 GameObject:
   m_ObjectHideFlags: 1
@@ -232,7 +232,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Minas Gerais
 --- !u!114 &114050759257309570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -344,7 +344,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Pernambuco
 --- !u!114 &114333356924480876
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -377,7 +377,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Distrito Federal
 --- !u!114 &114441716719894808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -437,11 +437,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In felis enim,
-    tempor in dolor ut, molestie convallis ex. Donec egestas ex tristique, tincidunt
-    arcu sed, sodales dui. Nam fringilla aliquam sapien, id vulputate dolor pellentesque
-    ut. Nunc vel nisl et nibh ornare consectetur. Cras in suscipit elit. Vestibulum
-    nec dictum leo. Ut et finibus eros. '
+  m_Text: "Qual o estado que N\xC3O faz divisa com a Bahia?"
 --- !u!114 &114462999080292574
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -815,8 +811,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -2.3}
-  m_SizeDelta: {x: 160, y: 201.9}
+  m_AnchoredPosition: {x: 0.01001, y: -21.125002}
+  m_SizeDelta: {x: 395.4, y: 329.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224305081270663946
 RectTransform:
@@ -834,8 +830,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -228.5, y: -271.59}
-  m_SizeDelta: {x: 196.09, y: 23.95}
+  m_AnchoredPosition: {x: -224.59, y: -347.9}
+  m_SizeDelta: {x: 196.09, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224349683140731312
 RectTransform:
@@ -874,7 +870,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 229, y: 102.399994}
+  m_AnchoredPosition: {x: 230, y: 41}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224446371090716682
@@ -894,8 +890,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 463.5, y: 72}
-  m_SizeDelta: {x: 217.9, y: 245.4}
+  m_AnchoredPosition: {x: 197.71, y: 130.79001}
+  m_SizeDelta: {x: 395.42, y: 371.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224740458701898610
 RectTransform:
@@ -949,8 +945,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -228.5, y: -234.78}
-  m_SizeDelta: {x: 196.09, y: 23.95}
+  m_AnchoredPosition: {x: -224.6, y: -261.8}
+  m_SizeDelta: {x: 196.1, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224986708146015676
 RectTransform:
@@ -968,8 +964,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -228.5, y: -314.07}
-  m_SizeDelta: {x: 196.09, y: 23.95}
+  m_AnchoredPosition: {x: -224.59001, y: -433.7}
+  m_SizeDelta: {x: 196.09, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224992622125533430
 RectTransform:

@@ -18,22 +18,30 @@ public class MovementPlayer : MonoBehaviour{
     private int stepCount=0;
 
     public void OpenQuestion(){
+        bool check = false;
         btnSelected = EventSystem.current.currentSelectedGameObject; //Get the selected movement button
-        currentQuestion  = QuestionManager.instance.getNextQuestion(); //Get question on question pack
-        UpdateStartPanel();
-        questionPanel.SetActive(true);
-        buttons.SetActive(false);
-        grid.SetActive(false);
-
-        GetComponent<SpriteRenderer>().enabled = false;
-        for (int i = 0; i < 3; i++)
-        {
-            answerTexts[i].GetComponentInParent<Image>().enabled = true;
-            answerTexts[i].enabled = true;
+        for (int i = 0; i < btnAdj.Length; i++) {
+            if (btnSelected.name.Equals(btnAdj[i].name)) //Check if selected button is in list
+            {
+                check = true;
+            }
         }
-        closeButton.SetActive(false); 
-        
-        
+        if (check){
+            currentQuestion = QuestionManager.instance.getNextQuestion(); //Get question on question pack
+            UpdateStartPanel();
+            questionPanel.SetActive(true);
+            buttons.SetActive(false);
+            grid.SetActive(false);
+
+            GetComponent<SpriteRenderer>().enabled = false;
+            for (int i = 0; i < 3; i++) {
+                answerTexts[i].GetComponentInParent<Image>().enabled = true;
+                answerTexts[i].enabled = true;
+            }
+            closeButton.SetActive(false);
+        }
+
+
     }
     private void UpdateStartPanel()
     {
@@ -71,13 +79,7 @@ public class MovementPlayer : MonoBehaviour{
         GetComponent<SpriteRenderer>().enabled = true;
         if (currentQuestion.correct == btnIndex)
         {
-            for (int i = 0; i < btnAdj.Length; i++)
-            {
-                if (btnSelected.name.Equals(btnAdj[i].name)) //Check if selected button is in list
-                {
-                    StartCoroutine(MovePlayer(btnSelected.GetComponent<RectTransform>()));
-                }
-            }
+           StartCoroutine(MovePlayer(btnSelected.GetComponent<RectTransform>())); 
             stepCount++; //Add 1 step for each question answered right
             UpdateSteps();
         }

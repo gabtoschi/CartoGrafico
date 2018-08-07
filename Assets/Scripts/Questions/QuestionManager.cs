@@ -146,7 +146,7 @@ public class QuestionManager : MonoBehaviour
         nextQuestion++;
         saveChecker();
 
-        Debug.Log("return question " + returnQuestion.question);
+        Debug.Log(checker[nextQuestion--].ToString());
 
         return returnQuestion;
     }
