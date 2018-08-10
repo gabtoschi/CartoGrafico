@@ -6,13 +6,11 @@ using UnityEngine.UI;
 
 public class MovementPlayer : MonoBehaviour{
     public float tempoMov;
-    public GameObject buttons;
-    private RaycastHit2D hit;
     public GameObject[] btnAdj;
-    private Question currentQuestion = null;
     public Text panelText, stepText;
     public Text[] answerTexts;
-    public GameObject questionPanel, grid, closeButton;
+    public GameObject questionPanel, grid, closeButton, buttons;
+    private Question currentQuestion = null;
     private int btnIndex = -1;
     private GameObject btnSelected;
     private int stepCount=0;
