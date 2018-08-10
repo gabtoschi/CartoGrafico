@@ -15,7 +15,10 @@ public class MovementPlayer : MonoBehaviour{
     private GameObject btnSelected;
     private int stepCount=0;
 
+    
+
     public void OpenQuestion(){
+        Debug.Log("Movement PLayer: " + btnAdj.Length);
         bool check = false;
         btnSelected = EventSystem.current.currentSelectedGameObject; //Get the selected movement button
         for (int i = 0; i < btnAdj.Length; i++) {

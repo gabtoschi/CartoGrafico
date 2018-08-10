@@ -7,7 +7,7 @@ public class PlayerEnter : MonoBehaviour
 {
     public GameObject[] btnAdj;
     public MovementPlayer mp;
-
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -16,6 +16,7 @@ public class PlayerEnter : MonoBehaviour
                 btnAdj[i].GetComponent<Image>().color = Color.yellow;
             }
             mp.btnAdj = btnAdj;
+            Debug.Log(btnAdj.Length);
         }
     }
     private void OnTriggerExit2D(Collider2D collision) {
