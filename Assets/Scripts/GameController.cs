@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour {
-	
+    public int minSteps;
 	void Start () {
         QuestionManager.instance.loadQuestionPackFile();
 	}
