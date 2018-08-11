@@ -1252,7 +1252,7 @@ Prefab:
     - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
         type: 2}
       propertyPath: btnAdj.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224005525218133688, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
         type: 2}
@@ -1388,6 +1388,11 @@ Prefab:
       propertyPath: btnAdj.Array.data[1]
       value: 
       objectReference: {fileID: 353430154}
+    - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
+        type: 2}
+      propertyPath: btnAdj.Array.data[2]
+      value: 
+      objectReference: {fileID: 1919515105}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d2996c5974a14c4094c4ec880fb0d6e, type: 2}
   m_IsPrefabAsset: 0
@@ -2880,7 +2885,7 @@ Prefab:
     - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
         type: 2}
       propertyPath: btnAdj.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224005525218133688, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
         type: 2}
@@ -3010,7 +3015,17 @@ Prefab:
         type: 2}
       propertyPath: btnAdj.Array.data[0]
       value: 
-      objectReference: {fileID: 492982802}
+      objectReference: {fileID: 534787790}
+    - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
+        type: 2}
+      propertyPath: btnAdj.Array.data[1]
+      value: 
+      objectReference: {fileID: 353430154}
+    - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
+        type: 2}
+      propertyPath: btnAdj.Array.data[2]
+      value: 
+      objectReference: {fileID: 1919515105}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d2996c5974a14c4094c4ec880fb0d6e, type: 2}
   m_IsPrefabAsset: 0
@@ -3582,12 +3597,12 @@ Prefab:
         type: 2}
       propertyPath: btnAdj.Array.data[0]
       value: 
-      objectReference: {fileID: 1052047747}
+      objectReference: {fileID: 797039122}
     - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
         type: 2}
       propertyPath: btnAdj.Array.data[1]
       value: 
-      objectReference: {fileID: 797039122}
+      objectReference: {fileID: 835309418}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d2996c5974a14c4094c4ec880fb0d6e, type: 2}
   m_IsPrefabAsset: 0

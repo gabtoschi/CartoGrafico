@@ -147,7 +147,7 @@ public class QuestionManager : MonoBehaviour
         saveChecker();
 
         Debug.Log(checker[nextQuestion--].ToString());
-
+        Debug.Log(StringTools.charArrayToString(checker));
         return returnQuestion;
     }
 }
