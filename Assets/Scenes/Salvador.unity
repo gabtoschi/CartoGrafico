@@ -1229,6 +1229,11 @@ Prefab:
       propertyPath: btnAdj.Array.data[0]
       value: 
       objectReference: {fileID: 2084519637}
+    - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
+        type: 2}
+      propertyPath: isFinal
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d2996c5974a14c4094c4ec880fb0d6e, type: 2}
   m_IsPrefabAsset: 0

@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: dc21526ad6360d941a6eaef70eed42b1
   - enabled: 1
+    path: Assets/Scenes/TelaVitoria.unity
+    guid: 93190a7f467e38745b669c568abe7a74
+  - enabled: 1
     path: Assets/Scenes/TestLevel.unity
     guid: 71869ca2f0052d846aa7b4cecb963f71
   - enabled: 1
