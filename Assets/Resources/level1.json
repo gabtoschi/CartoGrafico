@@ -1,0 +1,216 @@
+{
+    "name":"Level1",
+    "capacity":30,
+    "questions":[
+        {
+            "id":0,
+            "question":"Quem nasce em Salvador é chamado de:",
+            "answers":["Soteropolitano", "Salvadorenho", "Salvadoriano"],
+            "correct":0,
+            "fact":"Sotero em grego é Salvador, portanto quem nasce em Salvador é soteropolitano. "
+        },
+        {
+            "id":1,
+            "question":"Ponto turístico da cidade de Salvador, Bahia:",
+            "answers":["Farol da Barra", "Pão de Açúcar", "Ópera de Arame"],
+            "correct":0,
+            "fact":"O Farol da Barra ou Farol de Santo Antônio  da Barra é um dos pontos mais visitados de Salvador."
+        },
+        {
+            "id":2,
+            "question":"Festa mais popular de Salvador:",
+            "answers":["São João", "Carnaval", "Natal"],
+            "correct":1,
+            "fact":"O Carnaval é uma das festas mais populares da Bahia que envolve blocos afros, afoxés e bandas,  trios elétricos e milhares de pessoas que dançam durante quase uma semana."
+        },
+        {
+            "id":3,
+            "question":"A Bahia é uma unidade federativa brasileira que está localizada em qual região do país?",
+            "answers":["Centro-Oeste", "Norte", "Nordeste"],
+            "correct":2,
+            "fact":"A Bahia é o maior estado em território da região nordeste."
+        },
+        {
+            "id":4,
+            "question":"Qual a capital do estado baiano?",
+            "answers":["Recife", "Salvador", "Maceió"],
+            "correct":1,
+            "fact":"Criada em 1549 por Tomé de Sousa, Salvador é uma das cidades mais importantes do Brasil por sua cultura, gastronomia, arquitetura,..."
+        },
+        {
+            "id":5,
+            "question":"Bolinho de feijão, cebola e sal frito no azeite de dendê é uma comida típica baiana de origem africana. Qual o nome dessa iguaria?",
+            "answers":["Vatapá", "Acarajé", "Abará"],
+            "correct":1,
+            "fact":"O acarajé é uma especialidade gastronômica das culinárias africana e afro-brasileira e muito popular na Bahia."
+        },
+        {
+            "id":6,
+            "question":"Qual o estado que NÃO faz divisa com a Bahia?",
+            "answers":["Pernambuco", "Distrito Federal", "Minas Gerais"],
+            "correct":1,
+            "fact":"A Bahia faz divisa com Minas Gerais ao Sul e Pernambuco ao Norte."
+        },
+        {
+            "id":7,
+            "question":"Qual o estado mais populoso da região nordeste?",
+            "answers":["Ceará", "Pernambuco", "Bahia"],
+            "correct":2,
+            "fact":"Segundo o IBGE, no censo de 2010, a população da Bahia era de 14.016.906  e a população estimada em 2017, 15.344.447."
+        },
+        {
+            "id":8,
+            "question":"Quantos estados fazem parte da região Nordeste do Brasil?",
+            "answers":["8", "9", "10"],
+            "correct":1,
+            "fact":"Os estados do Nordeste são nove: Alagoas, Bahia,Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande do Norte e Sergipe."
+        },
+        {
+            "id":9,
+            "question":"Quais estados brasileiros compõem a região nordeste?",
+            "answers":["Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Bahia", "Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Tocantins", "Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Minas Gerais"],
+            "correct":0,
+            "fact":"A região nordeste se compõe de nove estados: Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Bahia."
+        },
+        {
+            "id":10,
+            "question":"Quais palavras preenchem corretamente a sentença a seguir? \n A população baiana apresenta grande diversidade, resultado da miscigenação dos ___________, ___________ e _______________, que contribuíram para a construção da cultura do estado.",
+            "answers":["europeus; negros africanos; índios", "japoneses; italianos; negros africanos", "alemães; índios, chineses"],
+            "correct":0,
+            "fact":"O povo baiano, assim como na maioria dos estados brasileiros, é resultado da mistura do europeu, do índio e do negro africano. A cultura africana está presente na música, na culinária, na religião, entre outros elementos."
+        },
+        {
+            "id":11,
+            "question":"Qual o rio que é chamado de 'rio da unidade nacional'?",
+            "answers":["Rio Amazonas", "Rio São Francisco", "Rio Negro"],
+            "correct":1,
+            "fact":"O Rio São Francisco é chamado de  'rio da unidade nacional' por ligar Minas Gerais (região sudeste) à região nordeste."
+        },
+        {
+            "id":12,
+            "question":"O rio São Francisco nasce na Serra da Canastra em Minas Gerais e atravessa alguns estados da região nordeste até chegar ao Oceano Atlântico. Quais são esses estados nordestinos?",
+            "answers":["Bahia, Sergipe, Alagoas,Pernambuco", "Bahia, Sergipe, Alagoas, Paraíba", "Bahia, Ceará, Pernambuco, Paraíba"],
+            "correct":0,
+            "fact":"O percurso do rio São Francisco inicia em Minas Gerais, atravessa o estado da Bahia, fazendo divisa ao norte com Pernambuco e estabelecendo divisa natural dos estados de Sergipe e Alagoas e, por fim, deságua no oceano Atlântico."
+        },
+        {
+            "id":13,
+            "question":"Bairro de Salvador que se localiza no centro histórico da cidade que possui um conjunto arquitetônico colonial barroco brasileiro preservado.",
+            "answers":["Barra", "Brotas", "Pelourinho"],
+            "correct":2,
+            "fact":"O Pelourinho, popularmente chamado de Pelô, é o nome de um bairro de Salvador, a capital do estado da Bahia, no Brasil. Se localiza no Centro Histórico da cidade, na área que abrange apenas as ruas que vão do Terreiro de Jesus até o Largo do Pelourinho."
+        },
+        {
+            "id":14,
+            "question":"Igreja  católica localizada na Sagrada Colina na cidade de Salvador, Bahia onde é realizada no mês de janeiro a lavagem de suas escadarias e  são distribuídas fitinhas tradicionais em que as pessoas fazem três pedidos.",
+            "answers":["Igreja de Pelourinho", "Igreja do Nosso Senhor do Bonfim", "Igreja de São Francisco"],
+            "correct":1,
+            "fact":"A Igreja Nosso Senhor do Bonfim é um templo católico localizado na Sagrada Colina,  em Salvador, Bahia. É lá que são distribuídas as famosas fitinhas do Bonfim"
+        },
+        {
+            "id":15,
+            "question":"Quais as sub-regiões do Nordeste?",
+            "answers":["Zona da Mata, Agreste, Sertão e Meio Norte", "Zona da Mata, Recôncavo Baiano, Planalto da Borborema e Sertão Maranhense", "Litoral, Meio Norte, Noroeste e Oeste"],
+            "correct":0,
+            "fact":"As quatro sub-regiões do Nordeste são: Zona da Mata, Agreste, Sertão e Meio Norte."
+        },
+        {
+            "id":16,
+            "question":"Sobre a população do Nordeste, podemos dizer que:",
+            "answers":["A sub-região Zona da Mata apresenta o menor número de habitantes do Nordeste", "As indústrias presentes na região nordestina proporciona a maior concentração da população do país", "Apesar de apresentar um elevado índice populacional, algumas regiões do Nordeste apresentam vazios demográficos."],
+            "correct":2,
+            "fact":"Em virtude das condições naturais não favoráveis, algumas regiões nordestinas tem pouco desenvolvimento econômico e assim, alguns vazios demográficos."
+        },
+        {
+            "id":17,
+            "question":"João está com viagem marcada para a Zona da Mata nordestina. Que clima ele deverá encontrar nesta região?",
+            "answers":["Clima seco", "Clima tropical litorâneo úmido", "Clima tropical semi-árido"],
+            "correct":1,
+            "fact":"A Zona da Mata apresenta temperaturas elevadas (média de 25 graus) e grande quantidade de chuvas no outono e no inverno, por estar próximo ao oceano."
+        },
+        {
+            "id":18,
+            "question":"Seis capitais da região Nordeste fazem parte da sub-região Zona da Mata. Quais são essas cidades:",
+            "answers":["Salvador, Aracaju, Maceió, Recife, João Pessoa e Natal", "Aracaju, Maceió, Recife, João Pessoa, Natal e São Luís", "Maceió, Recife, João Pessoa, Teresina, Natal e Fortaleza"],
+            "correct":0,
+            "fact":"As capitais que fazem parte da Zona da Mata são: Salvador, Aracaju, Maceió, Recife, João Pessoa e Natal."
+        },
+        {
+            "id":19,
+            "question":"Pedro mora em Vitória da Conquista,cidade situada no sudoeste baiano com clima tropical amenizado pela altitude de mais de 900m.  Podemos dizer que Vitória da Conquista está situada em qual sub-região nordestina?",
+            "answers":["Sertão Semiárido", "Zona da Mata", "Agreste"],
+            "correct":2,
+            "fact":"Vitória da Conquista está situada numa área de transição entre o Sertão Semiárido e a Zona da Mata, no agreste nordestino. Essa sub-região é composta pelos estados do Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Bahia."
+        },
+        {
+            "id":20,
+            "question":"'Quando olhei a terra ardendo\nQual fogueira de São João\nEu perguntei a Deus do céu, ai\nPor que tamanha judiação\nEu perguntei a Deus do céu, ai\nPor que tamanha judiação\nQue braseiro, que fornalha\nNem um pé de plantação\nPor falta d'água perdi meu gado\nMorreu de sede meu alazão…'\nO trecho da música Asa Branca de autoria de Luiz Gonzaga e Humberto Teixeira remete à seca de qual região brasileira?",
+            "answers":["Norte", "Sul", "Nordeste"],
+            "correct":2,
+            "fact":"O tema da canção é a seca no Nordeste brasileiro que pode chegar a ser muito intensa, a ponto de fazer migrar até mesmo a ave asa-branca."
+        },
+        {
+            "id":21,
+            "question":"O Meio-norte é uma sub-região da região nordeste. Onde ela está localizada?",
+            "answers":["na região litorânea", "na transição entre o sertão semiárido e a Amazônia", "na transição entre a zona da mata e o sertão semiárido"],
+            "correct":1,
+            "fact":"O Meio-norte é a região de transição entre o sertão semiárido e a Amazônia. As principais atividades econômicas desenvolvidas na região são o extrativismo vegetal e a agricultura."
+        },
+        {
+            "id":22,
+            "question":"Capital cearense:",
+            "answers":["Fortaleza", "São Luís", "Teresina"],
+            "correct":0,
+            "fact":"Fortaleza é a capital do estado do Ceará."
+        },
+        {
+            "id":23,
+            "question":"Qual a única capital nordestina que está localizada longe do litoral?",
+            "answers":["Salvador", "São Luís", "Teresina"],
+            "correct":2,
+            "fact":"Teresina é a capital e o município mais populoso do estado brasileiro do Piauí. Localiza-se a 343 km do litoral, sendo, portanto, a única capital da Região Nordeste que não se localiza às margens do Oceano Atlântico."
+        },
+        {
+            "id":24,
+            "question":"O frevo é uma dança brasileira típica de qual estado brasileiro?",
+            "answers":["Pernambuco", "Bahia", "Ceará"],
+            "correct":0,
+            "fact":"O frevo é uma dança brasileira típica do estado de Pernambuco. e foi declarado patrimônio imaterial da humanidade pela UNESCO em 2012."
+        },
+        {
+            "id":25,
+            "question":"Uma das danças mais populares do Nordeste.",
+            "answers":["Forró", "Carimbó", "Milonga"],
+            "correct":0,
+            "fact":"Forró é uma dança popular da região Nordeste do Brasil especialmente nas festas juninas. Os instrumentos utilizados são: Sanfona, Triângulo, Zabumba."
+        },
+        {
+            "id":26,
+            "question":"Qual sub-região nordestina completa corretamente a frase abaixo?\nO relevo do ___________ reúne regiões de planaltos, com destaque para o Planalto da Borborema.",
+            "answers":["Sertão", "Meio-Norte", "Agreste"],
+            "correct":2,
+            "fact":"O relevo do agreste reúne regiões de planaltos, com destaque para o Planalto da Borborema."
+        },
+        {
+            "id":27,
+            "question":"No rio São Francisco foram instaladas as seguintes usinas hidrelétricas: ____________, ___________, ____________, ____________ .",
+            "answers":["Furnas, Sobradinho, Itaparica, Paulo Afonso", "Sobradinho, Itaparica, Paulo Afonso e Xingó", "Itaipu, Sobradinho, Xingó, Paulo Afonso"],
+            "correct":1,
+            "fact":"No rio São Francisco foram instaladas as seguintes usinas hidrelétricas: Sobradinho, Itaparica, Paulo Afonso e Xingó."
+        },
+        {
+            "id":28,
+            "question":"São apenas dois os rios permanentes que cortam o ____: o São Francisco e o ______.",
+            "answers":["Semiárido e o Parnaíba", "Meio-Norte e o Jequitinhonha", "Zona da Mata e o Tietê"],
+            "correct":0,
+            "fact":"São apenas dois rios permanentes que cortam o semiárido: o São Francisco e o Parnaíba."
+        },
+        {
+            "id":29,
+            "question":"Com quais estados a Região Nordeste limita-se ao sul?",
+            "answers":["Minas Gerais e Goiás", "São Paulo e Tocantins", "Minas Gerais e Espírito Santo"],
+            "correct":2,
+            "fact":"A região Nordeste limita-se ao sul com os estados de Minas Gerais e Espírito Santo (ambos estados da região Sudeste)."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name":"packtest",
+    "capacity":2,
+    "questions":[
+        {
+            "id":0,
+            "question":"Sobre a região Sudeste brasileira podemos afirmar:",
+            "answers":["que é pouco urbanizada.", "que tem grande desenvolvimento econômico, associado à atividade industrial.", "que é pouco povoada."],
+            "correct":1,
+            "fact":"As principais atividades industriais da Região Sudeste são: Siderúrgica e metalúrgica."
+        },
+        {
+            "id":1,
+            "question":"Complete a sentença com a palavra correta: \n A ponte Rio-Niterói está localizada na região ___________ do Brasil, tem 13km de comprimento e é considerada a mais extensa do hemisfério Sul.",
+            "answers":["Nordeste", "Sudeste", "Sul"],
+            "correct":1,
+            "fact":"A ponte Rio-Niterói está localizada no estado do Rio de Janeiro que fica na região Sudeste do Brasil."
+        }
+    ]
+}
