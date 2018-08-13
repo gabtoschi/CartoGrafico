@@ -1,13 +1,13 @@
 {
     "name":"Level2",
-    "capacity":30,
+    "capacity":36,
     "questions":[
         {
             "id":0,
             "question":"Qual a capital do estado de São Paulo?",
             "answers":["Santos", "São Paulo", "Sorocaba"],
             "correct":1,
-            "fact":" "
+            "fact":"aaaaaa"
         },
         {
             "id":1,
@@ -15,238 +15,238 @@
             "answers":["Centro-Oeste", "Sudeste", "Norte"],
             "correct":1,
             "fact":"A região Sudeste é composta por São Paulo, Minas Gerais, Rio de Janeiro e Espírito Santo."
-        }
+        },
         {
             "id":2,
             "question":"Quais destes estados pertencem à mesma região que a unidade federativa São Paulo:",
             "answers":["Minas Gerais", "Mato Grosso do Sul", "Ceará"],
             "correct":0,
             "fact":"A região Sudeste é composta por São Paulo, Minas Gerais, Rio de Janeiro e Espírito Santo."
-        }
+        },
         {
             "id":3,
             "question":"Quem nasce no estado de São Paulo é:",
             "answers":["Paulista", "Paulistana(o)", "São Paulino"],
             "correct":0,
             "fact":"Quem nasce na cidade de São Paulo é paulistano, entretanto quem nasce no estado é paulista."
-        }
+        },
         {
             "id":4,
             "question":"Quais estados NÃO fazem fronteira com São Paulo?",
             "answers":["Rio Grande do Sul", "Paraná", "Minas Gerais"],
             "correct":0,
             "fact":"O estado de São Paulo faz fronteira com Minas Gerais, Rio de janeiro, Paraná, Mato Grosso do Sul e oceano Atlântico."
-        }
+        },
         {
             "id":5,
             "question":"Quando Caetano Veloso canta estes versos, ele faz homenagem para qual cidade?\n'Alguma coisa acontece no meu coração,\nque só quando cruza a Ipiranga e a Avenida São João\nÉ que quando eu cheguei por aqui eu nada entendi\nDa dura poesia concreta de tuas esquinas\nDa deselegância discreta de tuas meninas\nAinda não havia para mim Rita Lee\nA tua mais completa tradução…'",
             "answers":["Rio de Janeiro", "Salvador", "São Paulo"],
             "correct":2,
             "fact":"A música Sampa foi composta por Caetano Veloso em 1978 em homenagem a São Paulo, capital paulista."
-        }
+        },
         {
             "id":6,
             "question":"Sobre a região Sudeste brasileira podemos afirmar:",
             "answers":["que é pouco urbanizada.", "que tem grande desenvolvimento econômico, associado à atividade industrial.", "que é pouco povoada."],
             "correct":1,
             "fact":"As principais atividades industriais da Região Sudeste são: Siderúrgica e metalúrgica."
-        }
+        },
         {
             "id":7,
             "question":"Complete a sentença com a palavra correta:\nA ponte Rio-Niterói está localizada na região ___________ do Brasil, tem 13km de comprimento e é considerada a mais extensa do hemisfério Sul.",
             "answers":["Nordeste", "Sudeste", "Sul"],
             "correct":1,
             "fact":"A ponte Rio-Niterói está localizada no estado do Rio de Janeiro que fica na região Sudeste do Brasil."
-        }
+        },
         {
             "id":8,
             "question":"Qual é o estado que possui a maior economia do país?",
             "answers":["Rio de Janeiro", "São Paulo", "Espírito Santo"],
             "correct":1,
             "fact":"São Paulo é o estado brasileiro com a maior economia e o maior parque industrial do país."
-        }
+        },
         {
             "id":9,
             "question":"Grande parte da população brasileira se concentra nos grandes centros urbanos, como Rio de Janeiro e São Paulo. De acordo com essas informações, a região mais populosa do Brasil é:",
             "answers":["Norte", "Nordeste", "Sudeste"],
             "correct":2,
             "fact":"A região Sudeste é a mais populosa do país."
-        }
+        },
         {
             "id":10,
             "question":"Mesmo sendo uma região com pouca extensão, o Sudeste é a mais importante região brasileira em termos econômicos e políticos. Qual dessas características se refere à esta região?",
             "answers":["A região Sudeste tem maior proporção de terras baixas. O relevo dessa região apresenta um claro predomínio de planícies sedimentares, desgastadas pela erosão.", "As chuvas concentram-se no inverno, o verão é a época da estiagem.", "A devastação da mata atlântica foi provocada pela expansão da agricultura e da indústria, que deixaram apenas manchas da floresta."],
             "correct":2,
             "fact":"A região Sudeste se destaca pelo grande desenvolvimento industrial."
-        }
+        },
         {
             "id":11,
             "question":"Produto que promoveu  desenvolvimento do interior do estado de São Paulo, vindo do vale do Paraíba:",
             "answers":["laranja.", "milho.", "café."],
             "correct":2,
             "fact":"A economia cafeeira representou a força geradora do desenvolvimento de infraestrutura e acúmulo de capitais."
-        }
+        },
         {
             "id":12,
             "question":"Qual a cidade da região Sudeste conhecida como a 'terra da garoa'?",
             "answers":["São Paulo", "Belo Horizonte", "Rio de Janeiro"],
             "correct":0,
             "fact":"São Paulo é conhecida como “terra da garoa” pelas chuvas finas frequentes no outono e primavera."
-        }
+        },
         {
             "id":13,
             "question":"Mateus foi a Belo Horizonte e disse ao tio que gostaria de comer um lanche típico mineiro. O tio levou Mateus a uma lanchonete e pediu:",
             "answers":["Pastel", "Pão de Queijo", "Bauru"],
             "correct":1,
             "fact":"A origem do pão de queijo se confunde com a própria origem da culinária mineira, porque acompanha a evolução de seus ingredientes: primeiro surgiu a goma, vinda da mandioca sob a forma do polvilho doce ou azedo; depois a gordura de porco, o sal, o ovo, o leite, a nata, a manteiga e por último o queijo, que aos poucos incorporou-se ao biscoito de goma (precursor do pão de queijo) moldados sob a forma de pequenas bolinhas e finalmente assados. Fonte: http://www.uaideminas.com.br/historia.html"
-        }
+        },
         {
             "id":14,
             "question":"Único estado da região Sudeste que não é banhado pelo mar:",
             "answers":["Minas Gerais", "Rio de Janeiro", "Espírito Santo"],
             "correct":0,
             "fact":"Todos os estados da região Sudeste são litorâneos EXCETO Minas Gerais."
-        }
+        },
         {
             "id":15,
             "question":"Quem nasce no Espírito Santo é chamado de:",
             "answers":["Carioca", "Capixaba", "Potiguar"],
             "correct":1,
             "fact":"Quando se faz referência a alguém nascido no estado do Espírito Santo, utiliza-se o adjetivo pátrio Capixaba."
-        }
+        },
         {
             "id":16,
             "question":"Qual monumento da região Sudeste do Brasil, foi eleito uma das Novas Sete Maravilhas do Mundo Modernos em julho de 2007?",
             "answers":["Cristo Redentor", "Obelisco de São Paulo", "Igrejinha da Pampulha"],
             "correct":0,
             "fact":"O Cristo Redentor é uma estátua que retrata Jesus Cristo localizada na cidade do Rio de Janeiro, Brasil. Em 2007 foi eleito uma das novas"
-        }
+        },
         {
             "id":17,
             "question":"Qual é o estado que possui o maior número de municípios?",
             "answers":["São Paulo", "Minas Gerais", "Rio de Janeiro"],
             "correct":1,
             "fact":"O estado brasileiro com o maior número de municípios é Minas Gerais, localizado no sudeste, com 853."
-        }
+        },
         {
             "id":18,
             "question":"A cidade mineira de Ouro Preto tem característica:",
             "answers":["industrial", "histórica", "portuária"],
             "correct":1,
             "fact":"Ouro Preto, conhecida como “museu a céu aberto”, é uma cidade que possui arquitetura colonial, pelas características das suas ruas, museus e construções históricas."
-        }
+        },
         {
             "id":19,
             "question":"Qual cidade fluminense é a capital nacional do petróleo?",
             "answers":["industrial", "histórica", "portuária"],
             "correct":1,
             "fact":"Macaé é conhecida como a Capital Nacional do Petróleo, principalmente pelas ações da Petrobrás na região.https://www.guiamacae.com.br/sobre-macae"
-        }
+        },
         {
             "id":20,
             "question":"Qual dos estados nordestinos abaixo se limita com o Sudeste?",
             "answers":["Alagoas", "Sergipe", "Bahia"],
             "correct":2,
             "fact":" A Bahia (Nordeste) faz divisa com o estado de Minas Gerais (Sudeste)."
-        }
+        },
         {
             "id":21,
             "question":"Qual dos estados sulinos abaixo se limita com o Sudeste?",
             "answers":["Santa Catarina", "Paraná", "Rio Grande do Sul"],
             "correct":1,
             "fact":"O Paraná (Sul) faz divisa com o estado de São Paulo (Sudeste)"
-        }
+        },
         {
             "id":22,
             "question":"Qual dessas cidades possui o maior porto do Brasil?",
             "answers":["Vitória", "Santos", "Itajaí"],
             "correct":1,
             "fact":"O Complexo Portuário de Santos é responsável por grande parte da movimentação da balança comercial brasileira."
-        }
+        },
         {
             "id":23,
             "question":"Monteiro Lobato, natural da cidade paulista de Taubaté é um conhecido autor de histórias infantis. Qual desses personagens é criação dele?",
             "answers":["Emília", "Mônica", "Mafalda"],
             "correct":0,
             "fact":"Monteiro Lobato criou o Sítio do Picapau Amarelo e dentre os personagens mais queridos estão a boneca Emília, o sabugo de milho Visconde de Sabugosa, Narizinho, Pedrinho entre outros."
-        }
+        },
         {
             "id":24,
             "question":"Feijão tropeiro, tutu de feijão, frango com quiabo são algumas comidas típicas de um estado do sudeste brasileiro. Qual é este estado?",
             "answers":["São Paulo", "Espírito Santo", "Minas Gerais"],
             "correct":2,
             "fact":"A culinária mineira é bastante rica e variada. Dentre as iguarias mais típicas do estado estão o feijão tropeiro, tutu de feijão, frango com quiabo, ora pro nobis, leitão a pururuca entre outras."
-        }
+        },
         {
             "id":25,
             "question":"Ritmo tradicional brasileiro presente principalmente no carnaval carioca e paulista:",
             "answers":["Carimbó", "Axé", "Samba"],
             "correct":2,
             "fact":"As escolas de SAMBA são bastante conhecidas no Brasil e internacionalmente por seu ritmo,por seu canto,  por sua criatividade e por apresentações luxuosas e deslumbrantes."
-        }
+        },
         {
             "id":26,
             "question":"São Paulo e Rio de Janeiro são as duas grandes metrópoles globais existentes no Brasil. Tais cidades encontram-se classificadas nesse patamar por apresentarem:",
             "answers":["grandes prédios e um grande número de bairros", "uma cadeia produtiva calcada no pleno emprego.", "um alcance econômico em nível nacional e internacional."],
             "correct":2,
             "fact":"O principal fator que contribuiu para que Rio de Janeiro e São Paulo sejam classificadas como metrópoles globais é o fato de apresentam um alcance internacional em termos econômicos, com a presença de instituições como a Bolsa de Valores e as sedes de inúmeras empresas multinacionais."
-        }
+        },
         {
             "id":27,
             "question":"Qual desses estados NÃO faz parte da região sudeste brasileira?",
             "answers":["São Paulo", "Tocantins", "Espírito Santo"],
             "correct":1,
             "fact":"Tocantins faz parte da região Norte do Brasil."
-        }
+        },
         {
             "id":28,
             "question":"Complete a sentença de algumas importantes cidades brasileiras com a classificação que melhor lhes representa:\nRio de Janeiro é uma cidade de característica ___________, São Bernardo do Campo é uma cidade ________________ e Santos, uma cidade _____________.",
             "answers":["turística, industrial, portuária", "industrial, turística, portuária", "comercial, turística, portuária"],
             "correct":0,
             "fact":"Rio de Janeiro é uma cidade de característica turística por suas paisagens naturais, São Bernardo do Campo é uma cidade industrial pela presença das indústrias e Santos, uma cidade portuária pelo importante complexo portuário santista."
-        }
+        },
         {
             "id":29,
             "question":"A cidade paulista de Aparecida do Norte se destaca pela presença de qual atividade?",
             "answers":["Turismo religioso", "Industrial", "portuária"],
             "correct":0,
             "fact":"A cidade de Aparecida do Norte é uma cidade religiosa (turismo religioso)."
-        }
+        },
         {
             "id":30,
             "question":"Fluminense é o nome dado à pessoa que nasce no estado:",
             "answers":["São Paulo", "Espírito Santo", "Rio de Janeiro"],
             "correct":2,
             "fact":"Quem nasce no estado do Rio de Janeiro é chamado de Fluminense e quem nasce na cidade do Rio de Janeiro é carioca."
-        }
+        },
         {
             "id":31,
             "question":"As cidades de Botucatu, Ribeirão Preto e Franca localizam-se no Estado de:",
             "answers":["Minas Gerais", "São Paulo", "Espírito Santo"],
             "correct":1,
             "fact":"As cidades de Botucatu, Ribeirão Preto e Franca localizam-se no Estado de São Paulo."
-        }
+        },
         {
             "id":32,
             "question":"Sabará, Tiradentes, Mariana, Ouro Preto são cidades…",
             "answers":["mineiras", "paulistas", "capixabas"],
             "correct":0,
             "fact":"Sabará, Tiradentes, Mariana, Ouro Preto são cidades mineiras."
-        }
+        },
         {
             "id":33,
             "question":"Quais estados fazem divisa com o estado do Espírito Santo?",
             "answers":["Bahia, Rio de Janeiro e São Paulo", "Bahia, Rio de Janeiro e Minas Gerais", "Rio de Janeiro, Minas Gerais e São Paulo"],
             "correct":1,
             "fact":"O Espírito Santo (ES) é um estado brasileiro localizado na região Sudeste do país e faz divisas com os estados de Minas Gerais, Rio de Janeiro e Bahia, sendo banhado pelo Oceano Atlântico."
-        }
+        },
         {
             "id":34,
             "question":"Qual sigla representa o estado mineiro?",
             "answers":["MG", "RJ", "SP"],
             "correct":0,
             "fact":"O estado mineiro é representado pela sigla  MG (Minas Gerais)."
-        }
+        },
         {
             "id":35,
             "question":"Qual é o estado mais populoso da região sudeste do Brasil?",
