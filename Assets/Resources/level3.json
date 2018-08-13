@@ -7,231 +7,264 @@
             "question":"Quais estados NÃO fazem parte da região sul do Brasil?",
             "answers":["Mato Grosso do Sul", "Paraná", "Santa Catarina"],
             "correct":0,
-            "fact":"O Mato Grosso do Sul está situado na região centro-oeste do país."
+            "fact":"O Mato Grosso do Sul está situado na região centro-oeste do país.",
+			"url":""
         },
         {
             "id":1,
             "question":"A cidade de Pelotas pertence a que estado da região sul do país?",
             "answers":["Rio Grande do Sul", "Paraná", "Santa Catarina"],
             "correct":0,
-            "fact":"A cidade de Pelotas está situada no sul do Rio Grande do Sul, sendo a 3º cidade mais populosa do Estado."
+            "fact":"A cidade de Pelotas está situada no sul do Rio Grande do Sul, sendo a 3º cidade mais populosa do Estado.",
+			"url":""
         },
         {
             "id":2,
             "question":"Quem nasce no estado de Santa Catarina é:",
             "answers":["Gaúcho", "Catarinense", "Capixaba"],
             "correct":1,
-            "fact":"Quem nasce no estado de Santa Catarina é chamado de catarinense ou barriga verde."
+            "fact":"Quem nasce no estado de Santa Catarina é chamado de catarinense ou barriga verde.",
+			"url":""
         },
         {
             "id":3,
             "question":"O fandango é uma dança típica de que estado do Sul?",
             "answers":["Santa Catarina", "Paraná", "Rio Grande do Sul"],
             "correct":1,
-            "fact":"Essa dança tem origem Ibérica e foi trazida pelos portugueses para oas regiões do litoral do Paraná."
+            "fact":"Essa dança tem origem Ibérica e foi trazida pelos portugueses para oas regiões do litoral do Paraná.",
+			"url":""
         },
         {
             "id":4,
             "question":"Qual prato típico NÃO pertence a cultura do estado do Paraná?",
             "answers":["Barreado", "Pinhão", "Arroz Boliviano"],
             "correct":2,
-            "fact":"Fazem parte da culinária paranaense o Barreado e o Pinhão."
+            "fact":"Fazem parte da culinária paranaense o Barreado e o Pinhão.",
+			"url":""
         },
         {
             "id":5,
             "question":"Quantos estados fazem parte da região sul do Brasil?",
             "answers":["3", "4", "5"],
             "correct":0,
-            "fact":"Fazem parte da região sul do Brasil o Paraná, Santa Catarina e o Rio Grande do Sul."
+            "fact":"Fazem parte da região sul do Brasil o Paraná, Santa Catarina e o Rio Grande do Sul.",
+			"url":""
         },
         {
             "id":6,
             "question":"Quais as capitais dos estados: Rio Grande do Sul, Santa Catarina e Paraná respectivamente?",
             "answers":["Porto Alegre, Florianópolis e Curitiba.", "Caxias do sul, Joinville e Foz do Iguaçu.", "Gramado, Florianópolis e Curitiba"],
             "correct":0,
-            "fact":"Todas as cidades dadas fazem parte desses estados, porém as capitais são Porto Alegre, Florianópolis e Curitiba respectivamente."
+            "fact":"Todas as cidades dadas fazem parte desses estados, porém as capitais são Porto Alegre, Florianópolis e Curitiba respectivamente.",
+			"url":""
         },
         {
             "id":7,
             "question":"Qual sigla representa o estado paranaense?",
             "answers":["PA", "PR", "PB"],
             "correct":1,
-            "fact":"A sigla do Paraná é PR, PA e PB são respectivamente dos estados:  Pará e Paraíba."
+            "fact":"A sigla do Paraná é PR, PA e PB são respectivamente dos estados:  Pará e Paraíba.",
+			"url":""
         },
         {
             "id":8,
             "question":"Quantas cidades pertencem ao estado de Santa Catarina?",
             "answers":["295", "250", "302"],
             "correct":0,
-            "fact":"O estado de Santa Catarina é composto por 295 cidades e vilas."
+            "fact":"O estado de Santa Catarina é composto por 295 cidades e vilas.",
+			"url":""
         },
         {
             "id":9,
             "question":"Quais os pontos turísticos de Curitiba-PR:",
             "answers":["Jardim Botânico, Ópera de Arame e o Museu oscar Niemeyer.", "Ópera de Arame, Parque moinhos de vento e a usina do gasômetro.", "Museu oscar Niemeyer, Ópera de Arame e a Praça da Liberdade."],
             "correct":0,
-            "fact":" "
+            "fact":"aaaaaaa",
+			"url":""
         },
         {
             "id":10,
             "question":"Qual o clima que predomina no Sul?",
             "answers":["Clima Subtropical", "Clima Temperado", "Clima desértico"],
             "correct":0,
-            "fact":"O clima que predomina no Sul do Brasil é o subtropical, porém, há variações, por ser uma região fria, as vezes podem receber geadas ou neve."
+            "fact":"O clima que predomina no Sul do Brasil é o subtropical, porém, há variações, por ser uma região fria, as vezes podem receber geadas ou neve.",
+			"url":""
         },
         {
             "id":11,
             "question":"Quais os tipos de vegetação da região sul do país?",
             "answers":["Caatinga e Cerrado", "Pampas Gaúcho e Mata das Araucárias", "Mangue e Pantanal"],
             "correct":1,
-            "fact":" "
+            "fact":"aaaaaaa",
+			"url":""
         },
         {
             "id":12,
             "question":"Quais os setores mais importantes da economia no sul?",
             "answers":["Minério, agricultura e pecuária ", "Comércio, indústria e minério", "Agropecuária e indústria"],
             "correct":2,
-            "fact":"A economia da região sul está apoiada no setor industrial e agropecuária."
+            "fact":"A economia da região sul está apoiada no setor industrial e agropecuária.",
+			"url":""
         },
         {
             "id":13,
             "question":"O estado de Paraná faz fronteira com quais outros estados?",
             "answers":["Mato Grosso do Sul, São Paulo e Santa Catarina.", "Rio de Janeiro, Mato Grosso do Sul e Rio Grande do Sul.", "Mato Grosso do Sul, Santa Catarina e Minas Gerais."],
             "correct":0,
-            "fact":" "
+            "fact":"aaaaaaa",
+			"url":""
         },
         {
             "id":14,
             "question":"Qual das capitais da região sul é considerada a “Capital ecológica do Brasil”?",
             "answers":["Florianópolis", "Curitiba", "Porto Alegre"],
             "correct":1,
-            "fact":"Curitiba é conhecida por suas áreas verdes e se planejamento urbano, por isso é considerada a capital ecológica do Brasil"
+            "fact":"Curitiba é conhecida por suas áreas verdes e se planejamento urbano, por isso é considerada a capital ecológica do Brasil",
+			"url":""
         },
         {
             "id":15,
             "question":"Em que cidade do Paraná está situado teatro da Ópera de Arame?",
             "answers":["Londrina", "Maringá", "Curitiba"],
             "correct":2,
-            "fact":"A Ópera de Arame, com estrutura tubular e teto transparente, é um dos símbolos emblemáticos de Curitiba. Inaugurada em 1992, acolhe todo tipo de espetáculo, do popular ao clássico, e tem capacidade para 1.572 espectadores.Fonte: http://www.turismo.curitiba.pr.gov.br/conteudo/opera-de-arame/1611"
+            "fact":"A Ópera de Arame, com estrutura tubular e teto transparente, é um dos símbolos emblemáticos de Curitiba. Inaugurada em 1992, acolhe todo tipo de espetáculo, do popular ao clássico, e tem capacidade para 1.572 espectadores.Fonte: http://www.turismo.curitiba.pr.gov.br/conteudo/opera-de-arame/1611",
+			"url":""
         },
         {
             "id":16,
             "question":"Em Foz do Iguaçu, no Paraná, quais as principais atividades econômicas?",
             "answers":["Agropecuária e mineração", "Turismo e geração de energia", "Indústria e pecuária"],
             "correct":1,
-            "fact":"Foz do Iguaçu destaca-se pela geração de energia pela Usina Hidrelétrica de Itaipu e pelo turismo."
+            "fact":"Foz do Iguaçu destaca-se pela geração de energia pela Usina Hidrelétrica de Itaipu e pelo turismo.",
+			"url":""
         },
         {
             "id":17,
             "question":"Qual das cidades não fazem parte do Rio Grande do Sul?",
             "answers":["Porto Alegre", "Pelotas", "Porto Velho"],
             "correct":2,
-            "fact":"Porto Alegre e Pelotas são cidades gaúchas enquanto Porto velho é a capital de Rondônia."
+            "fact":"Porto Alegre e Pelotas são cidades gaúchas enquanto Porto velho é a capital de Rondônia.",
+			"url":""
         },
         {
             "id":18,
             "question":"O chimarrão, ou mate é uma bebida típica, consumida principalmente em que estado?",
             "answers":["Rio Grande do Sul", "Bahia", "Pará"],
             "correct":0,
-            "fact":"O chimarrão, ou mate, é uma bebida característica da cultura do sul da América do Sul legado das  culturas indígenas. É composto por uma cuia, uma bomba, erva-mate moída e água a aproximadamente 70 Grau Celsius. "
+            "fact":"O chimarrão, ou mate, é uma bebida característica da cultura do sul da América do Sul legado das  culturas indígenas. É composto por uma cuia, uma bomba, erva-mate moída e água a aproximadamente 70 Grau Celsius. ",
+			"url":""
         },
         {
             "id":19,
             "question":"A festa de Nossa Senhora dos Navegantes é de origem portuguesa onde centenas de barcos e milhares de fiéis participam da procissão fluvial. Acontece no dia 2 de fevereiro, numa das capitais do sul. Em qual delas?",
             "answers":["Curitiba", "Porto Alegre", "Florianópolis"],
             "correct":1,
-            "fact":"Todos os anos é realizada em Porto Alegre uma procissão fluvial no Rio Guaíba]. A festa é realizada todo dia 2 de fevereiro e, na festa de 2008, a procissão em honra à Nossa Senhora dos Navegantes reuniu mais de 100 mil pessoas."
+            "fact":"Todos os anos é realizada em Porto Alegre uma procissão fluvial no Rio Guaíba]. A festa é realizada todo dia 2 de fevereiro e, na festa de 2008, a procissão em honra à Nossa Senhora dos Navegantes reuniu mais de 100 mil pessoas.",
+			"url":""
         },
         {
             "id":20,
             "question":"Florianópolis é a capital de qual estado?",
             "answers":["Santa Catarina", "Rio Grande do Sul", "Paraná"],
             "correct":0,
-            "fact":"Florianópolis é a capital do estado de Santa Catarina e é composta pela ilha principal, a ilha de Santa Catarina, a parte continental e algumas pequenas ilhas circundantes"
+            "fact":"Florianópolis é a capital do estado de Santa Catarina e é composta pela ilha principal, a ilha de Santa Catarina, a parte continental e algumas pequenas ilhas circundantes",
+			"url":""
         },
         {
             "id":21,
             "question":"Quais as divisas do Rio Grande do Sul?",
             "answers":["Santa Catarina, Argentina e Uruguai", "Santa Catarina, Paraná e Minas Gerais", "Paraná, Argentina e Mato Grosso"],
             "correct":0,
-            "fact":"Está situado na Região Sul e tem por limites o estado de Santa Catarina ao norte, Argentina ao oeste e Uruguai ao sul, além do Oceano Atlântico ao leste."
+            "fact":"Está situado na Região Sul e tem por limites o estado de Santa Catarina ao norte, Argentina ao oeste e Uruguai ao sul, além do Oceano Atlântico ao leste.",
+			"url":""
         },
         {
             "id":22,
             "question":"Quem nasce no Rio Grande do Sul é chamado de:",
             "answers":["Potiguar", "Gaúcho", "Paranaense"],
             "correct":1,
-            "fact":"Gaúcho é o termo usado para designar pessoas nascidas no estado do Rio Grande do Sul."
+            "fact":"Gaúcho é o termo usado para designar pessoas nascidas no estado do Rio Grande do Sul.",
+			"url":""
         },
         {
             "id":23,
             "question":"Qual é a menor das regiões brasileiras em extensão?",
             "answers":["Norte", "Nordeste", "Sul"],
             "correct":2,
-            "fact":"A Região Sul do Brasil é a menor das cinco regiões do país."
+            "fact":"A Região Sul do Brasil é a menor das cinco regiões do país.",
+			"url":""
         },
         {
             "id":24,
             "question":"Quais estados fazem parte da região Sul do Brasil?",
             "answers":["Paraná, Santa Catarina e Rio Grande do Sul", "Minas Gerais, São Paulo e Bahia", "Rio Grande do Sul, Mato Grosso do Sul e Paraná"],
             "correct":0,
-            "fact":"Os estados que compõem a região Sul é Paraná, Santa Catarina e Rio Grande do Sul."
+            "fact":"Os estados que compõem a região Sul é Paraná, Santa Catarina e Rio Grande do Sul.",
+			"url":""
         },
         {
             "id":25,
             "question":"Joaquim passou o “Natal Luz” com a família em uma cidade gaúcha. Qual cidade tem essa festa tradicional que atrai milhares de turistas todos os anos?",
             "answers":["Porto Alegre", "Bento Gonçalves", "Gramado"],
             "correct":2,
-            "fact":"O Natal Luz, o primeiro evento natalino do Brasil, hoje é um dos maiores espetáculos do gênero no mundo."
+            "fact":"O Natal Luz, o primeiro evento natalino do Brasil, hoje é um dos maiores espetáculos do gênero no mundo.",
+			"url":""
         },
         {
             "id":26,
             "question":"Em qual cidade do Rio Grande do Sul acontece o tradicional festival de cinema brasileiro e latino?",
             "answers":["Gramado", "Canela", "Pelotas"],
             "correct":0,
-            "fact":"O Festival de Cinema de  Gramado é um grande evento cinematográfico do país que envolve famosos artistas, produtores, diretores e jornalistas, numa semana de muito glamour."
+            "fact":"O Festival de Cinema de  Gramado é um grande evento cinematográfico do país que envolve famosos artistas, produtores, diretores e jornalistas, numa semana de muito glamour.",
+			"url":""
         },
         {
             "id":27,
             "question":"Prato típico do litoral paranaense em que a carne é colocada em uma panela de barro fechada, enterrada e acima dela, uma fogueira queima por 12 horas para que a carne se desfaça.",
             "answers":["Churrasco", "Barreado", "Pinhão"],
             "correct":1,
-            "fact":" O barreado é um prato típico do litoral paranaense. Na sua preparação, a carne é colocada em uma panela de barro fechada e depois enterrada. Uma fogueira é acesa por cima e queima por 12 horas até que a carne se desfaça."
+            "fact":" O barreado é um prato típico do litoral paranaense. Na sua preparação, a carne é colocada em uma panela de barro fechada e depois enterrada. Uma fogueira é acesa por cima e queima por 12 horas até que a carne se desfaça.",
+			"url":""
         },
         {
             "id":28,
             "question":"As cataratas do Iguaçu está situada em qual dos estados do Sul do Brasil?",
             "answers":["Santa Catarina", "Rio Grande do Sul", "Paraná"],
             "correct":2,
-            "fact":"As cataratas do Iguaçu estão situadas na cidade paranaense de  Foz do Iguaçu. São compostas por com 275 quedas-d’água e recebe milhares de turistas a cada ano."
+            "fact":"As cataratas do Iguaçu estão situadas na cidade paranaense de  Foz do Iguaçu. São compostas por com 275 quedas-d’água e recebe milhares de turistas a cada ano.",
+			"url":""
         },
         {
             "id":29,
             "question":"Qual das alternativas abaixo NÃO é uma das paisagens naturais mais conhecidas  da região Sul do Brasil?",
             "answers":["Cataratas do Iguaçu", "Pampas", "Pantanal"],
             "correct":2,
-            "fact":"O Pantanal está situada na região Centro-Oeste do Brasil."
+            "fact":"O Pantanal está situada na região Centro-Oeste do Brasil.",
+			"url":""
         },
         {
             "id":30,
             "question":"Qual o principal uso das terras na região sul do Brasil?",
             "answers":["Pecuária", "Agricultura", "Mineração"],
             "correct":0,
-            "fact":"Os campos do Sul constituem excelente pastagem natural para a criação de gado bovino, principalmente na Campanha Gaúcha ou pampa, no Estado do Rio Grande do Sul. A pecuária intensiva é bastante desenvolvida na região Sul"
+            "fact":"Os campos do Sul constituem excelente pastagem natural para a criação de gado bovino, principalmente na Campanha Gaúcha ou pampa, no Estado do Rio Grande do Sul. A pecuária intensiva é bastante desenvolvida na região Sul",
+			"url":""
         },
         {
             "id":31,
             "question":"Quais foram os principais povos imigrantes que vieram para a região sul?",
             "answers":["Italianos e Suecos", "Ucranianos e Portugueses", "Italianos e Alemães"],
             "correct":2,
-            "fact":"A região Sul foi ocupada por imigrantes europeus, principalmente os italianos, alemães e portugueses."
+            "fact":"A região Sul foi ocupada por imigrantes europeus, principalmente os italianos, alemães e portugueses.",
+			"url":""
         },
         {
             "id":32,
             "question":"Quais são os fenômenos climáticos do inverno da região Sul do Brasil?",
             "answers":["Sol e calor", "Calor e chuva", "Geada e neve"],
             "correct":0,
-            "fact":"Cidades como Urubici-SC, São José dos Ausentes, RS, Urupema-SC são cidades que no inverno costumam gear e algumas vezes chegam a nevar."
+            "fact":"Cidades como Urubici-SC, São José dos Ausentes, RS, Urupema-SC são cidades que no inverno costumam gear e algumas vezes chegam a nevar.",
+			"url":""
         }
     
     ]

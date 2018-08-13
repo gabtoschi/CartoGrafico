@@ -6,6 +6,7 @@ public class Question {
 	public string[] answers;
 	public int correct;
 	public string fact;
+    public string url;
 }
 
 /* Represents a pack with some questions. */

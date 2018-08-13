@@ -14,8 +14,8 @@ public class MovementPlayer : MonoBehaviour{
     private int btnIndex = -1;
     private GameObject btnSelected;
     private int stepCount=0;
-
-    
+    public Image img;
+    private Sprite spriteFact;
 
     public void OpenQuestion(){
         Debug.Log("Movement PLayer: " + btnAdj.Length);
@@ -28,12 +28,11 @@ public class MovementPlayer : MonoBehaviour{
             }
         }
         if (check){
-            currentQuestion = QuestionManager.instance.getNextQuestion(); //Get question on question pack
+            currentQuestion = QuestionManager.instance.getNextQuestion(); //Get question on question pack and populates texts and buttons
             UpdateStartPanel();
             questionPanel.SetActive(true);
             buttons.SetActive(false);
-            grid.SetActive(false);
-
+            grid.SetActive(false);          
             GetComponent<SpriteRenderer>().enabled = false;
             for (int i = 0; i < 3; i++) {
                 answerTexts[i].GetComponentInParent<Image>().enabled = true;
@@ -61,7 +60,7 @@ public class MovementPlayer : MonoBehaviour{
 
     private void updateEndPanel(bool isCorrect)
     {
-        string textToPanel = isCorrect ? "VOCÊ ACERTOU\n\n" : "VOCÊ ERROU\n\n"; // Populates panel text according to answer
+        string textToPanel = isCorrect ? "Muito bem!\nVocê acertou!\n\n" : "Poxa, não foi dessa vez.\nTente novamente.\n\n"; // Populates panel text according to answer
         textToPanel += currentQuestion.fact;
         panelText.text = textToPanel;
         for(int i=0; i < 3; i++)
@@ -70,6 +69,12 @@ public class MovementPlayer : MonoBehaviour{
             answerTexts[i].enabled = false;
         }
         closeButton.SetActive(true);
+        if (!currentQuestion.url.Equals("")) { //Activates and populates image if url is not null
+            img.gameObject.SetActive(true);
+            spriteFact = Resources.Load<Sprite>("Imgs Facts/" + currentQuestion.url);
+            if(spriteFact!=null)
+                img.sprite = spriteFact;
+        }
     }
 
     public void ClosePanel()
