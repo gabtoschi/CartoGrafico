@@ -20,4 +20,13 @@ public class BtnController : MonoBehaviour {
         SceneManager.LoadScene("Creditos");
     }
     
+    public void TeachersBtn()
+    {
+        SceneManager.LoadScene("Teachers");
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("menu");
+    }
 }
