@@ -145,8 +145,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 396, y: 633}
+  m_AnchoredPosition: {x: 0.000015259, y: 0}
+  m_SizeDelta: {x: 337.5, y: 633}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &99708315
 MonoBehaviour:
@@ -215,7 +215,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21, y: -90.8}
+  m_AnchoredPosition: {x: 18.479992, y: -76.299995}
   m_SizeDelta: {x: 36.96, y: 38.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &598525156
@@ -465,7 +465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.8, y: 128}
+  m_AnchoredPosition: {x: 27.64, y: 111.2}
   m_SizeDelta: {x: 36.96, y: 38.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1039041837
@@ -587,7 +587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 55.199997, y: -3.899994}
+  m_AnchoredPosition: {x: 49.8, y: -3.899994}
   m_SizeDelta: {x: 36.96, y: 38.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1040173157
@@ -709,7 +709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 101.56, y: -71.6}
+  m_AnchoredPosition: {x: 82.8, y: -62.3}
   m_SizeDelta: {x: 36.96, y: 38.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1045854471
@@ -893,7 +893,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 145.22, y: 17.2}
+  m_AnchoredPosition: {x: 133.1, y: 26.6}
   m_SizeDelta: {x: 36.96, y: 38.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962001708
@@ -1027,12 +1027,12 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1111,7 +1111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 64.6, y: -76.3}
+  m_AnchoredPosition: {x: 55.44, y: -58.9}
   m_SizeDelta: {x: 36.96, y: 38.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2044855522
@@ -1267,7 +1267,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Selecione o N\xEDvel"
+  m_Text: Selecione seu Destino
 --- !u!222 &2144550879
 CanvasRenderer:
   m_ObjectHideFlags: 0

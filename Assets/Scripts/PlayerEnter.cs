@@ -14,6 +14,7 @@ public class PlayerEnter : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             if (isFinal) {
+                Destroy(QuestionManager.instance);
                 //open victory pannel
                 SceneManager.LoadScene("TelaVitoria");
             }
