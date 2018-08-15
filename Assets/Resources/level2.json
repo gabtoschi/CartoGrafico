@@ -24,7 +24,7 @@
             "answers":["Minas Gerais", "Mato Grosso do Sul", "Ceará"],
             "correct":0,
             "fact":"A região Sudeste é composta por São Paulo, Minas Gerais, Rio de Janeiro e Espírito Santo.",
-			"url":""
+			"url":"l2q2"
         },
         {
             "id":3,
@@ -93,7 +93,7 @@
         {
             "id":11,
             "question":"Produto que promoveu  desenvolvimento do interior do estado de São Paulo, vindo do vale do Paraíba:",
-            "answers":["laranja.", "milho.", "café."],
+            "answers":["laranja", "milho", "café"],
             "correct":2,
             "fact":"A economia cafeeira representou a força geradora do desenvolvimento de infraestrutura e acúmulo de capitais.",
 			"url":""
@@ -157,7 +157,7 @@
         {
             "id":19,
             "question":"Qual cidade fluminense é a capital nacional do petróleo?",
-            "answers":["industrial", "histórica", "portuária"],
+            "answers":["Industrial", "Histórica", "Portuária"],
             "correct":1,
             "fact":"Macaé é conhecida como a Capital Nacional do Petróleo, principalmente pelas ações da Petrobrás na região.https://www.guiamacae.com.br/sobre-macae",
 			"url":""
@@ -229,7 +229,7 @@
         {
             "id":28,
             "question":"Complete a sentença de algumas importantes cidades brasileiras com a classificação que melhor lhes representa:\nRio de Janeiro é uma cidade de característica ___________, São Bernardo do Campo é uma cidade ________________ e Santos, uma cidade _____________.",
-            "answers":["turística, industrial, portuária", "industrial, turística, portuária", "comercial, turística, portuária"],
+            "answers":["turística; industrial; portuária", "industrial; turística; portuária", "comercial; turística; portuária"],
             "correct":0,
             "fact":"Rio de Janeiro é uma cidade de característica turística por suas paisagens naturais, São Bernardo do Campo é uma cidade industrial pela presença das indústrias e Santos, uma cidade portuária pelo importante complexo portuário santista.",
 			"url":""
@@ -237,7 +237,7 @@
         {
             "id":29,
             "question":"A cidade paulista de Aparecida do Norte se destaca pela presença de qual atividade?",
-            "answers":["Turismo religioso", "Industrial", "portuária"],
+            "answers":["Turismo religioso", "Industrial", "Portuária"],
             "correct":0,
             "fact":"A cidade de Aparecida do Norte é uma cidade religiosa (turismo religioso).",
 			"url":""

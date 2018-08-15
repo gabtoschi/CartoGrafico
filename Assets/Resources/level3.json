@@ -21,7 +21,7 @@
         {
             "id":2,
             "question":"Quem nasce no estado de Santa Catarina é:",
-            "answers":["Gaúcho", "Catarinense", "Capixaba"],
+            "answers":["gaúcho", "catarinense", "capixaba"],
             "correct":1,
             "fact":"Quem nasce no estado de Santa Catarina é chamado de catarinense ou barriga verde.",
 			"url":""
@@ -128,7 +128,7 @@
             "answers":["Londrina", "Maringá", "Curitiba"],
             "correct":2,
             "fact":"A Ópera de Arame, com estrutura tubular e teto transparente, é um dos símbolos emblemáticos de Curitiba. Inaugurada em 1992, acolhe todo tipo de espetáculo, do popular ao clássico, e tem capacidade para 1.572 espectadores.Fonte: http://www.turismo.curitiba.pr.gov.br/conteudo/opera-de-arame/1611",
-			"url":""
+			"url":"l3q15"
         },
         {
             "id":16,
@@ -181,7 +181,7 @@
         {
             "id":22,
             "question":"Quem nasce no Rio Grande do Sul é chamado de:",
-            "answers":["Potiguar", "Gaúcho", "Paranaense"],
+            "answers":["potiguar", "gaúcho", "paranaense"],
             "correct":1,
             "fact":"Gaúcho é o termo usado para designar pessoas nascidas no estado do Rio Grande do Sul.",
 			"url":""
@@ -200,7 +200,7 @@
             "answers":["Paraná, Santa Catarina e Rio Grande do Sul", "Minas Gerais, São Paulo e Bahia", "Rio Grande do Sul, Mato Grosso do Sul e Paraná"],
             "correct":0,
             "fact":"Os estados que compõem a região Sul é Paraná, Santa Catarina e Rio Grande do Sul.",
-			"url":""
+			"url":"l3q24"
         },
         {
             "id":25,
@@ -220,7 +220,7 @@
         },
         {
             "id":27,
-            "question":"Prato típico do litoral paranaense em que a carne é colocada em uma panela de barro fechada, enterrada e acima dela, uma fogueira queima por 12 horas para que a carne se desfaça.",
+            "question":"Prato típico do litoral paranaense em que a carne é colocada em uma panela de barro fechada, enterrada e acima dela, uma fogueira queima por 12 horas para que a carne se desfaça:",
             "answers":["Churrasco", "Barreado", "Pinhão"],
             "correct":1,
             "fact":" O barreado é um prato típico do litoral paranaense. Na sua preparação, a carne é colocada em uma panela de barro fechada e depois enterrada. Uma fogueira é acesa por cima e queima por 12 horas até que a carne se desfaça.",
