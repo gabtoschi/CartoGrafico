@@ -912,6 +912,10 @@ MonoBehaviour:
   baloons:
   - {fileID: 1774672900}
   - {fileID: 558103277}
+  - {fileID: 648460236}
+  - {fileID: 509180893}
+  - {fileID: 1513212648}
+  - {fileID: 1446827216}
 --- !u!1 &1039041835
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +928,7 @@ GameObject:
   - component: {fileID: 1039041838}
   - component: {fileID: 1039041837}
   m_Layer: 5
-  m_Name: Belem
+  m_Name: Belem Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1388,7 +1392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 70.759995, y: -219.20001}
+  m_AnchoredPosition: {x: -50.2, y: -44}
   m_SizeDelta: {x: 8, y: 6.96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1446827218
@@ -1428,7 +1432,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 83644f28419a1e64380546fe85bd28b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 8, y: 6.96}
@@ -1628,7 +1632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -88.75, y: 223.5}
+  m_AnchoredPosition: {x: -83.7, y: -216}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1571711688
