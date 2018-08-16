@@ -1,0 +1,166 @@
+{
+    "name":"Level4",
+    "capacity":30,
+    "questions":[
+        {
+            "id":0,
+            "question":"A região Norte é a maior em extensão territorial brasileira. Quantos estados pertencem a esta região?",
+            "answers":["7", "5", "6"],
+            "correct":0,
+            "fact":"A região Norte brasileira é composta de sete estados: Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins.",
+            "url":""
+        },
+        {
+            "id":1,
+            "question":"Quais destes estados NÃO pertencem a região norte?",
+            "answers":["Roraima", "Amazonas", "Alagoas"],
+            "correct":2,
+            "fact":"A região Norte brasileira é composta de sete estados: Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins.",
+            "url":""
+        }
+        {
+            "id":2,
+            "question":"Quem nasce em manaus é chamado de:",
+            "answers":["manauara", "manauano", "manauerense"],
+            "correct":0,
+            "fact":"Pessoa que nasceu em Manaus, capital do Amazonas, estado situado no norte do Brasil; manauense.",
+            "url":""
+        }
+        {
+            "id":3,
+            "question":"No que diz respeito à extensão territorial, qual o maior estado do Norte?",
+            "answers":["Pará", "Amazonas", "Tocantins"],
+            "correct":1,
+            "fact":"O estado do Amazonas é a unidade Federativa com a maior área em todo território brasileiro. Sua área é tão grande que supera os noves estados nordestinos. https://www.estadosecapitaisdobrasil.com/estado/amazonas/",
+            "url":""
+        }
+        {
+            "id":4,
+            "question":"Qual o clima que predomina na região Norte do Brasil?",
+            "answers":["Clima equatorial úmido", "Clima semiárido", "Clima desértico"],
+            "correct":0,
+            "fact":"O clima predominante na região é o equatorial úmido.",
+            "url":""
+        }
+        {
+            "id":5,
+            "question":"Quais as capitais dos seguintes estados: Amazonas, Acre e Roraima?",
+            "answers":["Iranduba, Novo Progresso e Macapá", "Manaus, Rio Branco e Boa Vista", "Rio Branco, Novo Progresso e Palmas"],
+            "correct":1,
+            "fact":"A capital do Amazonas é Manaus, do Acre é Rio Branco e Roraima é Boa Vista.",
+            "url":""
+        }
+        {
+            "id":6,
+            "question":"Qual a sigla de Roraima?",
+            "answers":["RR", "RO", "RA"],
+            "correct":0,
+            "fact":"A sigla referente ao estado de Roraima é RR.",
+            "url":""
+        }
+        {
+            "id":7,
+            "question":"Qual estado da região Norte está situada a cidade e capital Porto Velho?",
+            "answers":["Roraima", "Pará", "Rondônia"],
+            "correct":2,
+            "fact":"A capital de Rondônia é Porto Velho. Já a do Pará é Belém e de Roraima, Boa Vista",
+            "url":""
+        }
+        {
+            "id":8,
+            "question":"Quais os principais recursos minerais da região nortista brasileira?",
+            "answers":["Prata, níquel e bauxita", "Bauxita, manganês e minério de ferro", "Cobre, ferro e prata"],
+            "correct":1,
+            "fact":"Com rico potencial mineral, a Amazônia tem atualmente grandes projetos de exploração como: Carajás e Rio Trombetas no Pará (ferro e bauxita); Serra do Navio no Amapá (manganês), Serra Pelada no Pará (ouro); em Porto Velho (cassiterita). http://www.brasil.gov.br/economia-e-emprego/2012/04/regiao-norte-lidera-extrativismos-vegetal-e-mineral",
+            "url":""
+        }
+        {
+            "id":9,
+            "question":"As duas origens mais fortes da cultura  ___________ são a europeia e a indígena.",
+            "answers":["do Amazonas", "do Paraná", "do Mato Grosso"],
+            "correct":0,
+            "fact":"O estado amazonense tem influência da cultura indígena e europeia.",
+            "url":""
+        }
+        {
+            "id":10,
+            "question":"Qual vegetação predominante na região Norte do Brasil?",
+            "answers":["Mata de terra firme e de várzea", "Clima semiárido e mata dos cipós", "Clima desértico e mata atlântica"],
+            "correct":0,
+            "fact":"O vegetação predominante na região é a Mata de terra firme e de várzea.",
+            "url":"l4q10"
+        }
+        {
+            "id":11,
+            "question":"Qual o estado mais novo do Brasil?",
+            "answers":["Amazonas", "Tocantins", "Pará"],
+            "correct":1,
+            "fact":"O estado do Tocantins é o mais recente sendo criado no ano de 1988.",
+            "url":""
+        }
+        {
+            "id":12,
+            "question":"Estado que tem como capital a cidade planejada de Palmas:",
+            "answers":["Tocantins", "Goiás", "Roraima"],
+            "correct":0,
+            "fact":"A capital do estado de Tocantins é Palmas.",
+            "url":""
+        }
+        {
+            "id":13,
+            "question":"Iguaria típica da culinária amazônica preparado com tucupi servida com jambu e camarão seco:",
+            "answers":["Vatapá", "Tacacá", "Tucupi"],
+            "correct":1,
+            "fact":"O Tacacá é uma iguaria típica da culinária amazônica e pode ser encontrado nos estados do Amazonas, Pará, Acre, Roraima, Amapá e Rondônia. É preparado com um caldo amarelado, chamado tucupi. Coloca-se esse caldo por cima da goma de tapioca, também servida com jambu (Erva amazônica que provoca uma dormência na boca) e camarão seco.",
+            "url":"l4q13"
+        }
+        {
+            "id":14,
+            "question":"Prato popular da região norte composto por pato, jambu e tucupi:",
+            "answers":["Tacacá", "Pato no Tucupi", "Maniçoba"],
+            "correct":1,
+            "fact":"O pato no tucupi é um prato popular da região norte composto por pato, jambu e tucupi (líquido extraído da mandioca brava)",
+            "url":""
+        }
+        {
+            "id":15,
+            "question":"O Tucupi é:",
+            "answers":["líquido amarelo extraído da mandioca brava", "bolinho de peixe frito", "pirão de peixe"],
+            "correct":0,
+            "fact":"O Tucupi é líquido amarelo extraído da mandioca brava que serve como base para o preparo do Tacacá.",
+            "url":""
+        }
+        {
+            "id":16,
+            "question":"Complete corretamente a sentença: Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins fazem parte da região __________ do Brasil.",
+            "answers":["Norte", "Nordeste", "Centro-Oeste"],
+            "correct":0,
+            "fact":"Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins fazem parte da região Norte do Brasil.",
+            "url":"l4q16"
+        }
+        {
+            "id":17,
+            "question":"Ananindeua, Santarém e Belém são cidades importantes de qual estado brasileiro?",
+            "answers":["Amazonas", "Tocantins", "Pará"],
+            "correct":2,
+            "fact":"Ananindeua, Santarém e Belém são cidades importantes paraenses.",
+            "url":""
+        }
+        {
+            "id":18,
+            "question":"Ritmo e dança de origem indígena presentes no estado do Pará:",
+            "answers":["Axé", "Carimbó", "Frevo"],
+            "correct":1,
+            "fact":"O carimbó é um ritmo musical amazônico e também uma dança de roda de origem indígena, típica da região norte do estado do Pará tendo sido influenciado por negros (percussão e sensualidade) e portugueses (palmas e sopro).",
+            "url":""
+        }
+        {
+            "id":19,
+            "question":"Cidade amazonense onde acontece o festival folclórico em que ocorre a disputa entre os bois Garantido e Caprichoso:",
+            "answers":["Manaus", "Itacoatiara", "Parintins"],
+            "correct":2,
+            "fact":"Na cidade de Parintins ocorrem apresentações a céu aberto de diversas associações folclóricas, sendo o ponto mais importante do evento atualmente é a disputa entre dois bois folclóricos, o Boi Garantido, de cor vermelha, e o Boi Caprichoso, de cor azul.",
+            "url":""
+        }
+    ]
+}

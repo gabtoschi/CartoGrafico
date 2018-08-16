@@ -16,7 +16,7 @@
             "answers":["Farol da Barra", "Pão de Açúcar", "Ópera de Arame"],
             "correct":0,
             "fact":"O Farol da Barra ou Farol de Santo Antônio  da Barra é um dos pontos mais visitados de Salvador.",
-			"url":""
+			"url":"l1q1"
         },
         {
             "id":2,
@@ -48,7 +48,7 @@
             "answers":["Vatapá", "Acarajé", "Abará"],
             "correct":1,
             "fact":"O acarajé é uma especialidade gastronômica das culinárias africana e afro-brasileira e muito popular na Bahia.",
-			"url":""
+			"url":"l1q5"
         },
         {
             "id":6,
@@ -80,7 +80,7 @@
             "answers":["Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Bahia", "Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Tocantins", "Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Minas Gerais"],
             "correct":0,
             "fact":"A região nordeste se compõe de nove estados: Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Bahia.",
-			"url":""
+			"url":"l1q9"
         },
         {
             "id":10,
@@ -112,7 +112,7 @@
             "answers":["Barra", "Brotas", "Pelourinho"],
             "correct":2,
             "fact":"O Pelourinho, popularmente chamado de Pelô, é o nome de um bairro de Salvador, a capital do estado da Bahia, no Brasil. Se localiza no Centro Histórico da cidade, na área que abrange apenas as ruas que vão do Terreiro de Jesus até o Largo do Pelourinho.",
-			"url":""
+			"url":"l1q13"
         },
         {
             "id":14,
@@ -120,7 +120,7 @@
             "answers":["Igreja de Pelourinho", "Igreja do Nosso Senhor do Bonfim", "Igreja de São Francisco"],
             "correct":1,
             "fact":"A Igreja Nosso Senhor do Bonfim é um templo católico localizado na Sagrada Colina,  em Salvador, Bahia. É lá que são distribuídas as famosas fitinhas do Bonfim",
-			"url":""
+			"url":"l1q14"
         },
         {
             "id":15,
@@ -172,7 +172,7 @@
         {
             "id":21,
             "question":"O Meio-norte é uma sub-região da região nordeste. Onde ela está localizada?",
-            "answers":["na região litorânea", "na transição entre o sertão semiárido e a Amazônia", "na transição entre a zona da mata e o sertão semiárido"],
+            "answers":["Na região litorânea", "Na transição entre o sertão semiárido e a Amazônia", "Na transição entre a zona da mata e o sertão semiárido"],
             "correct":1,
             "fact":"O Meio-norte é a região de transição entre o sertão semiárido e a Amazônia. As principais atividades econômicas desenvolvidas na região são o extrativismo vegetal e a agricultura.",
 			"url":""
@@ -228,7 +228,7 @@
         {
             "id":28,
             "question":"São apenas dois os rios permanentes que cortam o ____: o São Francisco e o ______.",
-            "answers":["Semiárido e o Parnaíba", "Meio-Norte e o Jequitinhonha", "Zona da Mata e o Tietê"],
+            "answers":["Semiárido; Parnaíba", "Meio-Norte; Jequitinhonha", "Zona da Mata; Tietê"],
             "correct":0,
             "fact":"São apenas dois rios permanentes que cortam o semiárido: o São Francisco e o Parnaíba.",
 			"url":""

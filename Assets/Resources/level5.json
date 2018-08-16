@@ -1,0 +1,94 @@
+{
+    "name":"Level5",
+    "capacity":30,
+    "questions":[
+        {
+            "id":0,
+            "question":"Brasília, uma capital federal, está localizada numa porção do estado de:",
+            "answers":["Goiás", "Mato Grosso do Sul", "Mato Grosso"],
+            "correct":0,
+            "fact":" ",
+            "url":""
+        },
+        {
+            "id":1,
+            "question":"Onde está localizado o planalto central?",
+            "answers":["Brasília", "Campo Grande", "Goiânia"],
+            "correct":0,
+            "fact":" ",
+            "url":""
+        }
+        {
+            "id":2,
+            "question":"Quais as principais atividades econômicas do centro-oeste do Brasil?",
+            "answers":["turismo, agropecuária e indústria", "agricultura, pecuária e extrativismo mineral/vegetal", "comércio, mineração e agricultura"],
+            "correct":1,
+            "fact":" ",
+            "url":""
+        }
+        {
+            "id":3,
+            "question":"No(a)  _______________________ a economia é baseada principalmente na prestação de serviços.",
+            "answers":["Capital do Mato Grosso", "Setor secundário", "Distrito Federal"],
+            "correct":2,
+            "fact":" ",
+            "url":""
+        }
+        {
+            "id":4,
+            "question":"A região centro-oeste é composta por:",
+            "answers":["3 estados e 1 distrito", "4 estados", "3 estados"],
+            "correct":0,
+            "fact":" ",
+            "url":""
+        }
+        {
+            "id":5,
+            "question":"O _____________________ é a  menor unidade federativa do país e está situado na região centro-oeste.",
+            "answers":["Distrito Federal", "Mato Grosso do Sul", "Espírito Santo"],
+            "correct":0,
+            "fact":" ",
+            "url":""
+        }
+        {
+            "id":6,
+            "question":"Qual a capital do Distrito Federal:",
+            "answers":["Goiânia", "Campo Grande", "Brasília"],
+            "correct":2,
+            "fact":" ",
+            "url":""
+        }
+        {
+            "id":7,
+            "question":"A maior parte  da população do centro-oeste está localizada em:",
+            "answers":["Mato Grosso do Sul", "Goiás", "Distrito Federal"],
+            "correct":1,
+            "fact":" ",
+            "url":""
+        }
+        {
+            "id":8,
+            "question":"Qual estado pertencente ao centro-oeste tem o maior PIB per capita do país?",
+            "answers":["Mato Grosso do Sul", "Goiás", "Distrito Federal"],
+            "correct":2,
+            "fact":" ",
+            "url":""
+        }
+        {
+            "id":9,
+            "question":"A região centro-oeste apresenta um clima ____________________ com duas estações bem definidas: ________________________, ________________.",
+            "answers":["Tropical semiúmido; Um verão quente, úmido e chuvoso e um inverno ameno e seco.", "Tropical; Um verão ameno e úmido e um inverno rígido e chuvoso.", "Subtropical; Um verão quente, úmido e chuvoso e um inverno ameno e seco."],
+            "correct":0,
+            "fact":" ",
+            "url":""
+        }
+        {
+            "id":10,
+            "question":"Qual o tipo de vegetação que predomina no centro-oeste?",
+            "answers":["Mata Atlântica", "Cerrado", "Litorânea"],
+            "correct":1,
+            "fact":" ",
+            "url":""
+        }
+    ]
+}
