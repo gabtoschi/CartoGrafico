@@ -12,9 +12,42 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 10571179b02a7044698adbe7d0a633b7
   - enabled: 1
-    path: Assets/Scenes/Creditos.unity
-    guid: 79130759164eb504b85777180ab5c41b
+    path: Assets/Scenes/LevelSelection.unity
+    guid: e7af858b50dca7a49b389befe698e04c
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: dc21526ad6360d941a6eaef70eed42b1
+  - enabled: 1
+    path: Assets/Scenes/Teachers.unity
+    guid: f9799d6ed9379be42a86b8d008a40342
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 79130759164eb504b85777180ab5c41b
+  - enabled: 1
+    path: Assets/Scenes/Salvador.unity
+    guid: ce7d236c1e0d3194f9169cd04f19e783
+  - enabled: 1
+    path: Assets/Scenes/Sao Paulo.unity
+    guid: 5f552750df4ceb24a8044b092ea3ec81
+  - enabled: 1
+    path: Assets/Scenes/Curitiba.unity
+    guid: eebd7336ad9ada548988a6310a33fb45
+  - enabled: 1
+    path: Assets/Scenes/Belem.unity
+    guid: fb86218ed25c0ab43b318d902fb13352
+  - enabled: 1
+    path: Assets/Scenes/Brasilia.unity
+    guid: bb8257ff177a1ca44983d27e62d77e8c
+  - enabled: 1
+    path: Assets/Scenes/Rio de Janeiro.unity
+    guid: 7af8c66f16443784c8bd841372f51d75
+  - enabled: 1
+    path: Assets/Scenes/TelaVitoria.unity
+    guid: 93190a7f467e38745b669c568abe7a74
+  - enabled: 1
+    path: Assets/Scenes/TestLevel.unity
+    guid: 71869ca2f0052d846aa7b4cecb963f71
+  - enabled: 1
+    path: Assets/Scenes/QuestionTest.unity
+    guid: b73a0832d19af2f4e8f0d0038885a34e
   m_configObjects: {}
