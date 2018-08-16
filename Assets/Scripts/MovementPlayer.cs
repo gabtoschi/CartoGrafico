@@ -81,6 +81,7 @@ public class MovementPlayer : MonoBehaviour{
 
     public void ClosePanel()
     {
+        img.gameObject.SetActive(false);
         questionPanel.SetActive(false); //   V
         buttons.SetActive(true); //    Deactivates question panel and activates buttons and grid 
         grid.SetActive(true); //      ^
