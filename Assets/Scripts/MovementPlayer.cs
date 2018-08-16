@@ -72,13 +72,16 @@ public class MovementPlayer : MonoBehaviour{
         if (!currentQuestion.url.Equals("")) { //Activates and populates image if url is not null
             img.gameObject.SetActive(true);
             spriteFact = Resources.Load<Sprite>("Imgs Facts/" + currentQuestion.url);
-            if(spriteFact!=null)
+            if (spriteFact != null) {
                 img.sprite = spriteFact;
+                img.preserveAspect = true;
+            }
         }
     }
 
     public void ClosePanel()
     {
+        img.gameObject.SetActive(false);
         questionPanel.SetActive(false); //   V
         buttons.SetActive(true); //    Deactivates question panel and activates buttons and grid 
         grid.SetActive(true); //      ^

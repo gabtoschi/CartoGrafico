@@ -1,11 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class SelectLevel : MonoBehaviour {
 
-	public void EnterLevel(string levelName) {
-        SceneManager.LoadScene(levelName);
+    public GameObject[] baloons;
+    private bool selected = false;
+
+    public void EnterLevel(string levelName) {
+        foreach(GameObject b in baloons) {
+            if(!b.activeSelf && EventSystem.current.currentSelectedGameObject.name.Equals(b.name)) {
+
+            }
+        }
+        
     }
 }
