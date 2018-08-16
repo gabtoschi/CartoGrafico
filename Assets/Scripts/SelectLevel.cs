@@ -11,8 +11,12 @@ public class SelectLevel : MonoBehaviour {
 
     public void EnterLevel(string levelName) {
         foreach(GameObject b in baloons) {
-            if(!b.activeSelf && EventSystem.current.currentSelectedGameObject.name.Equals(b.name)) {
-
+            if(!b.activeSelf && EventSystem.current.currentSelectedGameObject.name.Equals(b.name + " Btn")) {
+                b.SetActive(true);
+            }else if(b.activeSelf && !EventSystem.current.currentSelectedGameObject.name.Equals(b.name + " Btn")) {
+                b.SetActive(false);
+            }else if(b.activeSelf && EventSystem.current.currentSelectedGameObject.name.Equals(b.name + " Btn")) {
+                SceneManager.LoadScene(levelName);
             }
         }
         
