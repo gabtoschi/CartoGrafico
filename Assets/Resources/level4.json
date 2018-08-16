@@ -1,10 +1,6 @@
 {
     "name":"Level4",
-<<<<<<< HEAD
     "capacity":35,
-=======
-    "capacity":20,
->>>>>>> 3c32e3abc265731f090a90552cc6a9a569456c53
     "questions":[
         {
             "id":0,

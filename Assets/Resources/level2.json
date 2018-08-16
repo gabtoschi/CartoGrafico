@@ -36,7 +36,7 @@
         },
         {
             "id":4,
-            "question":"Quais estados NÃO fazem fronteira com São Paulo?",
+            "question":"Qual estado NÃO faz fronteira com o estado de São Paulo?",
             "answers":["Rio Grande do Sul", "Paraná", "Minas Gerais"],
             "correct":0,
             "fact":"O estado de São Paulo faz fronteira com Minas Gerais, Rio de janeiro, Paraná, Mato Grosso do Sul e oceano Atlântico.",

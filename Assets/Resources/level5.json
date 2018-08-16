@@ -1,6 +1,6 @@
 {
     "name":"Level5",
-    "capacity":11,
+    "capacity":31,
     "questions":[
         {
             "id":0,
@@ -89,7 +89,7 @@
             "correct":1,
             "fact":" ",
             "url":""
-        }
+        },
 	    {
             "id":11,
             "question":"  _________________  é a capital do Mato Grosso do Sul.",
@@ -97,7 +97,7 @@
             "correct":2,
             "fact":"A capital do Mato Grosso do Sul é Campo Grande.",
             "url":""
-        }
+        },
 	    {
             "id":12,
             "question":"Qual as principais cidades do estado de Goiás?",
@@ -105,7 +105,7 @@
             "correct":0,
             "fact":"Aparecida, Anápolis e Goiânia estão entre as cidades mais importantes do estado goiano.",
             "url":""
-        }
+        },
 	    {
             "id":13,
             "question":"Qual cidade é conhecida como a “capital do cerrado”?",
@@ -113,7 +113,7 @@
             "correct":0,
             "fact":"Goiânia é conhecida como a capital do cerrado.",
             "url":""
-        }
+        },
 	    {
             "id":14,
             "question":"Arroz com pequi, bolinho de arroz, pamonha são comidas típicas de qual região brasileira?",
@@ -121,7 +121,7 @@
             "correct":0,
             "fact":"A região centro-oeste possui uma gastronomia variada tendoiguarias como: arroz com pequi, bolinho de arroz, pamonha, empadão goiano entre outras.",
             "url":""
-        }
+        },
 	    {
             "id":15,
             "question":"Complete a sentença de forma a torná-la verdadeira:\nO turismo na região Centro-Oeste é baseado nas belezas naturais de lugares como: o _________, a ___________________, a ________________, o Parque Nacional das Emas, as cidade de _________ e Pirenópolis.",
@@ -129,7 +129,7 @@
             "correct":0,
             "fact":"O turismo no Centro-Oeste é baseado nas belezas naturais de lugares como: o Pantanal, a Chapada dos Guimarães, a Chapada dos Veadeiros, o Parque Nacional das Emas, as cidade de Bonito e Pirenópolis.",
             "url":""
-        }
+        },
 	    {
             "id":16,
             "question":"Goiás é banhado por três principais bacias hidrográficas:",
@@ -137,7 +137,7 @@
             "correct":1,
             "fact":"Goiás é banhado por quatro bacias hidrográficas: a Bacia do rio Paraná, a Bacia do Tocantins, a Bacia do rio Araguaia.",
             "url":""
-        }
+        },
 	    {
             "id":17,
             "question":"A cidade de Brasília foi planejada e tem um formato de um meio de transporte. Que meio de transporte é esse?",
@@ -145,7 +145,7 @@
             "correct":2,
             "fact":"Brasília tem formato de avião.",
             "url":"l5q17"
-        }
+        },
 	    {
             "id":18,
             "question":"“É uma área de mais de 140 mil km² e localiza-se na região Centro-Oeste do Brasil. É considerada Patrimônio Ambiental e classificado como Reserva da Biosfera pela UNESCO. É uma área extremamente rica em biodiversidade”. O texto se refere a qual bioma brasileiro?",
@@ -153,7 +153,7 @@
             "correct":0,
             "fact":"O Pantanal matogrossense é uma área de mais de 140 mil km² e localiza-se na região Centro-Oeste do Brasil. É considerada Patrimônio Ambiental e classificado como Reserva da Biosfera pela UNESCO. É uma área extremamente rica em biodiversidade.",
             "url":""
-        }
+        },
 	    {
             "id":19,
             "question":"A vegetação que recobria originalmente toda a Região Centro-Oeste:",
@@ -161,7 +161,7 @@
             "correct":2,
             "fact":"A vegetação que recobria originalmente toda a Região Centro-Oeste é o cerrado.",
             "url":""
-        }
+        },
 	    {
             "id":20,
             "question":"A única alternativa abaixo que NÃO compõe a Região Centro-Oeste do Brasil é:",
@@ -169,7 +169,7 @@
             "correct":1,
             "fact":"A região Centro-Oeste é formada por três estados (Goiás, Mato Grosso e Mato Grosso do Sul) e pelo Distrito Federal. O Tocantins faz parte da região Norte do país.",
             "url":""
-        }
+        },
 	    {
             "id":21,
             "question":"Complete corretamente a sentença:\nA região Centro-Oeste é formada por _____ estados e pelo Distrito Federal, onde se encontra _______________, a capital do país.
@@ -178,7 +178,7 @@
             "correct":1,
             "fact":"A região Centro-Oeste é formada por três estados (Goiás, Mato Grosso e Mato Grosso do Sul) e pelo Distrito Federal, onde se encontra Brasília, a capital do país.",
             "url":""
-        }
+        },
 	    {
             "id":22,
             "question":"Além de fazer limites com vários estados brasileiros, o Centro-Oeste também se limita com os seguintes países:",
@@ -186,7 +186,7 @@
             "correct":0,
             "fact":"A região centro-oeste do Brasil faz fronteira com dois países sul americanos, Bolívia e Paraguai. Sua posição central é a única que permite ligação de fronteira com todas as outras regiões brasileiras.",
             "url":""
-        }
+        },
 	    {
             "id":23,
             "question":"Ao NORTE, a região Centro-Oeste se limita com os estados: ___________, __________, _________, ________, todos pertencentes à região norte.",
@@ -194,7 +194,7 @@
             "correct":0,
             "fact":"Ao NORTE, a região Centro-Oeste se limita com os estados: Rondônia, Amazonas, Pará, Tocantins, todos pertencentes à região norte do Brasil.",
             "url":""
-        }
+        },
 	    {
             "id":24,
             "question":"A região Centro-Oeste faz limite com o estado do  ____________________ que pertence à região Sul brasileira.",
@@ -202,7 +202,7 @@
             "correct":1,
             "fact":"A região Centro-Oeste faz limite com o estado do Paraná que pertence à região Sul do Brasil.",
             "url":""
-        }
+        },
         {
             "id":25,
             "question":"Assinale a alternativa que associa de forma correta, a área do Centro-Oeste com a atividade mais importante ali desenvolvida.",
@@ -210,7 +210,7 @@
             "correct":2,
             "fact":"As principais atividades econômicas desenvolvidas no pantanal são a pecuária, a pesca e o turismo. Neste caso, a criação extensiva de gado.",
             "url":""
-        }
+        },
         {
             "id":26,
             "question":"A região Centro-Oeste não faz fronteira com o Estado:",
@@ -218,7 +218,7 @@
             "correct":2,
             "fact":"A região Centro-Oeste não faz fronteira com a Bahia.",
             "url":""
-        }
+        },
         {
             "id":27,
             "question":"(PUCPR) Observe o texto:\n“É uma área com aproximadamente 100 000km², com altitudes de 100 e 200m, estendendo-se além das fronteiras do Brasil. A região é marcada pelo ciclo das águas. No período da cheia, os rios extravasam de seus
@@ -230,7 +230,7 @@ arrastados pelos rios e depositados no solo anteriormente alagado. A vegetação
             "fact":"O Pantanal é uma área com aproximadamente 100 000km², com altitudes de 100 e 200m, estendendo-se além das fronteiras do Brasil. A região é marcada pelo ciclo das águas. No período da cheia, os rios extravasam de seus leitos, alagando grandes extensões de terra. No período da vazante, ocorre a principal contribuição dos rios aos solos da região, grandes quantidades de sedimentos, nutrientes e material orgânico e decomposição são arrastados pelos rios e depositados no solo anteriormente alagado. A vegetação é bastante variada em espécies de cerrado, amazônicas, do chaco e da caatinga.
 ",
             "url":""
-        }
+        },
 		{
             "id":28,
             "question":"(Mackenzie)“É a região brasileira menos industrializada, registrando-se aí grande crescimento do extrativismo mineral e, nas últimas décadas, o crescimento da população foi acelerado.” Trata-se do:",
@@ -238,7 +238,7 @@ arrastados pelos rios e depositados no solo anteriormente alagado. A vegetação
             "correct":2,
             "fact":"O Centro-Oeste é a região brasileira menos industrializada, registrando-se aí grande crescimento do extrativismo mineral e, nas últimas décadas, o crescimento da população foi acelerado. O Sudeste é a região mais populosa e industrializada do país.",
             "url":""
-        }
+        },
 		{
             "id":29,
             "question":"(PUC Minas) “Foi ocupada com pecuária extensiva em pastos naturais; suas terras não são muito férteis;
@@ -248,7 +248,7 @@ existência de seis meses de seca de abril a setembro; grande parte de seu bioma
             "correct":1,
             "fact":"A região do Cerrado foi ocupada com pecuária extensiva em pastos naturais; suas terras não são muito férteis; existência de seis meses de seca de abril a setembro; grande parte de seu bioma já perdeu a cobertura vegetal original; atualmente vem sendo ocupada por extensas plantações de soja.",
             "url":""
-        }
+        },
 		{
             "id":30,
             "question":"Fruto típico do cerrado brasileiro de cor amarela e cheiro bem característicos muito utilizado cozido no arroz.",
@@ -256,8 +256,6 @@ existência de seis meses de seca de abril a setembro; grande parte de seu bioma
             "correct":2,
             "fact":"Pequi é um fruto típico do Cerrado, cuja nome vem do Tupi e significa “pele espinhenta”. ",
             "url":"l5q30"
-        }
-	
-	
+        },
 	]
 }

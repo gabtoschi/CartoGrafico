@@ -4,7 +4,7 @@
     "questions":[
         {
             "id":0,
-            "question":"Quais estados NÃO fazem parte da região sul do Brasil?",
+            "question":"Qual estado NÃO faz parte da região sul do Brasil?",
             "answers":["Mato Grosso do Sul", "Paraná", "Santa Catarina"],
             "correct":0,
             "fact":"O Mato Grosso do Sul está situado na região centro-oeste do país.",
