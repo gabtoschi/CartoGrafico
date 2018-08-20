@@ -15,6 +15,12 @@ public class PlayerEnter : MonoBehaviour
         {
             if (isFinal) {
                 Destroy(QuestionManager.instance);
+                LevelComplete level = new LevelComplete {
+                    levelName = SceneManager.GetActiveScene().name,
+                    isCompleted = true
+                };
+                SaveData.saveInstance.list1.Add(level);
+                SaveandLoad.instance.Save();
                 //open victory pannel
                 SceneManager.LoadScene("TelaVitoria");
             }

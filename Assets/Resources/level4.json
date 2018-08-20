@@ -1,10 +1,6 @@
 {
     "name":"Level4",
-<<<<<<< HEAD
     "capacity":35,
-=======
-    "capacity":20,
->>>>>>> 3c32e3abc265731f090a90552cc6a9a569456c53
     "questions":[
         {
             "id":0,
@@ -166,7 +162,7 @@
             "fact":"Na cidade de Parintins ocorrem apresentações a céu aberto de diversas associações folclóricas, sendo o ponto mais importante do evento atualmente é a disputa entre dois bois folclóricos, o Boi Garantido, de cor vermelha, e o Boi Caprichoso, de cor azul.",
             "url":""
         }
-		
+
 		{
             "id":20,
             "question":"Ritmos presentes no estado do Pará:",
