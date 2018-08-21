@@ -21,7 +21,7 @@
         {
             "id":2,
             "question":"Quem nasce no estado de Santa Catarina é:",
-            "answers":["gaúcho", "catarinense", "capixaba"],
+            "answers":["Gaúcho", "Catarinense", "Capixaba"],
             "correct":1,
             "fact":"Quem nasce no estado de Santa Catarina é chamado de catarinense ou barriga verde.",
 			"url":""
@@ -262,7 +262,7 @@
             "id":32,
             "question":"Quais são os fenômenos climáticos do inverno da região Sul do Brasil?",
             "answers":["Sol e calor", "Calor e chuva", "Geada e neve"],
-            "correct":0,
+            "correct":2,
             "fact":"Cidades como Urubici-SC, São José dos Ausentes, RS, Urupema-SC são cidades que no inverno costumam gear e algumas vezes chegam a nevar.",
 			"url":""
         }

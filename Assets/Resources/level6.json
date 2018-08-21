@@ -157,7 +157,7 @@
         {
             "id":19,
             "question":"São Paulo e Rio de Janeiro são as duas grandes metrópoles globais existentes no Brasil. Tais cidades encontram-se classificadas neste patamar por apresentarem:",
-            "answers":["grandes prédios e um grande número de bairros", "uma cadeia produtiva calcada no pleno emprego", "um alcance econômico em nível nacional e internacional"],
+            "answers":["Grandes prédios e um grande número de bairros", "Uma cadeia produtiva calcada no pleno emprego", "Um alcance econômico em nível nacional e internacional"],
             "correct":2,
             "fact":"O principal fator que contribuiu para que Rio de Janeiro e São Paulo sejam classificadas como metrópoles globais é o fato de apresentam um alcance internacional em termos econômicos, com a presença de instituições como a Bolsa de Valores e as sedes de inúmeras empresas multinacionais.",
             "url":""
@@ -189,7 +189,7 @@
 		{
             "id":23,
             "question":"A área do Sudeste ocupada pelo clima semi-árido situa-se:",
-            "answers":["norte de São Paulo.", "sul de Minas Gerais.", "norte de Minas Gerais."],
+            "answers":["Norte de São Paulo.", "Sul de Minas Gerais.", "Norte de Minas Gerais."],
             "correct":2,
             "fact":"O norte de Minas Gerais possui características de clima semiárido.",
             "url":""
@@ -205,7 +205,7 @@
 		{
             "id":25,
             "question":"A Mata Atlântica é uma floresta tropical que se estende desde o Rio Grande do Norte até o Sul em montanhas e planícies litorâneas. Fazendo, assim, parte da paisagem da região serrana, próximo ao litoral do Sudeste. Qual dessas opções NÃO é  característica dessa floresta?",
-            "answers":["apresentar grande diversidade de plantas e animais", "proporcionar abrigo para animais em extinção", "apresentar baixa densidade de espécies vegetais"],
+            "answers":["Apresentar grande diversidade de plantas e animais", "Proporcionar abrigo para animais em extinção", "Apresentar baixa densidade de espécies vegetais"],
             "correct":3,
             "fact":"A Mata Atlântica possui uma alta densidade e diversidade de espécies vegetais e animais.",
             "url":""

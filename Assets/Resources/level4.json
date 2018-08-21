@@ -21,7 +21,7 @@
         {
             "id":2,
             "question":"Quem nasce em manaus é chamado de:",
-            "answers":["manauara", "manauano", "manauerense"],
+            "answers":["Manauara", "Manauano", "Manauerense"],
             "correct":0,
             "fact":"Pessoa que nasceu em Manaus, capital do Amazonas, estado situado no norte do Brasil; manauense.",
             "url":""
@@ -77,7 +77,7 @@
         {
             "id":9,
             "question":"As duas origens mais fortes da cultura  ___________ são a europeia e a indígena.",
-            "answers":["do Amazonas", "do Paraná", "do Mato Grosso"],
+            "answers":["Do Amazonas", "Do Paraná", "Do Mato Grosso"],
             "correct":0,
             "fact":"O estado amazonense tem influência da cultura indígena e europeia.",
             "url":""
@@ -125,7 +125,7 @@
         {
             "id":15,
             "question":"O Tucupi é:",
-            "answers":["líquido amarelo extraído da mandioca brava", "bolinho de peixe frito", "pirão de peixe"],
+            "answers":["Líquido amarelo extraído da mandioca brava", "Bolinho de peixe frito", "Pirão de peixe"],
             "correct":0,
             "fact":"O Tucupi é líquido amarelo extraído da mandioca brava que serve como base para o preparo do Tacacá.",
             "url":""
@@ -189,8 +189,7 @@
         }
 	    {
             "id":23,
-            "question":"Preencha corretamente a sentença a seguir:\nO estado do Pará tem como limites: o Suriname e o ________ ao norte, o oceano Atlântico ao nordeste, o ________ ao leste, Tocantins a sudeste, ________ ao sul e _______ ao oeste e Roraima e a Guiana a noroeste.
-",
+            "question":"Preencha corretamente a sentença a seguir:\nO estado do Pará tem como limites: o Suriname e o ________ ao norte, o oceano Atlântico ao nordeste, o ________ ao leste, Tocantins a sudeste, ________ ao sul e _______ ao oeste e Roraima e a Guiana a noroeste.",
             "answers":["Amapá, Maranhão, Mato Grosso, Amazonas", "Acre, Maranhão, Amazonas, Bahia", "Rondônia, Bahia, Amazonas, Acre"],
             "correct":0,
             "fact":"O estado do Pará tem como limites o Suriname e o Amapá ao norte, o oceano Atlântico ao nordeste, o Maranhão ao leste, Tocantins ao sudeste, Mato Grosso ao sul e Amazonas ao oeste e Roraima e a Guiana ao noroeste.",
