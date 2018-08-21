@@ -161,8 +161,7 @@
             "correct":2,
             "fact":"Na cidade de Parintins ocorrem apresentações a céu aberto de diversas associações folclóricas, sendo o ponto mais importante do evento atualmente é a disputa entre dois bois folclóricos, o Boi Garantido, de cor vermelha, e o Boi Caprichoso, de cor azul.",
             "url":""
-        }
-
+        },
 		{
             "id":20,
             "question":"Ritmos presentes no estado do Pará:",
@@ -170,7 +169,7 @@
             "correct":1,
             "fact":"Alguns ritmos presentes no estado paraense são: carimbó, calipso e siriá.",
             "url":""
-        }
+        },
 		{
             "id":21,
             "question":"Fruto de cor roxa muito utilizado na confecção de alimentos e bebidas.",
@@ -178,7 +177,7 @@
             "correct":1,
             "fact":"O açaí é uma fruta típica do norte brasileiro muito consumida no norte com farinha de mandioca/tapioca e camarão ou com açúcar, frutas e/ou mel.",
             "url":""
-        }
+        },
 	    {
             "id":22,
             "question":"Maior estado em extensão do Brasil:",
@@ -186,16 +185,15 @@
             "correct":0,
             "fact":"O estado amazonense é o maior estado em extensão do Brasil.Em segundo lugar está o estado do Pará.",
             "url":""
-        }
+        },
 	    {
             "id":23,
-            "question":"Preencha corretamente a sentença a seguir:\nO estado do Pará tem como limites: o Suriname e o ________ ao norte, o oceano Atlântico ao nordeste, o ________ ao leste, Tocantins a sudeste, ________ ao sul e _______ ao oeste e Roraima e a Guiana a noroeste.
-",
+            "question":"Preencha corretamente a sentença a seguir:\nO estado do Pará tem como limites: o Suriname e o ________ ao norte, o oceano Atlântico ao nordeste, o ________ ao leste, Tocantins a sudeste, ________ ao sul e _______ ao oeste e Roraima e a Guiana a noroeste.",
             "answers":["Amapá, Maranhão, Mato Grosso, Amazonas", "Acre, Maranhão, Amazonas, Bahia", "Rondônia, Bahia, Amazonas, Acre"],
             "correct":0,
             "fact":"O estado do Pará tem como limites o Suriname e o Amapá ao norte, o oceano Atlântico ao nordeste, o Maranhão ao leste, Tocantins ao sudeste, Mato Grosso ao sul e Amazonas ao oeste e Roraima e a Guiana ao noroeste.",
             "url":""
-        }
+        },
 	    {
             "id":24,
             "question":"Qual desses estados NÃO faz divisa com o Amazonas?",
@@ -203,7 +201,7 @@
             "correct":2,
             "fact":"O Amazonas tem como limites a Venezuela e Roraima a norte, o Pará a leste, o Mato Grosso a sudeste, Rondônia a sul, o Acre a sudoeste, o Peru a oeste e a Colômbia a noroeste.",
             "url":""
-        }
+        },
 	    {
             "id":25,
             "question":"Qual estado nortista é atravessado pela Linha do Equador?",
@@ -211,7 +209,7 @@
             "correct":0,
             "fact":"Macapá é cortada pela Linha do Equador, no Amapá.",
             "url":""
-        }
+        },
 	    {
             "id":26,
             "question":"Xapuri ficou conhecida como a cidade em que Chico Mendes, sindicalista, seringueiro, ativista político lutou a favor da preservação da Amazônia e dos seringais nativos. Em qual estado nortista está situada esta cidade?",
@@ -219,7 +217,7 @@
             "correct":1,
             "fact":"Xapuri está situada no estado do Acre.",
             "url":""
-        }
+        },
 	    {
             "id":27,
             "question":"Com qual país da América do Sul, o estado de Rondônia faz divisa?",
@@ -227,7 +225,7 @@
             "correct":0,
             "fact":"A Bolívia faz divisa com o estado de Rondônia.",
             "url":""
-        }
+        },
 	    {
             "id":28,
             "question":"Qual a capital do estado de Rondônia?",
@@ -235,7 +233,7 @@
             "correct":2,
             "fact":"A capital do estado de Rondônia é Porto Velho.",
             "url":""
-        }
+        },
 	    {
             "id":29,
             "question":"A população da Região Norte está distribuída de forma desigual entre os estados que compõem esse complexo regional. Nesse sentido, qual o estado mais populoso do Norte?",
@@ -243,7 +241,7 @@
             "correct":0,
             "fact":"O estado do Pará, segundo o IBGE, é o estado mais populoso da região Norte.",
             "url":""
-        }
+        },
 	    {
             "id":30,
             "question":"Qual o estado que NÃO faz parte da região Norte?",
@@ -251,7 +249,7 @@
             "correct":2,
             "fact":"A região Norte brasileira é composta de sete estados: Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins. Sergipe faz parte da região Nordeste.",
             "url":""
-        }
+        },
 	    {
             "id":31,
             "question":"É a maior bacia hidrográfica do mundo:",
@@ -259,7 +257,7 @@
             "correct":0,
             "fact":"A maior bacia hidrográfica do mundo é a  bacia Amazônica ou a bacia do Rio Amazonas que está situada em vários países da América do Sul. É a mais extensa, de maior densidade de água do mundo.",
             "url":""
-        }
+        },
    	    {
             "id":32,
             "question":"Qual a capital do Acre?",
@@ -267,7 +265,7 @@
             "correct":0,
             "fact":"Rio Branco é a capital do estado do Acre.",
             "url":""
-        }
+        },
 	    {
             "id":33,
             "question":"Qual é o menor estado em extensão da região Norte?",
@@ -275,7 +273,7 @@
             "correct":0,
             "fact":"O menor estado em extensão da região Norte do Brasil é o Amapá.",
             "url":""
-        }
+        },
         {
             "id":34,
             "question":"Boa Vista é a capital de qual estado brasileiro?",

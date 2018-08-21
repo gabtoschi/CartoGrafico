@@ -1,0 +1,214 @@
+{
+    "name":"Level5",
+    "capacity":26,
+    "questions":[
+        {
+            "id":0,
+            "question":"A Região Sudeste é:",
+            "answers":["A maior em tamanho", "A região que tem a menor área", "A região mais populosa"],
+            "correct":2,
+            "fact":"A região sudeste é a região mais populosa tendo em São Paulo e Rio de Janeiro sua maior concentração populacional.",
+            "url":""
+        },
+        {
+            "id":1,
+            "question":"Qual a função inicial dos Arcos da Lapa?",
+            "answers":["Abastecimento de água", "Transporte urbano", "Embelezamento"],
+            "correct":0,
+            "fact":"Os Arcos da Lapa, antigo Aqueduto da Carioca, tinham a função de abastecer a cidade com a água do Rio Carioca.",
+            "url":""
+        },
+        {
+            "id":2,
+            "question":"Dono de belezas naturais exuberantes o Rio de Janeiro tem na floresta da Tijuca uma de suas glórias. Na floresta da Tijuca podemos encontrar preservadas áreas de:",
+            "answers":["Tundra", "Savana", "Mata Atlântica"],
+            "correct":2,
+            "fact":"Na floresta da Tijuca podemos encontrar preservadas áreas de Mata Atlântica.",
+            "url":""
+        },
+        {
+            "id":3,
+            "question":"A maior ilha do Rio de Janeiro é:",
+            "answers":["A ilha de Paquetá", "A ilha do Frade", "A ilha do Governador."],
+            "correct":2,
+            "fact":"Dos 1255 quilômetros quadrados do município do Rio de Janeiro, cerca de 36 quilômetros quadrados correspondem à Ilha do Governador.",
+            "url":""
+        },
+        {
+            "id":4,
+            "question":"O Estado do Rio de Janeiro tem como limites:",
+            "answers":["Os estados de Espírito Santo e São Paulo.", "Os estados da Bahia e do Espírito Santo.", "Os estados de São Paulo, do Espírito Santo e de Minas Gerais."],
+            "correct":2,
+            "fact":"O Estado do Rio de Janeiro faz fronteira com os estados de São Paulo, Minas Gerais e Espírito Santo.",
+            "url":"l6q4"
+        },
+        {
+            "id":5,
+            "question":"A pesquisa nacional de amostra e domicílios realizada pelo IBGE revelou que mais de 50% da população do Rio de Janeiro é do seguinte grupo étnico:",
+            "answers":["Brancos", "Pretos", "Indígenas"],
+            "correct":0,
+            "fact":"Segundo o IBGE, o grupo étnico branco é predominante no estado do Rio de Janeiro.",
+            "url":""
+        },
+        {
+            "id":6,
+            "question":"O complexo Bondinho Pão de Açúcar possui paisagens deslumbrantes. Do alto, é possível ver as principais praias, contemplar o contorno das montanhas e apreciar a beleza da arquitetura da cidade. É formado pelos morros da _________, da _________ e do _____________.",
+            "answers":["Babilônia, Urca, Pão de Açúcar", "Rocinha, Urca, Pão de Açúcar", "Madureira, Urca, Alemão"],
+            "correct":0,
+            "fact":"Em destaque o Pão de Açúcar\nFoto: Adriana Sousa\nCartão-postal do Rio de Janeiro, o complexo é formado pelos Morros da Babilônia, da Urca e do Pão de Açúcar que, interligados por um teleférico (bondinho), permitem que o visitante descubra novos ângulos da cidade, a uma altura de até 396 metros acima do nível do mar.",
+            "url":"l6q6"
+        },
+        {
+            "id":7,
+            "question":"Praia carioca, conhecida internacionalmente, onde acontece uma das maiores festas de Reveillon do Brasil:",
+            "answers":["Ipanema", "Copacabana", "Botafogo"],
+            "correct":1,
+            "fact":"O Réveillon em Copacabana é a maior festa de passagem do ano do Brasil que acontece do dia 31 de dezembro para o dia 1 de janeiro na praia de Copacabana, localizada no Rio de Janeiro.",
+            "url":""
+        },
+        {
+            "id":8,
+            "question":"Macaé, Teresópolis, Angra dos Reis são municípios de qual estado brasileiro?",
+            "answers":["São Paulo", "Minas Gerais", "Rio de Janeiro"],
+            "correct":2,
+            "fact":"Macaé, Teresópolis, Angra dos Reis são municípios do estado do Rio de Janeiro.",
+            "url":""
+        },
+        {
+            "id":9,
+            "question":"Uma das principais atividades econômicas do município de Macaé:",
+            "answers":["Turismo culinário", "Indústria e exploração de óleo e gás", "Turismo gastronômico"],
+            "correct":1,
+            "fact":"Macaé tem como sua principal atividade econômica a indústria de exploração de óleo e gás.",
+            "url":""
+        },
+        {
+            "id":10,
+            "question":"Qual dos estados nordestinos abaixo se limita com a região Sudeste?",
+            "answers":["Alagoas", "Sergipe", "Bahia"],
+            "correct":2,
+            "fact":"A Bahia (Nordeste) faz divisa com o estado de Minas Gerais (Sudeste).",
+            "url":""
+        },
+        {
+            "id":11,
+            "question":"Quem nasce na cidade do Rio de Janeiro é chamado de:",
+            "answers":["Carioca", "Riograndense", "Fluminense"],
+            "correct":0,
+            "fact":"Quem nasce na cidade do Rio de Janeiro é chamado de carioca.",
+            "url":""
+        },
+        {
+            "id":12,
+            "question":"O trecho da música cantada por Tim Maia cita algumas praias de uma cidade brasileira famosa. Qual é essa cidade?\n“Do Leme ao Pontal\nNão há nada igual\nSem contar com Calabouço\nFlamengo, Botafogo\nUrca, Praia Vermelha\nDo Leme ao Pontal\nNão há nada igual”",
+            "answers":["Salvador", "Vitória", "Rio de Janeiro"],
+            "correct":2,
+            "fact":"Leme, Pontal, Flamengo, Botafogo, Urca, Praia Vermelha são praias da cidade do Rio de Janeiro.",
+            "url":""
+        },
+        {
+            "id":13,
+            "question":"A música cantada por Tom Jobim eternizou uma famosa praia do Rio de Janeiro, conhecida por ser a “princesinha do mar”. Qual é esta praia?\n“(...), princesinha do mar\nPelas manhãs tu és a vida a cantar,\nE a tardinha o sol poente,\nDeixa sempre uma saudade, na gente\n(...) o mar eterno cantor,\nAo te beijar, ficou perdido de amor,\nE hoje vive a murmurar, só a tí,\n(...) eu hei de amar\nExistem praias tão lindas, cheias de luz,\nNenhuma tem o encanto que tu possues,\nTuas areias, teu céu tão lindo,\nTuas sereias, sempre sorrindo…”",
+            "answers":["Ipanema", "Copacabana", "Flamengo"],
+            "correct":1,
+            "fact":"Copacabana é um bairro e uma praia situada na Zona Sul da cidade do Rio de Janeiro, no Brasil. É considerado um dos bairros mais famosos e prestigiados do Brasil e um dos mais conhecidos do mundo. Tem o apelido de Princesinha do Mar e Coração da Zona Sul.",
+            "url":""
+        },
+        {
+            "id":14,
+            "question":"Qual é o município do estado do Rio de Janeiro conhecido como “Cidade Imperial”?",
+            "answers":["Petropólis", "Teresopólis", "Rio das Ostras"],
+            "correct":0,
+            "fact":"Petrópolis – “Cidade Imperial”, nasceu do sonho do Imperador D. Pedro I que descobriu os valores climáticos e belezas naturais da região serrana onde D. Pedro II construiu seu Palácio, vivendo os melhores momentos de sua vida.",
+            "url":""
+        },
+        {
+            "id":15,
+            "question":"Grande parte da população brasileira se concentra nos grandes centros urbanos, como Rio de Janeiro e São Paulo. De acordo com essas informações, a região mais populosa do Brasil é:",
+            "answers":["Norte", "Nordeste", "Sudeste"],
+            "correct":2,
+            "fact":"A região Sudeste é a mais populosa do país.",
+            "url":""
+        },
+        {
+            "id":16,
+            "question":"Mesmo sendo uma região com pouca extensão, o Sudeste é a mais importante região brasileira em termos econômicos e políticos. Qual dessas características se refere à esta região?",
+            "answers":["A região Sudeste tem maior proporção de terras baixas. O relevo dessa região apresenta um claro predomínio de planícies sedimentares, desgastadas pela erosão.", "As chuvas concentram-se no inverno, o verão é a época da estiagem.", "A devastação da mata atlântica foi provocada pela expansão da agricultura e da indústria, que deixaram apenas manchas da floresta.-Oeste"],
+            "correct":2,
+            "fact":"A região Sudeste se destaca pelo grande desenvolvimento industrial.",
+            "url":""
+        },
+        {
+            "id":17,
+            "question":"Qual monumento da região Sudeste do Brasil, foi eleito uma das Novas Sete Maravilhas do Mundo Modernos em julho de 2007?",
+            "answers":["Cristo Redentor", "MASP de São Paulo", "Igrejinha da Pampulha"],
+            "correct":0,
+            "fact":"O Cristo Redentor é uma estátua que retrata Jesus Cristo localizada na cidade do Rio de Janeiro, Brasil. Em 2007 foi eleito uma das novas sete maravilhas do mundo.",
+            "url":""
+        },
+        {
+            "id":18,
+            "question":"Ritmo tradicional brasileiro presente principalmente no carnaval carioca e paulista:",
+            "answers":["Carimbó", "Axé", "Samba"],
+            "correct":2,
+            "fact":"As escolas de SAMBA são bastante conhecidas no Brasil e internacionalmente por seu ritmo,por seu canto,  por sua criatividade e por apresentações luxuosas e deslumbrantes.",
+            "url":""
+        },
+        {
+            "id":19,
+            "question":"São Paulo e Rio de Janeiro são as duas grandes metrópoles globais existentes no Brasil. Tais cidades encontram-se classificadas neste patamar por apresentarem:",
+            "answers":["Grandes prédios e um grande número de bairros", "Uma cadeia produtiva calcada no pleno emprego", "Um alcance econômico em nível nacional e internacional"],
+            "correct":2,
+            "fact":"O principal fator que contribuiu para que Rio de Janeiro e São Paulo sejam classificadas como metrópoles globais é o fato de apresentam um alcance internacional em termos econômicos, com a presença de instituições como a Bolsa de Valores e as sedes de inúmeras empresas multinacionais.",
+            "url":""
+        },
+		{
+            "id":20,
+            "question":"Qual dessas cidades NÃO está situada no estado do Rio de Janeiro?",
+            "answers":["Macaé", "Juiz de Fora", "Niterói"],
+            "correct":1,
+            "fact":"A cidade de Juiz de Fora está situada no estado de Minas Gerais enquanto que Macaé e Niterói estão em terras fluminenses.",
+            "url":""
+        },
+		{
+            "id":21,
+            "question":"Embora pouco extenso, o Sudeste é a mais importante região brasileira em termos econômicos e políticos. Qual dessas características se refere à esta região?",
+            "answers":["A região Sudeste distingue-se do restante do Brasil por ser a área com maior proporção de terras baixas. O relevo dessa região apresenta um claro predomínio de planícies sedimentares, desgastadas pela erosão.", "Não houve devastação da Mata Atlântica.", "São Paulo, Rio de Janeiro e Belo Horizonte são as três metrópoles da Região Sudeste. Essas cidades concentram uma grande parte da produção industrial, do comércio e dos serviços do país."],
+            "correct":2,
+            "fact":"São Paulo, Rio de Janeiro e Belo Horizonte são as três metrópoles da Região Sudeste. Essas cidades concentram uma grande parte da produção industrial, do comércio e dos serviços do país.",
+            "url":""
+        },
+		{
+            "id":22,
+            "question":"Qual destes fatores de concentração industrial do Sudeste podemos avaliar como verdadeiro?",
+            "answers":["Acúmulo de capital comercial.", "Mão-de-obra escassa.", "Grandes jazidas carboníferas."],
+            "correct":0,
+            "fact":"A região Sudeste possui concentração industrial e acúmulo de capital comercial. A mão-de-obra existente na região é abundante.",
+            "url":""
+        },
+		{
+            "id":23,
+            "question":"A área do Sudeste ocupada pelo clima semi-árido situa-se:",
+            "answers":["Norte de São Paulo.", "Sul de Minas Gerais.", "Norte de Minas Gerais."],
+            "correct":2,
+            "fact":"O norte de Minas Gerais possui características de clima semiárido.",
+            "url":""
+        },
+		{
+            "id":24,
+            "question":"Escolha a opção que torna a sentença verdadeira:\nOs rios Jequitinhonha e Doce drenam os estados de __________________ e do _________________.",
+            "answers":["Rio de Janeiro e São Paulo", "Minas Gerais e do Espírito Santo", "Espírito Santo e São Paulo"],
+            "correct":1,
+            "fact":"Os rios Jequitinhonha e Doce drenam os estados de Minas Gerais e Espírito Santo.",
+            "url":""
+        },
+		{
+            "id":25,
+            "question":"A Mata Atlântica é uma floresta tropical que se estende desde o Rio Grande do Norte até o Sul em montanhas e planícies litorâneas. Fazendo, assim, parte da paisagem da região serrana, próximo ao litoral do Sudeste. Qual dessas opções NÃO é  característica dessa floresta?",
+            "answers":["Apresentar grande diversidade de plantas e animais", "Proporcionar abrigo para animais em extinção", "Apresentar baixa densidade de espécies vegetais"],
+            "correct":3,
+            "fact":"A Mata Atlântica possui uma alta densidade e diversidade de espécies vegetais e animais.",
+            "url":""
+        }
+    ]
+}
