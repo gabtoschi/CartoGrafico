@@ -93,6 +93,7 @@ public class MovementPlayer : MonoBehaviour{
             stepCount++; //Add 1 step for each question answered right
             UpdateSteps();
         }
+        
     }
     private void UpdateSteps()
     {

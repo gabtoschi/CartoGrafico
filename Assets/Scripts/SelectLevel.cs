@@ -7,19 +7,15 @@ using UnityEngine.UI;
 
 public class SelectLevel : MonoBehaviour {
 
-    public GameObject[] baloons;
-    private bool debug = true;
+    public GameObject[] balloons;
     private void Start() {
-
-        foreach(GameObject b in baloons) {
-           // PlayerPrefs.DeleteKey("isLevelDone" + b.name);
+        foreach(GameObject b in balloons) {
+            //Check if isLevelDone is in registry
             if (PlayerPrefs.HasKey("isLevelDone" + b.name)) {
+                //Activate button script according to completed levels in Player Prefs
                 if (PlayerPrefs.GetInt("isLevelDone" + b.name) == 1) {
-                    //acende os bagulho
                     b.GetComponentInParent<Button>().enabled = true;
                     b.GetComponentInParent<Image>().color = Color.white;
-
-
                 }
             }
             else {
@@ -31,12 +27,15 @@ public class SelectLevel : MonoBehaviour {
     
     
     public void EnterLevel(string levelName) {
-        foreach(GameObject b in baloons) {
+        //Opens balloon with levvel details and if selected again, enters in level. If other button is selected, closes the balloon and opens the new one
+        foreach(GameObject b in balloons) {
             if(!b.activeSelf && EventSystem.current.currentSelectedGameObject.name.Equals(b.name + " Btn")) {
                 b.SetActive(true);
             }else if(b.activeSelf && !EventSystem.current.currentSelectedGameObject.name.Equals(b.name + " Btn")) {
                 b.SetActive(false);
             }else if(b.activeSelf && EventSystem.current.currentSelectedGameObject.name.Equals(b.name + " Btn")) {
+                QuestionManager.instance.packFilename = levelName;
+                QuestionManager.instance.loadQuestionPackFile();
                 SceneManager.LoadScene(levelName);
             }
         }

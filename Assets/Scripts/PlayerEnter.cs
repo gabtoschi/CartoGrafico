@@ -15,7 +15,8 @@ public class PlayerEnter : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             if (isFinal) {
-                GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmarks");
+                GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmark");
+                //Unlocks next level after completion and saves it in Player Prefs
                 PlayerPrefs.SetInt("isLevelDone"+nextLevel, 1);
                 PlayerPrefs.Save();
                 //open victory pannel
@@ -23,6 +24,7 @@ public class PlayerEnter : MonoBehaviour
             }
             else {
                 for (int i = 0; i < btnAdj.Length; i++) {
+                    //Changes sprites of adjacent buttons according to type
                     if(!btnAdj[i].GetComponent<PlayerEnter>().isFinal)
                         btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmarksel");          
                     else
@@ -45,7 +47,4 @@ public class PlayerEnter : MonoBehaviour
         }
     }
 }
-public class LevelCompleted {
-    public string name;
-    public bool isCompleted;
-}
+

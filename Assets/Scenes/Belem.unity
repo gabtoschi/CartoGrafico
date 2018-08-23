@@ -359,6 +359,11 @@ Prefab:
       propertyPath: tempoMov
       value: 0.75
       objectReference: {fileID: 0}
+    - target: {fileID: 114936379942487136, guid: 4a9be43e9d90973448136ad6b66c9cfa,
+        type: 2}
+      propertyPath: nextLevel
+      value: Brasilia
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9be43e9d90973448136ad6b66c9cfa, type: 2}
   m_IsPrefabAsset: 0
@@ -404,7 +409,7 @@ Prefab:
     - target: {fileID: 114374696221946232, guid: 642775d08dceb2e41a07da0102406957,
         type: 2}
       propertyPath: packFilename
-      value: level4
+      value: Curitiba
       objectReference: {fileID: 0}
     - target: {fileID: 114228188390727874, guid: 642775d08dceb2e41a07da0102406957,
         type: 2}
