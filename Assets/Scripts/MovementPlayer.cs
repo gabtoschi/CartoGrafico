@@ -17,6 +17,13 @@ public class MovementPlayer : MonoBehaviour{
     public Image img;
     private Sprite spriteFact;
 
+    public int GetStep() {
+        return stepCount;
+    }
+    public void SetStep(int v) {
+        stepCount = v;
+    }
+
     public void OpenQuestion(){
         Debug.Log("Movement PLayer: " + btnAdj.Length);
         bool check = false;
@@ -95,9 +102,9 @@ public class MovementPlayer : MonoBehaviour{
         }
         
     }
-    private void UpdateSteps()
+    public void UpdateSteps()
     {
-        stepText.text = "Passos:"+ '\n' + stepCount;
+        stepText.text = stepCount.ToString();
     }
     public IEnumerator MovePlayer(RectTransform finalPos)
     {

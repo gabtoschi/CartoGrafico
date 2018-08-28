@@ -8,6 +8,10 @@ public class BtnController : MonoBehaviour {
 	public void StartBtn()
     {
         //Debug.Log("OI");
+        if (PlayerPrefs.HasKey("MinSteps") && PlayerPrefs.HasKey("StepsDone")){
+            PlayerPrefs.DeleteKey("MinSteps");
+            PlayerPrefs.DeleteKey("StepsDone");
+        }
         SceneManager.LoadScene("LevelSelection");
     }
     public void TutorialBtn()

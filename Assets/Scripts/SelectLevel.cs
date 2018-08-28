@@ -36,7 +36,8 @@ public class SelectLevel : MonoBehaviour {
             }else if(b.activeSelf && EventSystem.current.currentSelectedGameObject.name.Equals(b.name + " Btn")) {
                 QuestionManager.instance.packFilename = levelName;
                 QuestionManager.instance.loadQuestionPackFile();
-                SceneManager.LoadScene(levelName);
+                PlayerPrefs.SetString("LevelSelected", levelName);
+                SceneManager.LoadScene("LevelPresentation");
             }
         }
         

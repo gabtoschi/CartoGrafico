@@ -18,6 +18,8 @@ public class PlayerEnter : MonoBehaviour
                 GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmark");
                 //Unlocks next level after completion and saves it in Player Prefs
                 PlayerPrefs.SetInt("isLevelDone"+nextLevel, 1);
+                PlayerPrefs.SetInt("StepsDone", player.GetComponent<MovementPlayer>().GetStep());
+                PlayerPrefs.SetInt("MinSteps", GameObject.Find("GameController").GetComponent<GameController>().minSteps);
                 PlayerPrefs.Save();
                 //open victory pannel
                 SceneManager.LoadScene("TelaVitoria");
