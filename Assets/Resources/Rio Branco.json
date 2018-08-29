@@ -1,0 +1,246 @@
+{
+    "name":"Level7",
+    "capacity":30,
+    "questions":[
+        {
+            "id":0,
+            "question":"O Acre é um estado brasileiro que está localizado em qual Região do país?",
+            "answers":["Sul", "Nordeste", "Norte"],
+            "correct":2,
+            "fact":"O estado do Acre está situado na região Norte do Brasil.",
+            "url":""
+        },
+        {
+            "id":1,
+            "question":"Qual é a capital do Acre?",
+            "answers":["Rio Branco", "Manaus", "Belém"],
+            "correct":0,
+            "fact":"Rio Branco é o maior município e a capital do estado do Acre.",
+            "url":""
+        },
+        {
+            "id":2,
+            "question":"Complete com a palavra que torna a sentença verdadeira:\nA principal cobertura vegetal do Acre é a _______________________.",
+            "answers":["Mata de Araucárias", "Floresta Amazônica", "Caatinga"],
+            "correct":1,
+            "fact":"A principal cobertura vegetal do Acre é a floresta Amazônica. A Mata de Araucárias é um bioma encontrado na porção sul de São Paulo e nos estados da Região Sul do Brasil.",
+            "url":""
+        },
+        {
+            "id":3,
+            "question":"Quais estados brasileiros fazem fronteiras com o estado do Acre?",
+            "answers":["Amazonas e Rondônia", "Roraima e Roraima", "Amapá e Rondônia"],
+            "correct":0,
+            "fact":"O Acre localiza-se na Região Norte e faz divisa com duas unidades federativas: Amazonas ao norte e Rondônia a leste; e faz fronteira com dois países: a Bolívia a sudeste e o Peru ao sul e a oeste",
+            "url":""
+        },
+        {
+            "id":4,
+            "question":"Quais países fazem fronteira com o estado do Acre?",
+            "answers":["Bolívia e Argentina", "Bolívia e Peru", "Chile e Argentina"],
+            "correct":1,
+            "fact":"O Acre localiza-se na Região Norte e faz divisa com duas unidades federativas: Amazonas ao norte e Rondônia a leste; e faz fronteira com dois países: a Bolívia a sudeste e o Peru ao sul e a oeste.",
+            "url":""
+        },
+        {
+            "id":5,
+            "question":"Qual o menor estado em extensão da região Norte do Brasil?",
+            "answers":["Acre", "Amapá", "Amazonas"],
+            "correct":1,
+            "fact":"O estado menos extenso da região Norte é o Amapá",
+            "url":""
+        },
+        {
+            "id":6,
+            "question":"Quais estados fazem parte da região Norte do Brasil?",
+            "answers":["Acre, Amazonas, Amapá, Pará, Tocantins, Roraima e Rondônia", "Amazonas, Amapá, Pará, Tocantins, Bahia, Sergipe, Acre", "Amazonas, Amapá, Pará, Minas Gerais, Goiás, Rio Grande do Norte"],
+            "correct":0,
+            "fact":"Os estados que fazem parte da região Norte do Brasil são Acre, Amazonas, Amapá, Pará, Tocantins, Roraima e Rondônia.",
+            "url":""
+        },
+        {
+            "id":7,
+            "question":"Quantos estados compõem a região Norte do Brasil?",
+            "answers":["6", "7", "8"],
+            "correct":1,
+            "fact":"São sete estados que fazem parte da região Norte do Brasil são Acre, Amazonas, Amapá, Pará, Tocantins, Roraima e Rondônia.",
+            "url":""
+        },
+        {
+            "id":8,
+            "question":"O estado do Acre está localizado:",
+            "answers":["Acima da linha do Equador", "No hemisfério Norte", "Abaixo da linha do Equador"],
+            "correct":2,
+            "fact":"O estado do Acre está localizado abaixo da linha do Equador.",
+            "url":""
+        },
+        {
+            "id":9,
+            "question":"Xapuri ficou conhecida como a cidade em que Chico Mendes, sindicalista, seringueiro, ativista político lutou a favor da preservação da Amazônia e dos seringais nativos. Em qual estado nortista está situada esta cidade?",
+            "answers":["Roraima", "Acre", "Rondônia"],
+            "correct":1,
+            "fact":"Xapuri está situada no estado do Acre.",
+            "url":""
+        },
+        {
+            "id":10,
+            "question":"Qual a capital do estado de Rondônia?",
+            "answers":["Porto Alegre", "Porto Seguro", "Porto Velho"],
+            "correct":2,
+            "fact":"A capital do estado de Rondônia é Porto Velho.",
+            "url":""
+        },
+        {
+            "id":11,
+            "question":"A população da Região Norte está distribuída de forma desigual entre os estados que compõem esse complexo regional. Nesse sentido, qual o estado mais populoso do Norte?",
+            "answers":["Pará", "Amazonas", "Tocantins"],
+            "correct":0,
+            "fact":"O estado do Pará, segundo o IBGE, é o estado mais populoso da região Norte.",
+            "url":""
+        },
+        {
+            "id":12,
+            "question":"Qual o estado que NÃO faz parte da região Norte?",
+            "answers":["Pará", "Tocantins", "Sergipe"],
+            "correct":2,
+            "fact":"A região Norte brasileira é composta de sete estados: Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins. Sergipe faz parte da região Nordeste.",
+            "url":""
+        },
+        {
+            "id":13,
+            "question":"É a maior bacia hidrográfica do mundo:",
+            "answers":["Rio Amazonas", "Rio Solimões", "Rio São Francisco"],
+            "correct":0,
+            "fact":"A maior bacia hidrográfica do mundo é a  bacia Amazônica ou a bacia do Rio Amazonas que está situada em vários países da América do Sul. É a mais extensa, de maior densidade de água do mundo.",
+            "url":""
+        },
+        {
+            "id":14,
+            "question":"No que diz respeito à expansão territorial, qual o maior estado do Norte?",
+            "answers":["Pará", "Amazonas", "Tocantins"],
+            "correct":1,
+            "fact":"O estado do Amazonas é a unidade Federativa com a maior área em todo território brasileiro. Sua área é tão grande que supera os noves estados nordestinos. https://www.estadosecapitaisdobrasil.com/estado/amazonas/",
+            "url":""
+        },
+        {
+            "id":15,
+            "question":"Qual o clima que predomina na região Norte do Brasil?",
+            "answers":["Clima equatorial úmido", "Clima semiárido", "Clima desértico"],
+            "correct":0,
+            "fact":"O clima predominante na região é o equatorial úmido.",
+            "url":""
+        },
+        {
+            "id":16,
+            "question":"Quais as capitais dos seguintes estados: Amazonas, Acre e Roraima?",
+            "answers":["Iranduba, Novo Progresso e Macapá", "Manaus, Rio Branco e Boa Vista", "Rio Branco, Novo Progresso e Palmas"],
+            "correct":1,
+            "fact":"A capital do Amazonas é Manaus, do Acre é Rio Branco e Roraima é Boa Vista.",
+            "url":""
+        },
+        {
+            "id":17,
+            "question":"Qual a sigla de Roraima?",
+            "answers":["RR", "RO", "RA"],
+            "correct":0,
+            "fact":"A sigla referente ao estado de Roraima é RR.",
+            "url":""
+        },
+        {
+            "id":18,
+            "question":"Em qual estado da região Norte está situada a cidade e capital Porto Velho?",
+            "answers":["Roraima", "Pará", "Rondônia"],
+            "correct":2,
+            "fact":"A capital de Rondônia é Porto Velho.",
+            "url":""
+        },
+        {
+            "id":19,
+            "question":"Qual estado nortista é atravessado pela Linha do Equador?",
+            "answers":["Amapá", "Acre", "Rondônia"],
+            "correct":0,
+            "fact":"Macapá é cortada pela Linha do Equador, no Amapá.",
+            "url":""
+        },
+		{
+            "id":20,
+            "question":"Qual o principal setor da economia acreana?",
+            "answers":["Mineração", "Extrativismo vegetal", "Indústria"],
+            "correct":1,
+            "fact":"",
+            "url":""
+        },
+		{
+            "id":21,
+            "question":"O Acre apresenta dois grandes polos econômicos:",
+            "answers":["O vale do Rio Juruá e o vale do Rio do Acre", "O vale do Rio Juruá e o Vale do Rio Doce", "O vale do Rio do Acre e o Porto Digital"],
+            "correct":0,
+            "fact":"",
+            "url":""
+        },
+		{
+            "id":22,
+            "question":"A que país pertencia o Acre até o ano de 1877?",
+            "answers":["Colômbia", "Bolívia", "Argentina"],
+            "correct":1,
+            "fact":"",
+            "url":""
+        },
+		{
+            "id":23,
+            "question":"O estado acreano se desenvolveu ____________, onde a __________ fez a economia crescer.",
+            "answers":["Na república velha, agricultura", "No ciclo da borracha, extração de minérios", "No ciclo da borracha, extração  vegetal"],
+            "correct":2,
+            "fact":"",
+            "url":""
+        },
+		{
+            "id":24,
+            "question":"Em que ano ocorreu a revolta acreana?",
+            "answers":["1903", "1877", "1888"],
+            "correct":0,
+            "fact":"",
+            "url":""
+        },
+		{
+            "id":25,
+            "question":"O relevo do estado do Acre é em sua maioria ______?",
+            "answers":["Planície", "Planalto", "Montanhas"],
+            "correct":1,
+            "fact":"",
+            "url":""
+        },
+		{
+            "id":26,
+            "question":"O Acre tem uma mistura de culturas as: ",
+            "answers":["Indígenas, nordestinas e sulistas", "Indígenas e europeus", "Nordestinas, sulistas e africanos"],
+            "correct":0,
+            "fact":"",
+            "url":""
+        },
+		{
+            "id":27,
+            "question":"O museu da borracha é pertencente a que estado?",
+            "answers":["Amazonas", "Acre", "Sergipe"],
+            "correct":1,
+            "fact":"",
+            "url":""
+        },
+		{
+            "id":28,
+            "question":"Qual Rio não pertence ao Acre?",
+            "answers":["Juruá", "Rio Doce", "Embirá"],
+            "correct":1,
+            "fact":"",
+            "url":""
+        },
+		{
+            "id":29,
+            "question":"Qual estado já foi apelidado de Estado das seringueiras?",
+            "answers":["Acre", "Amazonas", "Rondônia"],
+            "correct":1,
+            "fact":"",
+            "url":""
+        }
+    ]
+}

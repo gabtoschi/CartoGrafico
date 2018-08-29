@@ -21,7 +21,7 @@
         {
             "id":2,
             "question":"Quem nasce em manaus é chamado de:",
-            "answers":["manauara", "manauano", "manauerense"],
+            "answers":["Manauara", "Manauano", "Manauerense"],
             "correct":0,
             "fact":"Pessoa que nasceu em Manaus, capital do Amazonas, estado situado no norte do Brasil; manauense.",
             "url":""
@@ -77,7 +77,7 @@
         {
             "id":9,
             "question":"As duas origens mais fortes da cultura  ___________ são a europeia e a indígena.",
-            "answers":["do Amazonas", "do Paraná", "do Mato Grosso"],
+            "answers":["Do Amazonas", "Do Paraná", "Do Mato Grosso"],                
             "correct":0,
             "fact":"O estado amazonense tem influência da cultura indígena e europeia.",
             "url":""
@@ -125,7 +125,7 @@
         {
             "id":15,
             "question":"O Tucupi é:",
-            "answers":["líquido amarelo extraído da mandioca brava", "bolinho de peixe frito", "pirão de peixe"],
+            "answers":["Líquido amarelo extraído da mandioca brava", "Bolinho de peixe frito", "Pirão de peixe"],
             "correct":0,
             "fact":"O Tucupi é líquido amarelo extraído da mandioca brava que serve como base para o preparo do Tacacá.",
             "url":""
@@ -284,3 +284,4 @@
         }
 	]
 }
+

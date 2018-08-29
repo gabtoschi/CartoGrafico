@@ -36,7 +36,7 @@
         },
         {
             "id":4,
-            "question":"Quais estados NÃO fazem fronteira com São Paulo?",
+            "question":"Qual estado NÃO faz fronteira com o estado de São Paulo?",
             "answers":["Rio Grande do Sul", "Paraná", "Minas Gerais"],
             "correct":0,
             "fact":"O estado de São Paulo faz fronteira com Minas Gerais, Rio de janeiro, Paraná, Mato Grosso do Sul e oceano Atlântico.",
@@ -53,7 +53,7 @@
         {
             "id":6,
             "question":"Sobre a região Sudeste brasileira podemos afirmar:",
-            "answers":["que é pouco urbanizada.", "que tem grande desenvolvimento econômico, associado à atividade industrial.", "que é pouco povoada."],
+            "answers":["Que é pouco urbanizada.", "Que tem grande desenvolvimento econômico, associado à atividade industrial.", "Que é pouco povoada."],
             "correct":1,
             "fact":"As principais atividades industriais da Região Sudeste são: Siderúrgica e metalúrgica.",
 			"url":""
@@ -93,7 +93,7 @@
         {
             "id":11,
             "question":"Produto que promoveu  desenvolvimento do interior do estado de São Paulo, vindo do vale do Paraíba:",
-            "answers":["laranja", "milho", "café"],
+            "answers":["Laranja", "Milho", "Café"],
             "correct":2,
             "fact":"A economia cafeeira representou a força geradora do desenvolvimento de infraestrutura e acúmulo de capitais.",
 			"url":""
@@ -149,7 +149,7 @@
         {
             "id":18,
             "question":"A cidade mineira de Ouro Preto tem característica:",
-            "answers":["industrial", "histórica", "portuária"],
+            "answers":["Industrial", "Histórica", "Portuária"],
             "correct":1,
             "fact":"Ouro Preto, conhecida como “museu a céu aberto”, é uma cidade que possui arquitetura colonial, pelas características das suas ruas, museus e construções históricas.",
 			"url":""
@@ -213,7 +213,7 @@
         {
             "id":26,
             "question":"São Paulo e Rio de Janeiro são as duas grandes metrópoles globais existentes no Brasil. Tais cidades encontram-se classificadas nesse patamar por apresentarem:",
-            "answers":["grandes prédios e um grande número de bairros", "uma cadeia produtiva calcada no pleno emprego.", "um alcance econômico em nível nacional e internacional."],
+            "answers":["Grandes prédios e um grande número de bairros", "Uma cadeia produtiva calcada no pleno emprego.", "Um alcance econômico em nível nacional e internacional."],
             "correct":2,
             "fact":"O principal fator que contribuiu para que Rio de Janeiro e São Paulo sejam classificadas como metrópoles globais é o fato de apresentam um alcance internacional em termos econômicos, com a presença de instituições como a Bolsa de Valores e as sedes de inúmeras empresas multinacionais.",
 			"url":""
@@ -229,7 +229,7 @@
         {
             "id":28,
             "question":"Complete a sentença de algumas importantes cidades brasileiras com a classificação que melhor lhes representa:\nRio de Janeiro é uma cidade de característica ___________, São Bernardo do Campo é uma cidade ________________ e Santos, uma cidade _____________.",
-            "answers":["turística; industrial; portuária", "industrial; turística; portuária", "comercial; turística; portuária"],
+            "answers":["Turística; industrial; portuária", "Industrial; turística; portuária", "Comercial; turística; portuária"],
             "correct":0,
             "fact":"Rio de Janeiro é uma cidade de característica turística por suas paisagens naturais, São Bernardo do Campo é uma cidade industrial pela presença das indústrias e Santos, uma cidade portuária pelo importante complexo portuário santista.",
 			"url":""
@@ -261,7 +261,7 @@
         {
             "id":32,
             "question":"Sabará, Tiradentes, Mariana, Ouro Preto são cidades…",
-            "answers":["mineiras", "paulistas", "capixabas"],
+            "answers":["Mineiras", "Paulistas", "Capixabas"],
             "correct":0,
             "fact":"Sabará, Tiradentes, Mariana, Ouro Preto são cidades mineiras.",
 			"url":""

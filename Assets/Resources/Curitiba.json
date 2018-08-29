@@ -4,7 +4,7 @@
     "questions":[
         {
             "id":0,
-            "question":"Quais estados NÃO fazem parte da região sul do Brasil?",
+            "question":"Qual estado NÃO faz parte da região sul do Brasil?",
             "answers":["Mato Grosso do Sul", "Paraná", "Santa Catarina"],
             "correct":0,
             "fact":"O Mato Grosso do Sul está situado na região centro-oeste do país.",
@@ -21,7 +21,7 @@
         {
             "id":2,
             "question":"Quem nasce no estado de Santa Catarina é:",
-            "answers":["gaúcho", "catarinense", "capixaba"],
+            "answers":["Gaúcho", "Catarinense", "Capixaba"],
             "correct":1,
             "fact":"Quem nasce no estado de Santa Catarina é chamado de catarinense ou barriga verde.",
 			"url":""
@@ -69,7 +69,7 @@
         {
             "id":8,
             "question":"Quantas cidades pertencem ao estado de Santa Catarina?",
-            "answers":["295", "250", "302"],
+            "answers":["295", "175", "450"],
             "correct":0,
             "fact":"O estado de Santa Catarina é composto por 295 cidades e vilas.",
 			"url":""
@@ -79,7 +79,7 @@
             "question":"Quais os pontos turísticos de Curitiba-PR:",
             "answers":["Jardim Botânico, Ópera de Arame e o Museu oscar Niemeyer.", "Ópera de Arame, Parque moinhos de vento e a usina do gasômetro.", "Museu oscar Niemeyer, Ópera de Arame e a Praça da Liberdade."],
             "correct":0,
-            "fact":"aaaaaaa",
+            "fact":"Alguns pontos turísticos de Curitiba são Jardim Botânico, Ópera de Arame e o Museu Oscar Niemeyer.",
 			"url":""
         },
         {
@@ -95,7 +95,7 @@
             "question":"Quais os tipos de vegetação da região sul do país?",
             "answers":["Caatinga e Cerrado", "Pampas Gaúcho e Mata das Araucárias", "Mangue e Pantanal"],
             "correct":1,
-            "fact":"aaaaaaa",
+            "fact":"A vegetação típicos da região sul: Pampas Gaúchos e Mata das Araucárias.",
 			"url":""
         },
         {
@@ -111,7 +111,7 @@
             "question":"O estado de Paraná faz fronteira com quais outros estados?",
             "answers":["Mato Grosso do Sul, São Paulo e Santa Catarina.", "Rio de Janeiro, Mato Grosso do Sul e Rio Grande do Sul.", "Mato Grosso do Sul, Santa Catarina e Minas Gerais."],
             "correct":0,
-            "fact":"aaaaaaa",
+            "fact":"O estado do Paraná faz fronteira com Mato Grosso do Sul, São Paulo e Santa Catarina.",
 			"url":""
         },
         {
@@ -215,7 +215,7 @@
             "question":"Em qual cidade do Rio Grande do Sul acontece o tradicional festival de cinema brasileiro e latino?",
             "answers":["Gramado", "Canela", "Pelotas"],
             "correct":0,
-            "fact":"O Festival de Cinema de  Gramado é um grande evento cinematográfico do país que envolve famosos artistas, produtores, diretores e jornalistas, numa semana de muito glamour.",
+            "fact":"O Festival de Cinema de Gramado é um grande evento cinematográfico do país que envolve famosos artistas, produtores, diretores e jornalistas, numa semana de muito glamour.",
 			"url":""
         },
         {

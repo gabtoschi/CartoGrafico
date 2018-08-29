@@ -1,6 +1,6 @@
 {
     "name":"Level5",
-    "capacity":26,
+    "capacity":31,
     "questions":[
         {
             "id":0,
@@ -28,7 +28,7 @@
         },
         {
             "id":3,
-            "question":"A maior ilha do Rio de Janeiro é:",
+            "question":"Os 1255 quilômetros quadrados do município do Rio de Janeiro mais de 37 quilômetros quadrados correspondem as ilhas do município. A maior ilha do Rio de Janeiro é:",
             "answers":["A ilha de Paquetá", "A ilha do Frade", "A ilha do Governador."],
             "correct":2,
             "fact":"Dos 1255 quilômetros quadrados do município do Rio de Janeiro, cerca de 36 quilômetros quadrados correspondem à Ilha do Governador.",
@@ -193,7 +193,7 @@
             "correct":2,
             "fact":"O norte de Minas Gerais possui características de clima semiárido.",
             "url":""
-        },
+        },   
 		{
             "id":24,
             "question":"Escolha a opção que torna a sentença verdadeira:\nOs rios Jequitinhonha e Doce drenam os estados de __________________ e do _________________.",
@@ -206,9 +206,51 @@
             "id":25,
             "question":"A Mata Atlântica é uma floresta tropical que se estende desde o Rio Grande do Norte até o Sul em montanhas e planícies litorâneas. Fazendo, assim, parte da paisagem da região serrana, próximo ao litoral do Sudeste. Qual dessas opções NÃO é  característica dessa floresta?",
             "answers":["Apresentar grande diversidade de plantas e animais", "Proporcionar abrigo para animais em extinção", "Apresentar baixa densidade de espécies vegetais"],
-            "correct":3,
+            "correct":2,
             "fact":"A Mata Atlântica possui uma alta densidade e diversidade de espécies vegetais e animais.",
             "url":""
+        },
+		{
+            "id":26,
+            "question":"Qual a cidade mais populosa do estado do Rio de Janeiro?",
+            "answers":["Rio de Janeiro, capital", "Petropólis", "Niterói"],
+            "correct":0,
+            "fact":"Segundo o IBGE, A cidade do Rio de Janeiro, capital estadual, é a mais populosa.",
+            "url":""
+        },
+		{
+            "id":27,
+            "question":"Qual a alternativa verdadeira?",
+            "answers":["O Sudeste é a região mais rica e mais industrializada do país.", "Sudeste é a região menos diversificada em termos industriais do país.", "As duas metrópoles nacionais do país não encontram-se na região Sudeste."],
+            "correct":0,
+            "fact":"A região Sudeste é a região mais rica, industrializada, mais diversificada em termos industriais e onde estão situadas grandes cidades como São Paulo e Rio de Janeiro.",
+            "url":""
+        },
+		{
+            "id":28,
+            "question":"Qual a vegetação predominante na Região Sudeste?",
+            "answers":["Caatinga", "Floresta Tropical", "Mata de Araucárias"],
+            "correct":1,
+            "fact":"Uma das vegetações mais presentes na região Sudeste é a floresta tropical.",
+            "url":""
+        },
+		{
+            "id":29,
+            "question":"Marque a alternativa que contém somente as cidades da Região Sudeste:",
+            "answers":["São Paulo, Rio de Janeiro, Belo Horizonte, Vitória", "Boa Vista, São Paulo, Belo Horizonte, Porto Alegre", "Palmas, Vitória, Campinas, Campos dos Goytacazes"],
+            "correct":0,
+            "fact":"São Paulo, Rio de Janeiro, Belo Horizonte, Vitória são as capitais dos estados da região Sudeste.",
+            "url":""
+        },
+		{
+            "id":30,
+            "question":"O estado do Rio de Janeiro é banhado por qual oceano?",
+            "answers":["Pacífico", "Atlântico", "Índico"],
+            "correct":1,
+            "fact":"O estado do Rio de Janeiro, assim como todo o Brasil, é banhado pelo oceano Atlântico.",
+            "url":""
         }
+
     ]
 }
+
