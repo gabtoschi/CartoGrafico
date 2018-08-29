@@ -7,6 +7,7 @@
             "question":"Brasília, uma capital federal, está localizada numa porção do estado de:",
             "answers":["Goiás", "Mato Grosso do Sul", "Mato Grosso"],
             "correct":0,
+
             "fact":"O Distrito Federal só faz fronteiras com terras goianas.",
             "url":""
         },
@@ -80,7 +81,6 @@
             "answers":["Tropical semiúmido; Um verão quente, úmido e chuvoso e um inverno ameno e seco.", "Tropical; Um verão ameno e úmido e um inverno rígido e chuvoso.", "Subtropical; Um verão quente, úmido e chuvoso e um inverno ameno e seco."],
             "correct":0,
             "fact":"A região Centro-Oeste é um local quente. O clima é o tropical semiúmido, os verões são quentes e chuvosos e o inverno é frio e seco. ",
-            "url":""
         },
         {
             "id":10,
@@ -172,6 +172,7 @@
         },
 	    {
             "id":21,
+
             "question":"Complete corretamente a sentença:\nA região Centro-Oeste é formada por _____ estados e pelo Distrito Federal, onde se encontra _______________, a capital do país.",
             "answers":["quatro, Brasília", "três, Brasília", "três, Goiânia"],
             "correct":1,
@@ -252,3 +253,4 @@
         },
 	]
 }
+

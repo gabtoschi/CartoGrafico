@@ -9,18 +9,28 @@ public class PlayerEnter : MonoBehaviour
     public GameObject[] btnAdj;
     public GameObject player;
     public bool isFinal;
+    public string nextLevel;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             if (isFinal) {
-                Destroy(QuestionManager.instance);
+                GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmark");
+                //Unlocks next level after completion and saves it in Player Prefs
+                PlayerPrefs.SetInt("isLevelDone"+nextLevel, 1);
+                PlayerPrefs.SetInt("StepsDone", player.GetComponent<MovementPlayer>().GetStep());
+                PlayerPrefs.SetInt("MinSteps", GameObject.Find("GameController").GetComponent<GameController>().minSteps);
+                PlayerPrefs.Save();
                 //open victory pannel
                 SceneManager.LoadScene("TelaVitoria");
             }
             else {
                 for (int i = 0; i < btnAdj.Length; i++) {
-                    btnAdj[i].GetComponent<Image>().color = Color.yellow;
+                    //Changes sprites of adjacent buttons according to type
+                    if(!btnAdj[i].GetComponent<PlayerEnter>().isFinal)
+                        btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmarksel");          
+                    else
+                        btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("pinsel");
                 }
                 player.GetComponent<MovementPlayer>().btnAdj = btnAdj;
                 Debug.Log(btnAdj.Length);
@@ -31,8 +41,12 @@ public class PlayerEnter : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision) {
         if (collision.CompareTag("Player")) {
             for (int i = 0; i < btnAdj.Length; i++) {
-                btnAdj[i].GetComponent<Image>().color = Color.black;
+                if (!btnAdj[i].GetComponent<PlayerEnter>().isFinal)
+                    btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmark");
+                else
+                    btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("pin");
             }
         }
     }
 }
+

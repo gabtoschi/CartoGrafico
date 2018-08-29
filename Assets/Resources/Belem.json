@@ -77,7 +77,7 @@
         {
             "id":9,
             "question":"As duas origens mais fortes da cultura  ___________ são a europeia e a indígena.",
-            "answers":["Do Amazonas", "Do Paraná", "Do Mato Grosso"],
+            "answers":["Do Amazonas", "Do Paraná", "Do Mato Grosso"],                
             "correct":0,
             "fact":"O estado amazonense tem influência da cultura indígena e europeia.",
             "url":""
@@ -284,3 +284,4 @@
         }
 	]
 }
+

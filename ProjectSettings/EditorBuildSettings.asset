@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuestionTest.unity
     guid: b73a0832d19af2f4e8f0d0038885a34e
+  - enabled: 1
+    path: Assets/Scenes/LevelPresentation.unity
+    guid: ad0e56adbb4c63242beda6c38ce44365
   m_configObjects: {}
