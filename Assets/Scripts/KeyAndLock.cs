@@ -20,5 +20,8 @@ public class KeyAndLock : MonoBehaviour {
     {
         gLock.SetActive(false);
     }
-
+    private void Start()
+    {
+        gc = GameObject.FindWithTag("GameController");
+    }
 }

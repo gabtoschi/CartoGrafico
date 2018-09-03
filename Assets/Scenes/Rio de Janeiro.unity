@@ -7437,7 +7437,7 @@ Prefab:
     - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
         type: 2}
       propertyPath: nextLevel
-      value: Rio Branco
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114697367448616374, guid: 6d2996c5974a14c4094c4ec880fb0d6e, type: 2}
@@ -7933,6 +7933,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: a40e74b1a4b8bd1499e52dd9d84ed7fc,
         type: 3}
+    - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
+        type: 2}
+      propertyPath: nextLevel
+      value: Rio Branco
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114697367448616374, guid: 6d2996c5974a14c4094c4ec880fb0d6e, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 6d2996c5974a14c4094c4ec880fb0d6e, type: 2}
