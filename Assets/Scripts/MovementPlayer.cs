@@ -1,12 +1,13 @@
 
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class MovementPlayer : MonoBehaviour{
     public float tempoMov;
-    public GameObject[] btnAdj;
+    public List<GameObject> btnAdj;
     public Text panelText, stepText;
     public Text[] answerTexts;
     public GameObject questionPanel, grid, closeButton, buttons;
@@ -25,10 +26,10 @@ public class MovementPlayer : MonoBehaviour{
     }
 
     public void OpenQuestion(){
-        Debug.Log("Movement PLayer: " + btnAdj.Length);
+        Debug.Log("Movement PLayer: " + btnAdj.Count);
         bool check = false;
         btnSelected = EventSystem.current.currentSelectedGameObject; //Get the selected movement button
-        for (int i = 0; i < btnAdj.Length; i++) {
+        for (int i = 0; i < btnAdj.Count; i++) {
             if (btnSelected.name.Equals(btnAdj[i].name)) //Check if selected button is in list
             {
                 check = true;

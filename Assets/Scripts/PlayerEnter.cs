@@ -6,10 +6,12 @@ using UnityEngine.UI;
 
 public class PlayerEnter : MonoBehaviour
 {
-    public GameObject[] btnAdj;
+    public List<GameObject> btnAdj;
     public GameObject player;
-    public bool isFinal;
+    public bool isFinal, isBeforeGate;
     public string nextLevel;
+    private GameController gc;
+    public KeyAndLock kl;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -25,7 +27,9 @@ public class PlayerEnter : MonoBehaviour
                 SceneManager.LoadScene("TelaVitoria");
             }
             else {
-                for (int i = 0; i < btnAdj.Length; i++) {
+                for (int i = 0; i < btnAdj.Count; i++) {
+                    if (isBeforeGate && gc.hasKey)
+                        kl.OpenGate();
                     //Changes sprites of adjacent buttons according to type
                     if(!btnAdj[i].GetComponent<PlayerEnter>().isFinal)
                         btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmarksel");          
@@ -33,19 +37,27 @@ public class PlayerEnter : MonoBehaviour
                         btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("pinsel");
                 }
                 player.GetComponent<MovementPlayer>().btnAdj = btnAdj;
-                Debug.Log(btnAdj.Length);
+                Debug.Log(btnAdj.Count);
 
             }
         }
     }
     private void OnTriggerExit2D(Collider2D collision) {
         if (collision.CompareTag("Player")) {
-            for (int i = 0; i < btnAdj.Length; i++) {
+            for (int i = 0; i < btnAdj.Count; i++) {
                 if (!btnAdj[i].GetComponent<PlayerEnter>().isFinal)
                     btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmark");
                 else
                     btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("pin");
             }
+        }
+    }
+
+    private void Start()
+    {
+        if (isBeforeGate)
+        {
+            gc = GameObject.FindWithTag("GameController").GetComponent<GameController>();
         }
     }
 }

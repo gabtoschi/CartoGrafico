@@ -152,7 +152,9 @@ MonoBehaviour:
   - {fileID: 1929646031}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &5301704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -252,7 +254,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -684,7 +686,9 @@ MonoBehaviour:
   - {fileID: 204577522}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &189276265
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -784,7 +788,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -858,7 +862,9 @@ MonoBehaviour:
   - {fileID: 2039015023}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &191758566
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -958,7 +964,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1190,7 +1196,9 @@ MonoBehaviour:
   - {fileID: 189276263}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &204577524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1290,7 +1298,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1365,7 +1373,9 @@ MonoBehaviour:
   - {fileID: 1374134703}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &215280699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1465,7 +1475,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1618,7 +1628,9 @@ MonoBehaviour:
   - {fileID: 1494311618}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &328219297
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1718,7 +1730,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2337,7 +2349,9 @@ MonoBehaviour:
   - {fileID: 1398473307}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &613704369
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2437,7 +2451,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2512,7 +2526,9 @@ MonoBehaviour:
   - {fileID: 793759962}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &671044144
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2612,7 +2628,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2767,7 +2783,9 @@ MonoBehaviour:
   - {fileID: 1414551612}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &684285576
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2867,7 +2885,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3338,7 +3356,9 @@ MonoBehaviour:
   - {fileID: 684285574}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &793759964
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3438,7 +3458,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3513,7 +3533,9 @@ MonoBehaviour:
   - {fileID: 1432036738}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &818432903
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3613,7 +3635,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3781,7 +3803,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -2
-  m_Sprite: {fileID: 21300000, guid: 95047842f44348b4a8d800d59475ae23, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1eff0941ec298ef449be464472bdcadf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3955,7 +3977,9 @@ MonoBehaviour:
   - {fileID: 2122312971}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1011284402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4055,7 +4079,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4141,7 +4165,9 @@ MonoBehaviour:
   - {fileID: 328219295}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1120215257
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4241,7 +4267,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4395,7 +4421,9 @@ MonoBehaviour:
   - {fileID: 1784174432}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1232550607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4495,7 +4523,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4880,7 +4908,7 @@ Prefab:
     - target: {fileID: 224005447821239672, guid: f11bd19023717a24bb8572346b8baeb6,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 57
+      value: 78.5
       objectReference: {fileID: 0}
     - target: {fileID: 224005447821239672, guid: f11bd19023717a24bb8572346b8baeb6,
         type: 2}
@@ -5236,7 +5264,9 @@ MonoBehaviour:
   - {fileID: 1970414025}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1374134705
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5336,7 +5366,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5491,7 +5521,9 @@ MonoBehaviour:
   - {fileID: 1509393668}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1398473309
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5591,7 +5623,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5667,7 +5699,9 @@ MonoBehaviour:
   - {fileID: 2001796237}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1414551614
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5767,7 +5801,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5842,7 +5876,9 @@ MonoBehaviour:
   - {fileID: 1587129808}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1432036740
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5942,7 +5978,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6084,7 +6120,9 @@ MonoBehaviour:
   - {fileID: 189276263}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1482767544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6184,7 +6222,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6266,7 +6304,9 @@ MonoBehaviour:
   - {fileID: 1509393668}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1494311620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6366,7 +6406,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6441,7 +6481,9 @@ MonoBehaviour:
   - {fileID: 1482767542}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1509393670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6541,7 +6583,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6617,7 +6659,9 @@ MonoBehaviour:
   - {fileID: 1232550605}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1548645244
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6717,7 +6761,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6874,7 +6918,9 @@ MonoBehaviour:
   btnAdj: []
   player: {fileID: 516795742}
   isFinal: 1
+  isBeforeGate: 0
   nextLevel: Brasilia
+  kl: {fileID: 0}
 --- !u!61 &1587129810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6974,7 +7020,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3499587994cd5644284bf42725226d95, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a40e74b1a4b8bd1499e52dd9d84ed7fc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7049,7 +7095,9 @@ MonoBehaviour:
   - {fileID: 793759962}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1736227739
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7149,7 +7197,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7402,7 +7450,9 @@ MonoBehaviour:
   - {fileID: 5301702}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1784174435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7502,7 +7552,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7558,7 +7608,9 @@ MonoBehaviour:
   - {fileID: 1011284400}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1834888643
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7658,7 +7710,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7890,7 +7942,9 @@ MonoBehaviour:
   - {fileID: 5301702}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1929646033
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7990,7 +8044,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8235,7 +8289,9 @@ MonoBehaviour:
   - {fileID: 1736227737}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1965699939
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8335,7 +8391,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8410,7 +8466,9 @@ MonoBehaviour:
   - {fileID: 2001796237}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &1970414027
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8510,7 +8568,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8585,7 +8643,9 @@ MonoBehaviour:
   - {fileID: 1548645242}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &2001796239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8685,7 +8745,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8759,7 +8819,9 @@ MonoBehaviour:
   - {fileID: 191758564}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &2039015025
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8859,7 +8921,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9145,7 +9207,9 @@ MonoBehaviour:
   - {fileID: 1929646031}
   player: {fileID: 516795742}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!61 &2122312973
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9245,7 +9309,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
