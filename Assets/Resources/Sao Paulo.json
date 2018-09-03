@@ -157,7 +157,7 @@
         {
             "id":19,
             "question":"Qual cidade fluminense é a capital nacional do petróleo?",
-            "answers":["Industrial", "Histórica", "Portuária"],
+            "answers":["Rio de Janeiro", "Macaé", "Santos"],
             "correct":1,
             "fact":"Macaé é conhecida como a Capital Nacional do Petróleo, principalmente pelas ações da Petrobrás na região.https://www.guiamacae.com.br/sobre-macae",
 			"url":""
