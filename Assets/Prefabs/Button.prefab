@@ -71,7 +71,9 @@ MonoBehaviour:
   - {fileID: 0}
   player: {fileID: 0}
   isFinal: 0
+  isBeforeGate: 0
   nextLevel: 
+  kl: {fileID: 0}
 --- !u!114 &114697367448616374
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -143,7 +145,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7b395b5440404744d8583e2bc65a6fa9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff7a074eed8e0304993f84f8b4a8a046, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

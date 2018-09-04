@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class KeyAndLock : MonoBehaviour {
 
-	public GameObject gLock, prevBtn, finalBtn, gc;
+	public GameObject gLock, prevBtn, finalBtn;
+    private GameController gc;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -22,6 +23,6 @@ public class KeyAndLock : MonoBehaviour {
     }
     private void Start()
     {
-        gc = GameObject.FindWithTag("GameController");
+        gc = GameObject.FindWithTag("GameController").GetComponent<GameController>();
     }
 }

@@ -22,7 +22,7 @@ public class OpenPresentation : MonoBehaviour {
                 break;
             case "Sao Paulo":
                 title = "São Paulo";
-                cityInfo = "Informações sobre a cidade:\nSão Paulo recebeu seus primeiros habitantes europeus nas primeiras décadas do século 16.A grande expansão demográfica e econômica, entretanto, aconteceu apenas a partir do final do século 19, com a chegada de imigrantes de outras partes do Brasil e do exterior.Hoje é o estado brasileiro com a maior economia e o maior parque industrial.\nFonte: http://www.sp-turismo.com/";
+                cityInfo = "Informações sobre a cidade:\nSão Paulo recebeu seus primeiros habitantes europeus nas primeiras décadas do século 16.A grande expansão demográfica e econômica, entretanto, aconteceu apenas a partir do final do século 19, com a chegada de imigrantes de outras partes do Brasil e do exterior.Hoje é o estado brasileiro com a maior economia e o maior parque industrial. nFonte: http://www.sp-turismo.com/";
                 siteInfo = "MASP: \nO Museu de Arte de São Paulo é um museu privado sem fins lucrativos, fundado em 1947 pelo empresário e mecenas Assis Chateaubriand(1892 - 1968), tornando - se o primeiro museu moderno no país. O museu está localizado na avenida Paulista no icônico projeto de Lina Bo Bardi, que se tornou um marco na história da arquitetura do século 20 que concilia em sua arquitetura as superfícies ásperas e sem acabamentos com leveza, transparência e suspensão. A esplanada sob o edifício, conhecida como “vão livre”, foi pensada como uma praça para uso da população.\nFonte: https://masp.org.br/sobre  ";
                 break;
             case "Curitiba":

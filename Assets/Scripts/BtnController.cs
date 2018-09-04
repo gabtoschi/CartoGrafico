@@ -33,4 +33,16 @@ public class BtnController : MonoBehaviour {
     {
         SceneManager.LoadScene("menu");
     }
+
+    public void FinishLevel()
+    {
+        if (PlayerPrefs.GetInt("isLevelDoneFinal") == 1)
+        {
+            SceneManager.LoadScene("TelaParabens");
+        }
+        else
+        {
+            SceneManager.LoadScene("menu");
+        }
+    }
 }
