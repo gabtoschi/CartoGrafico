@@ -33,3 +33,8 @@ sysinfo.txt
 
 \.vscode/
 Assets/Scripts/Tutorial.meta
+*.ide-wal
+.vs/CartoGrafico/v15/Server/sqlite3/storage.ide
+.vs/CartoGrafico/v15/Server/sqlite3/storage.ide-shm
+.vs/CartoGrafico/v15/Server/sqlite3/storage.ide
+*.ide
