@@ -80,7 +80,7 @@
             "question":"A região centro-oeste apresenta um clima ____________________ com duas estações bem definidas: ________________________, ________________.",
             "answers":["Tropical semiúmido; Um verão quente, úmido e chuvoso e um inverno ameno e seco.", "Tropical; Um verão ameno e úmido e um inverno rígido e chuvoso.", "Subtropical; Um verão quente, úmido e chuvoso e um inverno ameno e seco."],
             "correct":0,
-            "fact":"A região Centro-Oeste é um local quente. O clima é o tropical semiúmido, os verões são quentes e chuvosos e o inverno é frio e seco. ",
+            "fact":"A região Centro-Oeste é um local quente. O clima é o tropical semiúmido, os verões são quentes e chuvosos e o inverno é frio e seco.",
         },
         {
             "id":10,
@@ -148,10 +148,10 @@
         },
 	    {
             "id":18,
-            "question":"“É uma área de mais de 140 mil km2 e localiza-se na região Centro-Oeste do Brasil. É considerada Patrimônio Ambiental e classificado como Reserva da Biosfera pela UNESCO. É uma área extremamente rica em biodiversidade”. O texto se refere a qual bioma brasileiro?",
+            "question":"'É uma área de mais de 140 mil km2 e localiza-se na região Centro-Oeste do Brasil. É considerada Patrimônio Ambiental e classificado como Reserva da Biosfera pela UNESCO. É uma área extremamente rica em biodiversidade'. O texto se refere a qual bioma brasileiro?",
             "answers":["Pantanal", "Mata de Araucária", "Mata Atlântica"],
             "correct":0,
-            "fact":"O Pantanal matogrossense é uma área de mais de 140 mil km2 e localiza-se na região Centro-Oeste do Brasil. É considerada Patrimônio Ambiental e classificado como Reserva da Biosfera pela UNESCO. É uma área extremamente rica em biodiversidade.",
+            "fact":"O Pantanal matogrossense é uma área de mais de 140 mil km² e localiza-se na região Centro-Oeste do Brasil. É considerada Patrimônio Ambiental e classificado como Reserva da Biosfera pela UNESCO. É uma área extremamente rica em biodiversidade.",
             "url":""
         },
 	    {
@@ -221,10 +221,10 @@
         },
         {
             "id":27,
-            "question":"(PUCPR) Observe o texto:\n'É uma área com aproximadamente 100 000km2, com altitudes de 100 e 200m, estendendo-se além das fronteiras do Brasil. A região é marcada pelo ciclo das águas. No período da cheia, os rios extravasam de seus leitos, alagando grandes extensões de terra. No período da vazante, ocorre a principal contribuição dos rios aos solos da região, grandes quantidades de sedimentos, nutrientes e material orgânico e decomposição são arrastados pelos rios e depositados no solo anteriormente alagado. A vegetação é bastante variada em espécies de cerrado, amazônicas, do chaco e da caatinga.'\nO texto acima refere-se à região:",
+            "question":"'É uma área com aproximadamente 100 000km2, com altitudes de 100 e 200m, estendendo-se além das fronteiras do Brasil. A região é marcada pelo ciclo das águas. No período da cheia, os rios extravasam de seus leitos e no período da vazante, ocorre  contribuição de sedimentos e material orgânico dos rios aos solos da região'.\nO texto refere-se à região:",
             "answers":["da Mata de Cocais", "da Amazônia", "do Pantanal"],
             "correct":2,
-            "fact":"O Pantanal é uma área com aproximadamente 100 000km2, com altitudes de 100 e 200m, estendendo-se além das fronteiras do Brasil. A região é marcada pelo ciclo das águas. No período da cheia, os rios extravasam de seus leitos, alagando grandes extensões de terra. No período da vazante, ocorre a principal contribuição dos rios aos solos da região, grandes quantidades de sedimentos, nutrientes e material orgânico e decomposição são arrastados pelos rios e depositados no solo anteriormente alagado. A vegetação é bastante variada em espécies de cerrado, amazônicas, do chaco e da caatinga.",
+            "fact":"O Pantanal é  uma área com aproximadamente 100 000km², com altitudes de 100 e 200m, estendendo-se além das fronteiras do Brasil. A região é marcada pelo ciclo das águas. No período da cheia, os rios extravasam de seus leitos e no período da vazante, ocorre  contribuição de sedimentos e material orgânico dos rios aos solos da região'",
             "url":""
         },
 		{

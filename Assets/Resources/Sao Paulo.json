@@ -7,7 +7,7 @@
             "question":"Qual a capital do estado de São Paulo?",
             "answers":["Santos", "São Paulo", "Sorocaba"],
             "correct":1,
-            "fact":"Assim como o Rio de Janeiro, a capital tem o mesmo nome do estado.",
+            "fact":"Assim como o Rio de Janeiro, a capital de São Paulo tem o mesmo nome do estado.",
 			"url":""
         },
         {
