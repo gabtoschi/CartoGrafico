@@ -133,7 +133,7 @@
         {
             "id":16,
             "question":"Sobre a população do Nordeste, podemos dizer que:",
-            "answers":["A sub-região Zona da Mata apresenta o menor número de habitantes do Nordeste", "As indústrias presentes na região nordestina proporciona a maior concentração da população do país", "Apesar de apresentar um elevado índice populacional, algumas regiões do Nordeste apresentam vazios demográficos."],
+            "answers":["A sub-região Zona da Mata apresenta o menor número de habitantes do Nordeste", "As indústrias presentes na região nordestina geram a maior concentração populacional do país", "Mesmo com um elevado índice populacional, algumas regiões do Nordeste apresentam vazios demográficos."],
             "correct":2,
             "fact":"Em virtude das condições naturais não favoráveis, algumas regiões nordestinas tem pouco desenvolvimento econômico e assim, alguns vazios demográficos.",
 			"url":""

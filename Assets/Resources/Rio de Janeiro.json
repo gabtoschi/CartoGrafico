@@ -100,7 +100,7 @@
         },
         {
             "id":12,
-            "question":"O trecho da música cantada por Tim Maia cita algumas praias de uma cidade brasileira famosa. Qual é essa cidade?\n“Do Leme ao Pontal\nNão há nada igual\nSem contar com Calabouço\nFlamengo, Botafogo\nUrca, Praia Vermelha\nDo Leme ao Pontal\nNão há nada igual”",
+            "question":"O trecho da música cantada por Tim Maia cita algumas praias de uma famosa cidade brasileira. Qual é essa cidade?\n'Do Leme ao Pontal\nNão há nada igual\nSem contar com Calabouço\nFlamengo, Botafogo\nUrca, Praia Vermelha...'\n",
             "answers":["Salvador", "Vitória", "Rio de Janeiro"],
             "correct":2,
             "fact":"Leme, Pontal, Flamengo, Botafogo, Urca, Praia Vermelha são praias da cidade do Rio de Janeiro.",
@@ -108,7 +108,7 @@
         },
         {
             "id":13,
-            "question":"A música cantada por Tom Jobim eternizou uma famosa praia do Rio de Janeiro, conhecida por ser a “princesinha do mar”. Qual é esta praia?\n“(...), princesinha do mar\nPelas manhãs tu és a vida a cantar,\nE a tardinha o sol poente,\nDeixa sempre uma saudade, na gente\n(...) o mar eterno cantor,\nAo te beijar, ficou perdido de amor,\nE hoje vive a murmurar, só a tí,\n(...) eu hei de amar\nExistem praias tão lindas, cheias de luz,\nNenhuma tem o encanto que tu possues,\nTuas areias, teu céu tão lindo,\nTuas sereias, sempre sorrindo…”",
+            "question":"A música cantada por Tom Jobim eternizou uma famosa praia do Rio de Janeiro, conhecida por ser a “princesinha do mar”. Qual é esta praia?\n“(...), princesinha do mar\n(...) eu hei de amar\nExistem praias tão lindas, cheias de luz,\nNenhuma tem o encanto que tu possues,\nTuas areias, teu céu tão lindo,\nTuas sereias, sempre sorrindo…”",
             "answers":["Ipanema", "Copacabana", "Flamengo"],
             "correct":1,
             "fact":"Copacabana é um bairro e uma praia situada na Zona Sul da cidade do Rio de Janeiro, no Brasil. É considerado um dos bairros mais famosos e prestigiados do Brasil e um dos mais conhecidos do mundo. Tem o apelido de Princesinha do Mar e Coração da Zona Sul.",
@@ -173,7 +173,7 @@
 		{
             "id":21,
             "question":"Embora pouco extenso, o Sudeste é a mais importante região brasileira em termos econômicos e políticos. Qual dessas características se refere à esta região?",
-            "answers":["A região Sudeste distingue-se do restante do Brasil por ser a área com maior proporção de terras baixas. O relevo dessa região apresenta um claro predomínio de planícies sedimentares, desgastadas pela erosão.", "Não houve devastação da Mata Atlântica.", "São Paulo, Rio de Janeiro e Belo Horizonte são as três metrópoles da Região Sudeste. Essas cidades concentram uma grande parte da produção industrial, do comércio e dos serviços do país."],
+            "answers":["A região Sudeste tem maior proporção de terras baixas. O relevo dessa região apresenta um claro predomínio de planícies sedimentares, desgastadas pela erosão.", "Não houve devastação da Mata Atlântica.", "São Paulo, Rio de Janeiro e Belo Horizonte são as três metrópoles da Região Sudeste. Essas cidades concentram grande parte da produção industrial, comercial e de serviços do país."],
             "correct":2,
             "fact":"São Paulo, Rio de Janeiro e Belo Horizonte são as três metrópoles da Região Sudeste. Essas cidades concentram uma grande parte da produção industrial, do comércio e dos serviços do país.",
             "url":""
@@ -253,4 +253,3 @@
 
     ]
 }
-

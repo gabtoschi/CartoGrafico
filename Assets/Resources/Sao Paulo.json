@@ -44,7 +44,7 @@
         },
         {
             "id":5,
-            "question":"Quando Caetano Veloso canta estes versos, ele faz homenagem para qual cidade?\n'Alguma coisa acontece no meu coração,\nque só quando cruza a Ipiranga e a Avenida São João\nÉ que quando eu cheguei por aqui eu nada entendi\nDa dura poesia concreta de tuas esquinas\nDa deselegância discreta de tuas meninas\nAinda não havia para mim Rita Lee\nA tua mais completa tradução…'",
+            "question":"Quando Caetano Veloso canta estes versos, ele homenageia qual cidade?\n'Alguma coisa acontece no meu coração,\nque só quando cruza a Ipiranga e a Avenida São João\nÉ que quando eu cheguei por aqui eu nada entendi…'\n",
             "answers":["Rio de Janeiro", "Salvador", "São Paulo"],
             "correct":2,
             "fact":"A música Sampa foi composta por Caetano Veloso em 1978 em homenagem a São Paulo, capital paulista.",
@@ -85,7 +85,7 @@
         {
             "id":10,
             "question":"Mesmo sendo uma região com pouca extensão, o Sudeste é a mais importante região brasileira em termos econômicos e políticos. Qual dessas características se refere à esta região?",
-            "answers":["A região Sudeste tem maior proporção de terras baixas. O relevo dessa região apresenta um claro predomínio de planícies sedimentares, desgastadas pela erosão.", "As chuvas concentram-se no inverno, o verão é a época da estiagem.", "A devastação da mata atlântica foi provocada pela expansão da agricultura e da indústria, que deixaram apenas manchas da floresta."],
+            "answers":["Na região predominam terras baixas. Seu relevo apresenta um predomínio de planícies sedimentares, desgastadas pela erosão.", "As chuvas concentram-se no inverno, o verão é a época da estiagem.", "A devastação da mata atlântica foi provocada pela expansão da agricultura e da indústria, restando apenas manchas da floresta."],
             "correct":2,
             "fact":"A região Sudeste se destaca pelo grande desenvolvimento industrial.",
 			"url":""
