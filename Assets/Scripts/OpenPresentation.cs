@@ -14,6 +14,7 @@ public class OpenPresentation : MonoBehaviour {
         PopulatePanel();
     }
     private void PopulatePanel() {
+        //Populates City info text and Site info text according to level
         switch (PlayerPrefs.GetString("LevelSelected")) {
             case "Salvador":
                 title = "Salvador";

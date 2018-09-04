@@ -8,6 +8,7 @@ public class KeyAndLock : MonoBehaviour {
     private GameController gc;
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //Adds prevBtn to finalBtn's adjacent buttons list after player getting the key
         if (collision.CompareTag("Player"))
         {
             gc.GetComponent<GameController>().hasKey = true;
@@ -19,6 +20,7 @@ public class KeyAndLock : MonoBehaviour {
 
     public void OpenGate()
     {
+        //Opens gate
         gLock.SetActive(false);
     }
     private void Start()

@@ -43,6 +43,7 @@ public class PlayerEnter : MonoBehaviour
         }
     }
     private void OnTriggerExit2D(Collider2D collision) {
+        //Changes sprites to the original one after player leave the collider
         if (collision.CompareTag("Player")) {
             for (int i = 0; i < btnAdj.Count; i++) {
                 if (!btnAdj[i].GetComponent<PlayerEnter>().isFinal)

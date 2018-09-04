@@ -10,6 +10,7 @@ public class Pause : MonoBehaviour {
     public Text textLevel;
 
     private void Start() {
+        //Populates Pause text according to level
         switch (PlayerPrefs.GetString("LevelSelected")) {
             case "Salvador":
                 textLevel.text = "Nível 1\n Salvador - BA";

@@ -9,15 +9,16 @@ public class Results : MonoBehaviour {
     public GameObject[] stars;
     public GameObject starField;
     private float score;
-    private Vector3 initPos;
+
 	void Start () {
         resultText.text = "O caminho mínimo era de " + PlayerPrefs.GetInt("MinSteps") + " passos.\n Você deu " + PlayerPrefs.GetInt("StepsDone") + " passos.";
+        //Calculates score with formula (1/Steps Done/Min Steps)
         score = (float)((float)PlayerPrefs.GetInt("MinSteps") / (float)PlayerPrefs.GetInt("StepsDone"));
         ShowStars();
         Debug.Log(score);
-        initPos = starField.transform.position;
     }
 	private void ShowStars() {
+        //Places different quantity of stars according to the score and repositions them
         if(score>=0.0f && score < 0.2f) {
             stars[0].SetActive(true);
             starField.transform.localPosition = new Vector2(0, 13);
