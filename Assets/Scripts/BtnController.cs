@@ -42,7 +42,7 @@ public class BtnController : MonoBehaviour {
         }
         else
         {
-            SceneManager.LoadScene("menu");
+            SceneManager.LoadScene("LevelSelection");
         }
     }
 }
