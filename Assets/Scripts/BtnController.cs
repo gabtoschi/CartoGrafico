@@ -36,7 +36,7 @@ public class BtnController : MonoBehaviour {
 
     public void FinishLevel()
     {
-        if (PlayerPrefs.GetInt("isLevelDoneFinal") == 1)
+        if (PlayerPrefs.GetInt("isLevelDoneFinal") == 1 && PlayerPrefs.GetString("LevelSelected").Equals("Rio Branco"))
         {
             SceneManager.LoadScene("TelaParabens");
         }
