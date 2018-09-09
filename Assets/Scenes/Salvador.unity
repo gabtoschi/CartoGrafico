@@ -2070,11 +2070,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1088309188}
     m_Modifications:
-    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
-        type: 2}
-      propertyPath: answerTexts.Array.size
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -2215,11 +2210,6 @@ Prefab:
       propertyPath: buttons
       value: 
       objectReference: {fileID: 1081005647}
-    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
-        type: 2}
-      propertyPath: tempoMov
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
         type: 2}
       propertyPath: img

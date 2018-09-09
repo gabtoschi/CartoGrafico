@@ -12,7 +12,7 @@ public class BtnController : MonoBehaviour {
             PlayerPrefs.DeleteKey("MinSteps");
             PlayerPrefs.DeleteKey("StepsDone");
         }
-        SceneManager.LoadScene("LevelSelection");
+        SceneManager.LoadScene("CharacterSelect");
     }
     public void TutorialBtn()
     {
