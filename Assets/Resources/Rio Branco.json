@@ -1,6 +1,6 @@
 {
     "name":"Level7",
-    "capacity":30,
+    "capacity":31,
     "questions":[
         {
             "id":0,
@@ -167,7 +167,7 @@
             "question":"Qual o principal setor da economia acreana?",
             "answers":["Mineração", "Extrativismo vegetal", "Indústria"],
             "correct":1,
-            "fact":"",
+            "fact":"O modelo de desenvolvimento econômico baseia-se, primordialmente, no extrativismo vegetal.",
             "url":""
         },
 		{
@@ -175,7 +175,7 @@
             "question":"O Acre apresenta dois grandes polos econômicos:",
             "answers":["O vale do Rio Juruá e o vale do Rio do Acre", "O vale do Rio Juruá e o Vale do Rio Doce", "O vale do Rio do Acre e o Porto Digital"],
             "correct":0,
-            "fact":"",
+            "fact":"Os dois polos econômicos reúnem diversos municípios de uma área geográfica com similaridades econômicas e sociais. No Acre são o Vale do Acre e o Vale do Juruá.",
             "url":""
         },
 		{
@@ -183,7 +183,7 @@
             "question":"A que país pertencia o Acre até o ano de 1877?",
             "answers":["Colômbia", "Bolívia", "Argentina"],
             "correct":1,
-            "fact":"",
+            "fact":"O estado do Acre pertencia à Bolívia.",
             "url":""
         },
 		{
@@ -191,55 +191,63 @@
             "question":"O estado acreano se desenvolveu ____________, onde a __________ fez a economia crescer.",
             "answers":["Na república velha, agricultura", "No ciclo da borracha, extração de minérios", "No ciclo da borracha, extração  vegetal"],
             "correct":2,
-            "fact":"",
+            "fact":"O estado acreano se desenvolveu no ciclo da borracha, quando a extração vegetal fez a economia crescer.",
             "url":""
         },
 		{
             "id":24,
-            "question":"Em que ano ocorreu a revolta acreana?",
-            "answers":["1903", "1877", "1888"],
+            "question":"Marque a alternativa que indica corretamente o estado e a capital correspondente.",
+            "answers":["Acre (estado) e Rio Branco (capital)", "Macapá (estado) e  Amapá (capital)", "Rio Branco (estado) e Acre (capital)"],
             "correct":0,
-            "fact":"",
+            "fact":"O Acre é a unidade federativa e a cidade de Rio Branco a sua capital.",
             "url":""
         },
 		{
             "id":25,
-            "question":"O relevo do estado do Acre é em sua maioria ______?",
-            "answers":["Planície", "Planalto", "Montanhas"],
-            "correct":1,
-            "fact":"",
+            "question":"O estado do Acre é reconhecidamente um lugar de práticas ambientais no Brasil. Essas práticas são visíveis na quantidade de áreas naturais protegidas, das quais se destacam as Unidades de Conservação de Uso Sustentável. Entre as Unidades de Conservação a seguir,  qual a que possui maior extensão territorial?",
+            "answers":["Floresta Nacional São Francisco", "Floresta Estadual Rio Liberdade", "Reserva Extrativista Chico Mendes"],
+            "correct":2,
+            "fact":"O estado do Acre é reconhecidamente um lugar de práticas ambientais no Brasil. Essas práticas são visíveis na quantidade de áreas naturais protegidas, das quais se destacam as Unidades de Conservação de Uso Sustentável. Entre as Unidades de Conservação a que possui maior extensão territorial é a Reserva Extrativista Chico Mendes.",
             "url":""
         },
 		{
             "id":26,
-            "question":"O Acre tem uma mistura de culturas as: ",
-            "answers":["Indígenas, nordestinas e sulistas", "Indígenas e europeus", "Nordestinas, sulistas e africanos"],
-            "correct":0,
-            "fact":"",
+            "question":"O Museu da Borracha situado na cidade de Rio Branco é pertencente a qual estado?",
+            "answers":["Amazonas", "Acre", "Sergipe"],
+            "correct":1,
+            "fact":"O Museu da Borracha está situado na cidade de Rio Branco no estado do Acre.",
             "url":""
         },
 		{
             "id":27,
-            "question":"O museu da borracha é pertencente a que estado?",
-            "answers":["Amazonas", "Acre", "Sergipe"],
+            "question":"Qual cidade é conhecida como a 'Princesinha do Acre'",
+            "answers":["Xapuri", "Rio Branco", "Brasiléia"],
             "correct":1,
-            "fact":"",
+            "fact":"A “Princesinha do Acre”, como Xapuri ficou historicamente conhecida, foi fundada oficialmente em março de 1904. O seu surgimento está diretamente relacionado à expansão do extrativismo da borracha no final do século XIX, que resultou na fundação dos seringais amazônicos. O nome da cidade é uma referência aos seus antigos habitantes, os índios xapurys. Fonte: http://www.ac.gov.br ",
             "url":""
         },
 		{
             "id":28,
-            "question":"Qual Rio não pertence ao Acre?",
+            "question":"Qual Rio NÃO pertence ao estado do Acre?",
             "answers":["Juruá", "Rio Doce", "Embirá"],
             "correct":1,
-            "fact":"",
+            "fact":"O Rio Doce é um curso de água da Região Sudeste do Brasil, que banha os estados de Minas Gerais e Espírito Santo.",
             "url":""
         },
 		{
             "id":29,
-            "question":"Qual estado já foi apelidado de Estado das seringueiras?",
-            "answers":["Acre", "Amazonas", "Rondônia"],
+            "question":"Árvore em que se extrai o látex:",
+            "answers":["Seringueira", "Umbuzeiro", "Mangueira"],
+            "correct":0,
+            "fact":"A seringueira ou também chamada árvore-de-borracha é uma árvore originária da bacia hidrográfica do Rio Amazonas de onde se extrai o látex para a fabricação de borracha.",
+            "url":""
+        },
+		{
+            "id":30,
+            "question":"Qual alternativa completa corretamente a sentença abaixo?\n'Há 25 anos, foi assassinado em Xapuri, no estado do _______________, o seringueiro, líder sindical e ambientalista _______________, que se tornou um símbolo de luta contra o desmatamento da Amazônia.'",
+            "answers":["Amapá / Carlos Minc", "Acre / Chico Mendes", "Pará / Herbert Daniel"],
             "correct":1,
-            "fact":"",
+            "fact":"“Há 25 anos, foi assassinado em Xapuri, no estado do Acre, o seringueiro, líder sindical e ambientalista Chico Mendes, que se tornou um símbolo de luta contra o desmatamento da Amazônia.”",
             "url":""
         }
     ]
