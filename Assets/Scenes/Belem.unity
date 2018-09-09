@@ -150,7 +150,7 @@ MonoBehaviour:
   - {fileID: 1784174432}
   - {fileID: 1587129808}
   - {fileID: 1929646031}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 1
   nextLevel: 
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -254,7 +254,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -283,7 +283,7 @@ RectTransform:
   m_Children:
   - {fileID: 1123533099}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -493,7 +493,7 @@ Prefab:
     - target: {fileID: 224511261023252544, guid: b43ede10ab781a2458e592f89159556b,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224511261023252544, guid: b43ede10ab781a2458e592f89159556b,
         type: 2}
@@ -549,7 +549,7 @@ Prefab:
         type: 2}
       propertyPath: player
       value: 
-      objectReference: {fileID: 516795742}
+      objectReference: {fileID: 0}
     - target: {fileID: 114481761069918392, guid: b43ede10ab781a2458e592f89159556b,
         type: 2}
       propertyPath: startBtn
@@ -565,7 +565,38 @@ Prefab:
       propertyPath: textLevel
       value: 
       objectReference: {fileID: 1483790167}
-    m_RemovedComponents: []
+    - target: {fileID: 224927079225065080, guid: b43ede10ab781a2458e592f89159556b,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 224165415027288372, guid: b43ede10ab781a2458e592f89159556b,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224655459742822234, guid: b43ede10ab781a2458e592f89159556b,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224927079225065080, guid: b43ede10ab781a2458e592f89159556b,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224654139505295230, guid: b43ede10ab781a2458e592f89159556b,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224290813959707328, guid: b43ede10ab781a2458e592f89159556b,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114778826333868866, guid: b43ede10ab781a2458e592f89159556b, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: b43ede10ab781a2458e592f89159556b, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &173090130
@@ -600,7 +631,7 @@ RectTransform:
   - {fileID: 368889992}
   - {fileID: 2048042676}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 0
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -723,7 +754,7 @@ MonoBehaviour:
   - {fileID: 1482767542}
   - {fileID: 1011284400}
   - {fileID: 204577522}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -794,7 +825,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -827,7 +858,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -856,7 +887,7 @@ RectTransform:
   m_Children:
   - {fileID: 1841416034}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -899,7 +930,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 613704367}
   - {fileID: 2039015023}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -970,7 +1001,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -1003,7 +1034,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1032,7 +1063,7 @@ RectTransform:
   m_Children:
   - {fileID: 1367002085}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1233,7 +1264,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 2122312971}
   - {fileID: 189276263}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -1304,7 +1335,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -1337,7 +1368,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1366,7 +1397,7 @@ RectTransform:
   m_Children:
   - {fileID: 1575508765}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1410,7 +1441,7 @@ MonoBehaviour:
   - {fileID: 1736227737}
   - {fileID: 684285574}
   - {fileID: 1374134703}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -1481,7 +1512,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -1514,7 +1545,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1543,13 +1574,29 @@ RectTransform:
   m_Children:
   - {fileID: 458721430}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 145.6, y: -50.5}
   m_SizeDelta: {x: 20, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &261434101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1678750565251104, guid: 81efb00503cfce64b82ae05a3c554cd2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056593526}
+--- !u!224 &261434102 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056593526}
+--- !u!114 &261434104 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056593526}
+  m_Script: {fileID: 11500000, guid: 62223f35494fd33418b3f7082a31b8b5, type: 3}
 --- !u!1 &277177190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,7 +1712,7 @@ MonoBehaviour:
   - {fileID: 1398473307}
   - {fileID: 1120215255}
   - {fileID: 1494311618}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -1736,7 +1783,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -1769,7 +1816,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1798,7 +1845,7 @@ RectTransform:
   m_Children:
   - {fileID: 1301938152}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2251,155 +2298,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 468482285}
   m_CullTransparentMesh: 0
---- !u!1 &516795742
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1191761324120212, guid: 4a9be43e9d90973448136ad6b66c9cfa,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 516795747}
-  - component: {fileID: 516795746}
-  - component: {fileID: 516795745}
-  - component: {fileID: 516795744}
-  - component: {fileID: 516795743}
-  m_Layer: 2
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!58 &516795743
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 58261771980907348, guid: 4a9be43e9d90973448136ad6b66c9cfa,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 516795742}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.00000023841858, y: -0.00000047683716}
-  serializedVersion: 2
-  m_Radius: 0.50000006
---- !u!114 &516795744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114810006871313616, guid: 4a9be43e9d90973448136ad6b66c9cfa,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 516795742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62223f35494fd33418b3f7082a31b8b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tempoMov: 0.75
-  btnAdj: []
-  panelText: {fileID: 1950533181}
-  stepText: {fileID: 1307488222}
-  answerTexts:
-  - {fileID: 1950533180}
-  - {fileID: 1950533179}
-  - {fileID: 1950533178}
-  - {fileID: 1950533177}
-  questionPanel: {fileID: 1950533176}
-  grid: {fileID: 908552766}
-  closeButton: {fileID: 1950533175}
-  buttons: {fileID: 1439977105}
-  img: {fileID: 1950533174}
---- !u!50 &516795745
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 50241263364329882, guid: 4a9be43e9d90973448136ad6b66c9cfa,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 516795742}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!212 &516795746
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 212307259911861986, guid: 4a9be43e9d90973448136ad6b66c9cfa,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 516795742}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -148328131
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cabc5e3ef858e324aa5bdd8226fefb58, type: 3}
-  m_Color: {r: 0.14733891, g: 0.7264151, b: 0.22453685, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!224 &516795747
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 224626471803253508, guid: 4a9be43e9d90973448136ad6b66c9cfa,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 516795742}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2}
-  m_LocalScale: {x: 29.600002, y: 29.600002, z: 29.600002}
-  m_Children: []
-  m_Father: {fileID: 926150195}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -133, y: -279}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &613704367
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,7 +2335,7 @@ MonoBehaviour:
   - {fileID: 191758564}
   - {fileID: 1120215255}
   - {fileID: 1398473307}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -2508,7 +2406,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -2541,7 +2439,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2570,7 +2468,7 @@ RectTransform:
   m_Children:
   - {fileID: 1916144457}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2613,7 +2511,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 1120215255}
   - {fileID: 1965699937}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -2684,7 +2582,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -2717,7 +2615,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2746,7 +2644,7 @@ RectTransform:
   m_Children:
   - {fileID: 709217776}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2870,7 +2768,7 @@ MonoBehaviour:
   - {fileID: 1494311618}
   - {fileID: 215280697}
   - {fileID: 1414551612}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -2941,7 +2839,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -2974,7 +2872,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3003,7 +2901,7 @@ RectTransform:
   m_Children:
   - {fileID: 29823606}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3326,6 +3224,38 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 743889817}
   m_CullTransparentMesh: 0
+--- !u!1 &749396419 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1341300191854330, guid: b43ede10ab781a2458e592f89159556b,
+    type: 2}
+  m_PrefabInternal: {fileID: 156766760}
+--- !u!114 &749396422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749396419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
 --- !u!1 &767144766
 GameObject:
   m_ObjectHideFlags: 0
@@ -3442,7 +3372,7 @@ MonoBehaviour:
   - {fileID: 1736227737}
   - {fileID: 328219295}
   - {fileID: 684285574}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -3513,7 +3443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -3546,7 +3476,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3575,7 +3505,7 @@ RectTransform:
   m_Children:
   - {fileID: 2120277913}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3619,7 +3549,7 @@ MonoBehaviour:
   - {fileID: 1970414025}
   - {fileID: 1548645242}
   - {fileID: 1432036738}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -3690,7 +3620,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -3723,7 +3653,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3752,7 +3682,7 @@ RectTransform:
   m_Children:
   - {fileID: 1737682169}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3806,12 +3736,41 @@ Prefab:
     - target: {fileID: 212907045199959668, guid: 8a64759057884134182cc8af99154be0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.88641953
+      value: 0.8520134
       objectReference: {fileID: 0}
     - target: {fileID: 212907045199959668, guid: 8a64759057884134182cc8af99154be0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.4198113
+      value: 0.033018887
+      objectReference: {fileID: 0}
+    - target: {fileID: 212907045199959668, guid: 8a64759057884134182cc8af99154be0,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ba2d3ab05d039ee41834d1279a3ca38f,
+        type: 3}
+    - target: {fileID: 4275246718653860, guid: 8a64759057884134182cc8af99154be0, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275246718653860, guid: 8a64759057884134182cc8af99154be0, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 212907045199959668, guid: 8a64759057884134182cc8af99154be0,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61190727397661348, guid: 8a64759057884134182cc8af99154be0,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 34.879997
+      objectReference: {fileID: 0}
+    - target: {fileID: 61190727397661348, guid: 8a64759057884134182cc8af99154be0,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 30.51
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a64759057884134182cc8af99154be0, type: 2}
@@ -4094,10 +4053,10 @@ RectTransform:
   m_Children:
   - {fileID: 1950533182}
   - {fileID: 908552768}
-  - {fileID: 516795747}
   - {fileID: 1439977106}
   - {fileID: 1307488221}
   - {fileID: 1019492783}
+  - {fileID: 261434102}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4144,7 +4103,7 @@ MonoBehaviour:
   - {fileID: 1548645242}
   - {fileID: 1834888641}
   - {fileID: 2122312971}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -4215,7 +4174,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -4248,7 +4207,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4277,7 +4236,7 @@ RectTransform:
   m_Children:
   - {fileID: 2078519104}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4295,6 +4254,176 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 156766760}
   m_Script: {fileID: 11500000, guid: ddac43ac740485a4cab785a52b0ed7a2, type: 3}
+--- !u!1001 &1056593526
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 926150195}
+    m_Modifications:
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -132.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -268.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224088433773698896, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: panelText
+      value: 
+      objectReference: {fileID: 1950533181}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: stepText
+      value: 
+      objectReference: {fileID: 1307488222}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: answerTexts.Array.data[0]
+      value: 
+      objectReference: {fileID: 1950533180}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: answerTexts.Array.data[1]
+      value: 
+      objectReference: {fileID: 1950533179}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: answerTexts.Array.data[2]
+      value: 
+      objectReference: {fileID: 1950533178}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: answerTexts.Array.data[3]
+      value: 
+      objectReference: {fileID: 1950533177}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: questionPanel
+      value: 
+      objectReference: {fileID: 1950533176}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 908552766}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: closeButton
+      value: 
+      objectReference: {fileID: 1950533175}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: buttons
+      value: 
+      objectReference: {fileID: 1439977105}
+    - target: {fileID: 114486099630223292, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1950533174}
+    - target: {fileID: 212585439870392112, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -148328131
+      objectReference: {fileID: 0}
+    - target: {fileID: 212585439870392112, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212585439870392112, guid: 81efb00503cfce64b82ae05a3c554cd2,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81efb00503cfce64b82ae05a3c554cd2, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &1118875711
 Prefab:
   m_ObjectHideFlags: 0
@@ -4379,7 +4508,7 @@ MonoBehaviour:
   - {fileID: 613704367}
   - {fileID: 671044142}
   - {fileID: 328219295}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -4450,7 +4579,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -4483,7 +4612,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4512,7 +4641,7 @@ RectTransform:
   m_Children:
   - {fileID: 1377917729}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4635,7 +4764,7 @@ MonoBehaviour:
   - {fileID: 1548645242}
   - {fileID: 2122312971}
   - {fileID: 1784174432}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -4706,7 +4835,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -4739,7 +4868,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4768,7 +4897,7 @@ RectTransform:
   m_Children:
   - {fileID: 1371265331}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5045,9 +5174,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4f095c44b279a564d9fb08b494a3f8b0, type: 3}
-  m_Color: {r: 0.9797919, g: 1, b: 0.3537736, a: 1}
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: 25073b5c87f1db14d97df46bac12ffa3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5065,7 +5194,7 @@ Transform:
   m_GameObject: {fileID: 1266038276}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 56.1, y: 246.4, z: -5399.9995}
-  m_LocalScale: {x: 10, y: 10, z: 60}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 60}
   m_Children: []
   m_Father: {fileID: 173090131}
   m_RootOrder: 0
@@ -5194,7 +5323,7 @@ Prefab:
     - target: {fileID: 224005447821239672, guid: f11bd19023717a24bb8572346b8baeb6,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224005447821239672, guid: f11bd19023717a24bb8572346b8baeb6,
         type: 2}
@@ -5552,7 +5681,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 215280697}
   - {fileID: 1414551612}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -5623,7 +5752,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -5656,7 +5785,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5685,7 +5814,7 @@ RectTransform:
   m_Children:
   - {fileID: 691220353}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5809,7 +5938,7 @@ MonoBehaviour:
   - {fileID: 2039015023}
   - {fileID: 613704367}
   - {fileID: 1509393668}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -5880,7 +6009,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -5913,7 +6042,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5942,7 +6071,7 @@ RectTransform:
   m_Children:
   - {fileID: 894091956}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5987,7 +6116,7 @@ MonoBehaviour:
   - {fileID: 1374134703}
   - {fileID: 1834888641}
   - {fileID: 2001796237}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -6058,7 +6187,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -6091,7 +6220,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6120,7 +6249,7 @@ RectTransform:
   m_Children:
   - {fileID: 1252655996}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6163,7 +6292,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 818432901}
   - {fileID: 1784174432}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -6234,7 +6363,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -6267,7 +6396,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6296,7 +6425,7 @@ RectTransform:
   m_Children:
   - {fileID: 122855280}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6330,7 +6459,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 173090131}
   - {fileID: 191758570}
   - {fileID: 613704373}
   - {fileID: 1120215261}
@@ -6363,8 +6491,9 @@ RectTransform:
   - {fileID: 1929646037}
   - {fileID: 5301708}
   - {fileID: 1784174433}
+  - {fileID: 173090131}
   m_Father: {fileID: 926150195}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6407,7 +6536,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 1834888641}
   - {fileID: 189276263}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -6478,7 +6607,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -6511,7 +6640,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6540,7 +6669,7 @@ RectTransform:
   m_Children:
   - {fileID: 339008600}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6591,7 +6720,7 @@ MonoBehaviour:
   - {fileID: 1834888641}
   - {fileID: 328219295}
   - {fileID: 1509393668}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -6662,7 +6791,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -6695,7 +6824,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6724,7 +6853,7 @@ RectTransform:
   m_Children:
   - {fileID: 468482286}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6767,7 +6896,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 1398473307}
   - {fileID: 1494311618}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -6838,7 +6967,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -6871,7 +7000,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6900,7 +7029,7 @@ RectTransform:
   m_Children:
   - {fileID: 731056960}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6945,7 +7074,7 @@ MonoBehaviour:
   - {fileID: 818432901}
   - {fileID: 2001796237}
   - {fileID: 1232550605}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -7016,7 +7145,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -7049,7 +7178,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7078,7 +7207,7 @@ RectTransform:
   m_Children:
   - {fileID: 199649176}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7204,7 +7333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btnAdj: []
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 1
   isBeforeGate: 0
   nextLevel: Brasilia
@@ -7275,7 +7404,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -7308,7 +7437,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3499587994cd5644284bf42725226d95, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f83c15c1b80a67b47bf0c6069c969138, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7337,7 +7466,7 @@ RectTransform:
   m_Children:
   - {fileID: 419239896}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7381,7 +7510,7 @@ MonoBehaviour:
   - {fileID: 1965699937}
   - {fileID: 215280697}
   - {fileID: 793759962}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -7452,7 +7581,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -7485,7 +7614,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7514,7 +7643,7 @@ RectTransform:
   m_Children:
   - {fileID: 1260217666}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7713,7 +7842,7 @@ RectTransform:
   m_Children:
   - {fileID: 175278611}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7736,7 +7865,7 @@ MonoBehaviour:
   - {fileID: 1232550605}
   - {fileID: 1432036738}
   - {fileID: 5301702}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -7807,7 +7936,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -7840,7 +7969,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7894,7 +8023,7 @@ MonoBehaviour:
   - {fileID: 1482767542}
   - {fileID: 1494311618}
   - {fileID: 1011284400}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -7965,7 +8094,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -7998,7 +8127,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8027,7 +8156,7 @@ RectTransform:
   m_Children:
   - {fileID: 743889818}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8279,7 +8408,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 2122312971}
   - {fileID: 5301702}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -8350,7 +8479,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -8383,7 +8512,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8412,7 +8541,7 @@ RectTransform:
   m_Children:
   - {fileID: 1360204682}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8520,22 +8649,42 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516795744}
+      objectReference: {fileID: 261434104}
     - target: {fileID: 114980426391738464, guid: fb2d070740dcd8b448fa85ef289e3c0b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516795744}
+      objectReference: {fileID: 261434104}
     - target: {fileID: 114946920328723330, guid: fb2d070740dcd8b448fa85ef289e3c0b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516795744}
+      objectReference: {fileID: 261434104}
     - target: {fileID: 114083518539453294, guid: fb2d070740dcd8b448fa85ef289e3c0b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516795744}
+      objectReference: {fileID: 261434104}
+    - target: {fileID: 114946920328723330, guid: fb2d070740dcd8b448fa85ef289e3c0b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AnswerQuestion
+      objectReference: {fileID: 0}
+    - target: {fileID: 114083518539453294, guid: fb2d070740dcd8b448fa85ef289e3c0b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AnswerQuestion
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462999080292574, guid: fb2d070740dcd8b448fa85ef289e3c0b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClosePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 114980426391738464, guid: fb2d070740dcd8b448fa85ef289e3c0b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AnswerQuestion
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb2d070740dcd8b448fa85ef289e3c0b, type: 2}
   m_IsPrefabAsset: 0
@@ -8626,7 +8775,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 671044142}
   - {fileID: 1736227737}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -8697,7 +8846,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -8730,7 +8879,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8759,7 +8908,7 @@ RectTransform:
   m_Children:
   - {fileID: 673282508}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8802,7 +8951,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 818432901}
   - {fileID: 2001796237}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -8873,7 +9022,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -8906,7 +9055,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8935,7 +9084,7 @@ RectTransform:
   m_Children:
   - {fileID: 1760549746}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8979,7 +9128,7 @@ MonoBehaviour:
   - {fileID: 1970414025}
   - {fileID: 1414551612}
   - {fileID: 1548645242}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -9050,7 +9199,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -9083,7 +9232,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9112,7 +9261,7 @@ RectTransform:
   m_Children:
   - {fileID: 408697365}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9155,7 +9304,7 @@ MonoBehaviour:
   btnAdj:
   - {fileID: 1398473307}
   - {fileID: 191758564}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -9226,7 +9375,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -9259,7 +9408,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9288,7 +9437,7 @@ RectTransform:
   m_Children:
   - {fileID: 203894265}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9388,7 +9537,7 @@ Prefab:
     - target: {fileID: 114374696221946232, guid: 642775d08dceb2e41a07da0102406957,
         type: 2}
       propertyPath: packFilename
-      value: Curitiba
+      value: Belem
       objectReference: {fileID: 0}
     - target: {fileID: 114228188390727874, guid: 642775d08dceb2e41a07da0102406957,
         type: 2}
@@ -9594,7 +9743,7 @@ MonoBehaviour:
   - {fileID: 1232550605}
   - {fileID: 204577522}
   - {fileID: 1929646031}
-  player: {fileID: 516795742}
+  player: {fileID: 261434101}
   isFinal: 0
   isBeforeGate: 0
   nextLevel: 
@@ -9665,7 +9814,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516795744}
+      - m_Target: {fileID: 261434104}
         m_MethodName: OpenQuestion
         m_Mode: 1
         m_Arguments:
@@ -9698,7 +9847,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 530952d0d5f8c454eb2284c1b29e00b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f1c0ea179175a409803475b9eb1539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9727,7 +9876,7 @@ RectTransform:
   m_Children:
   - {fileID: 767144767}
   m_Father: {fileID: 1439977106}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

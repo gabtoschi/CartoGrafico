@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212585439870392112}
   - component: {fileID: 50476553929947746}
   - component: {fileID: 114486099630223292}
-  - component: {fileID: 58301783853575542}
+  - component: {fileID: 61572463576044564}
   m_Layer: 2
   m_Name: Player
   m_TagString: Player
@@ -50,8 +50,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &58301783853575542
-CircleCollider2D:
+--- !u!61 &61572463576044564
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -62,9 +62,19 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00000023841858, y: -0.00000047683716}
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.81, y: 1.13}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Size: {x: 0.5349915, y: 0.7271333}
+  m_EdgeRadius: 0
 --- !u!114 &114486099630223292
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -76,8 +86,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62223f35494fd33418b3f7082a31b8b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoMov: 0.5
+  tempoMov: 0.75
+  btnAdj: []
+  panelText: {fileID: 0}
+  stepText: {fileID: 0}
+  answerTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  questionPanel: {fileID: 0}
+  grid: {fileID: 0}
+  closeButton: {fileID: 0}
   buttons: {fileID: 0}
+  img: {fileID: 0}
 --- !u!212 &212585439870392112
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -113,8 +135,8 @@ SpriteRenderer:
   m_SortingLayerID: -148328131
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cabc5e3ef858e324aa5bdd8226fefb58, type: 3}
-  m_Color: {r: 0.14733891, g: 0.7264151, b: 0.22453685, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 659ad3a7a678c594ab098eaadf67d46e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -131,14 +153,14 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1678750565251104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2}
-  m_LocalScale: {x: 29.600002, y: 29.600002, z: 29.600002}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 55, y: 55, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -72.6, y: -178.8}
+  m_AnchoredPosition: {x: -112.8, y: -179.1}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
