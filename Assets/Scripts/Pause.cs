@@ -41,7 +41,7 @@ public class Pause : MonoBehaviour {
             player.GetComponent<SpriteRenderer>().sortingOrder = -1;
         }
         else {
-            player.GetComponent<SpriteRenderer>().sortingOrder = 0;
+            player.GetComponent<SpriteRenderer>().sortingOrder = 1;
         }
     }
     public void Restart() {
