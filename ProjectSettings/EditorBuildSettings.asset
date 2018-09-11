@@ -60,6 +60,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelPresentation.unity
     guid: ad0e56adbb4c63242beda6c38ce44365
   - enabled: 1
+    path: Assets/Scenes/SiteInfo.unity
+    guid: 0e9d438d56f2b5849a2ca1ad8b128829
+  - enabled: 1
     path: Assets/Scenes/TelaParabens.unity
     guid: 5436384b61d615b4ebbfa2fdd73bd498
   m_configObjects: {}
