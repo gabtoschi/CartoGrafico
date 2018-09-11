@@ -24,6 +24,7 @@ namespace Facebook.Unity.Example
 
     internal class AppInvites : MenuBase
     {
+
         protected override void GetGui()
         {
             if (this.Button("Android Invite"))

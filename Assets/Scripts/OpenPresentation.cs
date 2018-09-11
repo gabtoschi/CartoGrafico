@@ -18,7 +18,7 @@ public class OpenPresentation : MonoBehaviour {
         switch (PlayerPrefs.GetString("LevelSelected")) {
             case "Salvador":
                 title = "Salvador";
-                cityInfo = "Informações sobre a cidade: \n Em 2001 completou - se 500 anos desde que os primeiros europeus caminharam pelas terras da atual cidade de Salvador. A cidade mais antiga do Brasil e primeira capital do país chega, atualmente, aos três milhões de habitantes e se consolida como um dos pólos turísticos brasileiros, tanto pela sua vasta diversidade cultural quanto pelas belezas naturais.\nFonte: http://www.cidade-salvador.com/";
+                cityInfo = "Em 2001 completou - se 500 anos desde que os primeiros europeus caminharam pelas terras da atual cidade de Salvador. A cidade mais antiga do Brasil e primeira capital do país chega, atualmente, aos três milhões de habitantes e se consolida como um dos pólos turísticos brasileiros, tanto pela sua vasta diversidade cultural quanto pelas belezas naturais. Fonte: http://www.cidade-salvador.com/";
                 break;
             case "Sao Paulo":
                 title = "São Paulo";

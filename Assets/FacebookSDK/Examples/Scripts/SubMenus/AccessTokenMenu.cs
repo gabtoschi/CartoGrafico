@@ -22,6 +22,7 @@ namespace Facebook.Unity.Example
 {
     internal class AccessTokenMenu : MenuBase
     {
+
         protected override void GetGui()
         {
             if (this.Button("Refresh Access Token"))

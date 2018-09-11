@@ -26,6 +26,7 @@ namespace Facebook.Unity.Example
 
     internal abstract class MenuBase : ConsoleBase
     {
+
         private static ShareDialogMode shareDialogMode;
 
         protected abstract void GetGui();
