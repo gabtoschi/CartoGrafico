@@ -37,6 +37,12 @@ public class Pause : MonoBehaviour {
     }
     public void OpenAndClosePause() {
         gameObject.SetActive(!gameObject.activeSelf);
+        if (gameObject.activeSelf) {
+            player.GetComponent<SpriteRenderer>().sortingOrder = -1;
+        }
+        else {
+            player.GetComponent<SpriteRenderer>().sortingOrder = 1;
+        }
     }
     public void Restart() {
         player.transform.position = startBtn.transform.position;

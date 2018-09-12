@@ -34,8 +34,13 @@ public class SelectLevel : MonoBehaviour {
             }else if(b.activeSelf && !EventSystem.current.currentSelectedGameObject.name.Equals(b.name + " Btn")) {
                 b.SetActive(false);
             }else if(b.activeSelf && EventSystem.current.currentSelectedGameObject.name.Equals(b.name + " Btn")) {
-                QuestionManager.instance.packFilename = levelName;
-                QuestionManager.instance.loadQuestionPackFile();
+                if (QuestionManager.instance != null) {
+                    Destroy(QuestionManager.instance);
+                    Destroy(GameObject.Find("GameController"));
+                    QuestionManager.instance = new QuestionManager();
+                    QuestionManager.instance.packFilename = levelName;
+                    QuestionManager.instance.loadQuestionPackFile();
+                }
                 PlayerPrefs.SetString("LevelSelected", levelName);
                 SceneManager.LoadScene("LevelPresentation");
             }

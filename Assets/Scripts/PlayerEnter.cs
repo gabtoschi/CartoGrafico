@@ -24,7 +24,7 @@ public class PlayerEnter : MonoBehaviour
                 PlayerPrefs.SetInt("MinSteps", GameObject.Find("GameController").GetComponent<GameController>().minSteps);
                 PlayerPrefs.Save();
                 //open victory pannel               
-                SceneManager.LoadScene("TelaVitoria");
+                SceneManager.LoadScene("SiteInfo");
             }
             else {
                 for (int i = 0; i < btnAdj.Count; i++) {
