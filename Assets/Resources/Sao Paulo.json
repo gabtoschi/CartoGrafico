@@ -111,7 +111,7 @@
             "question":"Mateus foi a Belo Horizonte e disse ao tio que gostaria de comer um lanche típico mineiro. O tio levou Mateus a uma lanchonete e pediu:",
             "answers":["Pastel", "Pão de Queijo", "Bauru"],
             "correct":1,
-            "fact":"A origem do pão de queijo se confunde com a própria origem da culinária mineira, porque acompanha a evolução de seus ingredientes: primeiro surgiu a goma, vinda da mandioca sob a forma do polvilho doce ou azedo; depois a gordura de porco, o sal, o ovo, o leite, a nata, a manteiga e por último o queijo, que aos poucos incorporou-se ao biscoito de goma (precursor do pão de queijo) moldados sob a forma de pequenas bolinhas e finalmente assados. Fonte: http://www.uaideminas.com.br/historia.html",
+            "fact":"A origem do pão de queijo se confunde com a origem da culinária mineira, pois acompanha a evolução de seus ingredientes: primeiro a goma, depois a gordura de porco, o sal, o ovo, o leite, a nata, a manteiga e, enfim, o queijo, que aos poucos incorporou-se ao biscoito, moldado como bolinhas e assados.",
 			"url":""
         },
         {

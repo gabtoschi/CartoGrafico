@@ -204,10 +204,10 @@
         },
 		{
             "id":25,
-            "question":"O estado do Acre é reconhecidamente um lugar de práticas ambientais no Brasil. Essas práticas são visíveis na quantidade de áreas naturais protegidas, das quais se destacam as Unidades de Conservação de Uso Sustentável. Entre as Unidades de Conservação a seguir,  qual a que possui maior extensão territorial?",
+            "question":"O estado do Acre é reconhecidamente um lugar de práticas ambientais no Brasil. Essas práticas são visíveis na quantidade de áreas naturais protegidas, das quais se destacam as Unidades de Conservação de Uso Sustentável. Entre as Unidades de Conservação a seguir, qual a que possui maior extensão territorial?",
             "answers":["Floresta Nacional São Francisco", "Floresta Estadual Rio Liberdade", "Reserva Extrativista Chico Mendes"],
             "correct":2,
-            "fact":"O estado do Acre é reconhecidamente um lugar de práticas ambientais no Brasil. Essas práticas são visíveis na quantidade de áreas naturais protegidas, das quais se destacam as Unidades de Conservação de Uso Sustentável. Entre as Unidades de Conservação a que possui maior extensão territorial é a Reserva Extrativista Chico Mendes.",
+            "fact":"O estado do Acre é um lugar de grandes práticas ambientais no Brasil. Essas práticas são visíveis na quantidade de áreas naturais protegidas, das quais se destacam as Unidades de Conservação de Uso Sustentável, a Reserva Extrativista Chico Mendes a maior.",
             "url":""
         },
 		{
@@ -223,7 +223,7 @@
             "question":"Qual cidade é conhecida como a 'Princesinha do Acre'",
             "answers":["Xapuri", "Rio Branco", "Brasiléia"],
             "correct":1,
-            "fact":"A “Princesinha do Acre”, como Xapuri ficou historicamente conhecida, foi fundada oficialmente em março de 1904. O seu surgimento está diretamente relacionado à expansão do extrativismo da borracha no final do século XIX, que resultou na fundação dos seringais amazônicos. O nome da cidade é uma referência aos seus antigos habitantes, os índios xapurys. Fonte: http://www.ac.gov.br ",
+            "fact":"A “Princesinha do Acre”, como Xapuri ficou historicamente conhecida, foi fundada oficialmente em março de 1904. O nome da cidade é uma referência aos seus antigos habitantes, os índios xapurys. Fonte: http://www.ac.gov.br ",
             "url":""
         },
 		{
@@ -247,7 +247,7 @@
             "question":"Qual alternativa completa corretamente a sentença abaixo?\n'Há 25 anos, foi assassinado em Xapuri, no estado do _______________, o seringueiro, líder sindical e ambientalista _______________, que se tornou um símbolo de luta contra o desmatamento da Amazônia.'",
             "answers":["Amapá / Carlos Minc", "Acre / Chico Mendes", "Pará / Herbert Daniel"],
             "correct":1,
-            "fact":"“Há 25 anos, foi assassinado em Xapuri, no estado do Acre, o seringueiro, líder sindical e ambientalista Chico Mendes, que se tornou um símbolo de luta contra o desmatamento da Amazônia.”",
+            "fact":"Há 25 anos, foi assassinado em Xapuri, no estado do Acre, o seringueiro, líder sindical e ambientalista Chico Mendes, que se tornou um símbolo de luta contra o desmatamento da Amazônia.",
             "url":""
         }
     ]
