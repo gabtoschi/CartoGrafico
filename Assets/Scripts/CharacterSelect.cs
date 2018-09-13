@@ -6,23 +6,22 @@ using UnityEngine.SceneManagement;
 public class CharacterSelect : MonoBehaviour {
 
     public GameObject playerPrefab;
-    public Sprite p1, p2, p3;
 
     public void ChangeToP1()
     {
-        playerPrefab.GetComponent<SpriteRenderer>().sprite = p1;
+        PlayerPrefs.SetInt("Sprite", 1);
         SceneManager.LoadScene("LevelSelection");
     }
 
     public void ChangeToP2()
     {
-        playerPrefab.GetComponent<SpriteRenderer>().sprite = p2;
+        PlayerPrefs.SetInt("Sprite", 2);
         SceneManager.LoadScene("LevelSelection");
     }
 
     public void ChangeToP3()
     {
-        playerPrefab.GetComponent<SpriteRenderer>().sprite = p3;
+        PlayerPrefs.SetInt("Sprite", 3);
         SceneManager.LoadScene("LevelSelection");
     }
 }
