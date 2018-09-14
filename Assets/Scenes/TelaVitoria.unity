@@ -454,7 +454,7 @@ RectTransform:
   m_GameObject: {fileID: 555109484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1779942774}
   m_Father: {fileID: 322292336}
@@ -914,7 +914,7 @@ RectTransform:
   m_GameObject: {fileID: 1437178018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.0001999}
+  m_LocalScale: {x: 1.45, y: 1.45, z: 1.0001999}
   m_Children: []
   m_Father: {fileID: 322292336}
   m_RootOrder: 6
@@ -1539,7 +1539,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Votar ao Mapa
+  m_Text: Voltar ao Mapa
 --- !u!222 &2134891759
 CanvasRenderer:
   m_ObjectHideFlags: 0

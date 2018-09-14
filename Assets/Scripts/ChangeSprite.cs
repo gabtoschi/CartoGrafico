@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChangeSprite : MonoBehaviour {
 
-    public Sprite p1, p2, p3;
+    public Sprite p1, p2, p3, p4;
 	// Use this for initialization
 	void Start () {
         switch (PlayerPrefs.GetInt("Sprite")) {
@@ -16,6 +16,9 @@ public class ChangeSprite : MonoBehaviour {
                 break;
             case 3:
                 GetComponent<SpriteRenderer>().sprite = p3;
+                break;
+            case 4:
+                GetComponent<SpriteRenderer>().sprite = p4;
                 break;
         }
 	}
