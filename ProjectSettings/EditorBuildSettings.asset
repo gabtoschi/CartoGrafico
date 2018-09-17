@@ -19,7 +19,7 @@ EditorBuildSettings:
     guid: dc21526ad6360d941a6eaef70eed42b1
   - enabled: 1
     path: Assets/Scenes/Teachers.unity
-    guid: f9799d6ed9379be42a86b8d008a40342
+    guid: ea9d53175ed34474497dfd3381aac572
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: 79130759164eb504b85777180ab5c41b
