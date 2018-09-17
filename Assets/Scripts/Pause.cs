@@ -45,10 +45,7 @@ public class Pause : MonoBehaviour {
         }
     }
     public void Restart() {
-        player.transform.position = startBtn.transform.position;
-        player.GetComponent<MovementPlayer>().SetStep(0);
-        player.GetComponent<MovementPlayer>().UpdateSteps();
-        OpenAndClosePause();
+        SceneManager.LoadScene(PlayerPrefs.GetString("LevelSelected"));
     }
     public void BackToMenu() {
         SceneManager.LoadScene("LevelSelection");

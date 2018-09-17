@@ -30,6 +30,8 @@ public class PlayerEnter : MonoBehaviour
                 for (int i = 0; i < btnAdj.Count; i++) {
                     if (isBeforeGate && gc.hasKey)
                         kl.OpenGate();
+                    if (btnAdj[i] == null)
+                        btnAdj.RemoveAt(i);
                     //Changes sprites of adjacent buttons according to type
                     if(!btnAdj[i].GetComponent<PlayerEnter>().isFinal)
                         btnAdj[i].GetComponent<Image>().sprite = Resources.Load<Sprite>("questionmarksel");          
