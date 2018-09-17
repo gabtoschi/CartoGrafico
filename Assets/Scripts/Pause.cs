@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -8,9 +9,11 @@ public class Pause : MonoBehaviour {
     public GameObject player, startBtn;
     public GameController gc;
     public Text textLevel;
+    public Sprite unMute, mute;
 
     private void Start() {
         //Populates Pause text according to level
+
         switch (PlayerPrefs.GetString("LevelSelected")) {
             case "Salvador":
                 textLevel.text = "Nível 1\n Salvador - BA";
@@ -50,4 +53,5 @@ public class Pause : MonoBehaviour {
     public void BackToMenu() {
         SceneManager.LoadScene("LevelSelection");
     }
+    
 }

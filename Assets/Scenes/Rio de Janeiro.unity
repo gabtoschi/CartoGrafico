@@ -331,12 +331,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 7980851}
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!114 &16309246 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114206710176837314, guid: b43ede10ab781a2458e592f89159556b,
-    type: 2}
-  m_PrefabInternal: {fileID: 818261027}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &27830335
 Prefab:
   m_ObjectHideFlags: 0
@@ -2201,11 +2195,12 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 21300000, guid: 0aae879b946857948984e9640f0c25f2,
+        type: 3}
     - target: {fileID: 114441716719894808, guid: fb2d070740dcd8b448fa85ef289e3c0b,
         type: 2}
       propertyPath: m_Type
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224907848643997368, guid: fb2d070740dcd8b448fa85ef289e3c0b,
         type: 2}
@@ -6266,11 +6261,6 @@ Prefab:
       propertyPath: gc
       value: 
       objectReference: {fileID: 377174575}
-    - target: {fileID: 114481761069918392, guid: b43ede10ab781a2458e592f89159556b,
-        type: 2}
-      propertyPath: textLevel
-      value: 
-      objectReference: {fileID: 16309246}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b43ede10ab781a2458e592f89159556b, type: 2}
   m_IsPrefabAsset: 0

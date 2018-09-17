@@ -85,7 +85,7 @@
         {
             "id":10,
             "question":"Quais palavras preenchem corretamente a sentença a seguir? \n A população baiana apresenta grande diversidade, resultado da miscigenação dos ___________, ___________ e _______________, que contribuíram para a construção da cultura do estado.",
-            "answers":["Europeus; negros africanos; índios", "Jponeses; italianos; negros africanos", "Alemães; índios, chineses"],
+            "answers":["Europeus; negros africanos; índios", "Japoneses; italianos; negros africanos", "Alemães; índios, chineses"],
             "correct":0,
             "fact":"O povo baiano, assim como na maioria dos estados brasileiros, é resultado da mistura do europeu, do índio e do negro africano. A cultura africana está presente na música, na culinária, na religião, entre outros elementos.",
 			"url":""
