@@ -2151,6 +2151,7 @@ GameObject:
   - component: {fileID: 440924805}
   - component: {fileID: 440924804}
   - component: {fileID: 440924803}
+  - component: {fileID: 440924807}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2239,6 +2240,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &440924807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 440924802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0879225874758f044ae2a1b86e17ac01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &459622164
 Prefab:
   m_ObjectHideFlags: 0
@@ -6458,6 +6470,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 922441302}
     m_Modifications:
+    - target: {fileID: 114122241222326616, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
+        type: 2}
+      propertyPath: btnAdj.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 224005525218133688, guid: 6d2996c5974a14c4094c4ec880fb0d6e,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -7177,7 +7194,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}

@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 322292334}
   - component: {fileID: 322292333}
   - component: {fileID: 322292337}
+  - component: {fileID: 322292339}
   - component: {fileID: 322292338}
   m_Layer: 5
   m_Name: Canvas
@@ -351,6 +352,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a24d06e13415ed4f97e7370105b4c42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &322292339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 322292332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0879225874758f044ae2a1b86e17ac01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &456537832
@@ -769,7 +781,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.9803922, g: 0.9490197, b: 0.8862746, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}

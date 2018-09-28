@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SocialSharing : MonoBehaviour {
 
-    private string message = "Eu acabei de viajar pelo Brasil com o CartoGráfico! Viaje você também!";
+    private string message = "Eu acabei de viajar pelo Brasil com o CartoGráfico! Viaje você também!\nLink para Google Play:https://play.google.com/store/apps/details?id=com.cjccbasp.CartoGrafico";
 
 	private string whatsAppBaseURL = "https://wa.me/?text=";
 	private string twitterBaseURL = "https://twitter.com/intent/tweet?text=";

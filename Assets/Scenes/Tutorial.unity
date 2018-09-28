@@ -521,6 +521,7 @@ GameObject:
   - component: {fileID: 423133838}
   - component: {fileID: 423133837}
   - component: {fileID: 423133836}
+  - component: {fileID: 423133840}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -618,6 +619,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &423133840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 423133835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0879225874758f044ae2a1b86e17ac01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &499547776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,7 +1068,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.9921569, g: 0.92549026, b: 0.6509804, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -1229,7 +1241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: 260}
+  m_AnchoredPosition: {x: -88, y: 260}
   m_SizeDelta: {x: 46.1, y: 27.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &766291540
