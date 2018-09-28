@@ -163,7 +163,7 @@
         },
         {
             "id":20,
-            "question":"'Quando olhei a terra ardendo\nQual fogueira de São João\nEu perguntei a Deus do céu, ai\nPor que tamanha judiação\nEu perguntei a Deus do céu, ai\nPor que tamanha judiação\nQue braseiro, que fornalha\nNem um pé de plantação\nPor falta d'água perdi meu gado\nMorreu de sede meu alazão…'\nO trecho da música Asa Branca de autoria de Luiz Gonzaga e Humberto Teixeira remete à seca de qual região brasileira?",
+            "question":"'\nEu perguntei a Deus do céu, ai\nPor que tamanha judiação\nQue braseiro, que fornalha\nNem um pé de plantação\nPor falta d'água perdi meu gado\nMorreu de sede meu alazão…'\nO trecho da música Asa Branca de autoria de Luiz Gonzaga e Humberto Teixeira remete à seca de qual região brasileira?",
             "answers":["Norte", "Sul", "Nordeste"],
             "correct":2,
             "fact":"O tema da canção é a seca no Nordeste brasileiro que pode chegar a ser muito intensa, a ponto de fazer migrar até mesmo a ave asa-branca.",

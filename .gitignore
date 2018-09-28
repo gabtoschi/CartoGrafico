@@ -34,3 +34,4 @@ sysinfo.txt
 \.vscode/
 Assets/Scripts/Tutorial.meta
 *.lock
+.vs/CartoGrafico/v15/Server/sqlite3/storage.ide

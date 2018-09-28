@@ -24,7 +24,7 @@ public class SiteInfo : MonoBehaviour {
             case "Sao Paulo":
                 title = "MASP";
                 img = Resources.Load<Sprite>("Imgs Sites/Masp");
-                siteInfo = "O Museu de Arte de São Paulo é um museu privado sem fins lucrativos, fundado em 1947 pelo empresário e mecenas Assis Chateaubriand (1892-1968), tornando-se o primeiro museu moderno no país. O museu está localizado na avenida Paulista no icônico projeto de Lina Bo Bardi, que se tornou um marco na história da arquitetura do século 20 que concilia em sua arquitetura as superfícies ásperas e sem acabamentos com leveza, transparência e suspensão. A esplanada sob o edifício, conhecida como “vão livre”, foi pensada como uma praça para uso da população. Fonte: https://masp.org.br/sobre ";
+                siteInfo = "O Museu de Arte de São Paulo é um museu privado sem fins lucrativos, fundado em 1947 pelo empresário Assis Chateaubriand, tornando-se o primeiro museu moderno no país. Está localizado na avenida Paulista o icônico projeto de Lina Bo Bardi, que se tornou um marco na história da arquitetura do século 20, conciliando as superfícies ásperas e sem acabamentos com leveza, transparência e suspensão. A esplanada sob o edifício, conhecida como “vão livre”, foi pensada como uma praça para uso da população. Fonte: https://masp.org.br/sobre ";
                 break;
             case "Curitiba":
                 title = "Jardim Botânico";

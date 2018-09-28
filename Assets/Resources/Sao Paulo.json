@@ -44,7 +44,7 @@
         },
         {
             "id":5,
-            "question":"Quando Caetano Veloso canta estes versos, ele faz homenagem para qual cidade?\n'Alguma coisa acontece no meu coração,\nque só quando cruza a Ipiranga e a Avenida São João\nÉ que quando eu cheguei por aqui eu nada entendi\nDa dura poesia concreta de tuas esquinas\nDa deselegância discreta de tuas meninas\nAinda não havia para mim Rita Lee\nA tua mais completa tradução…'",
+            "question":"Quando Caetano Veloso canta estes versos, ele faz homenagem para qual cidade?\n'Alguma coisa acontece no meu coração,\nque só quando cruza a Ipiranga e a Avenida São João\nÉ que quando eu cheguei por aqui eu nada entendi\nDa dura poesia concreta de tuas esquinas\nDa deselegância discreta de tuas meninas'",
             "answers":["Rio de Janeiro", "Salvador", "São Paulo"],
             "correct":2,
             "fact":"A música Sampa foi composta por Caetano Veloso em 1978 em homenagem a São Paulo, capital paulista.",
