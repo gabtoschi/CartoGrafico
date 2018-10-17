@@ -39,12 +39,12 @@
             "question":"Qual estado NÃO faz fronteira com o estado de São Paulo?",
             "answers":["Rio Grande do Sul", "Paraná", "Minas Gerais"],
             "correct":0,
-            "fact":"O estado de São Paulo faz fronteira com Minas Gerais, Rio de janeiro, Paraná, Mato Grosso do Sul e oceano Atlântico.",
+            "fact":"O estado de São Paulo faz fronteira com Minas Gerais, Rio de Janeiro, Paraná, Mato Grosso do Sul e oceano Atlântico.",
 			"url":""
         },
         {
             "id":5,
-            "question":"Quando Caetano Veloso canta estes versos, ele faz homenagem para qual cidade?\n'Alguma coisa acontece no meu coração,\nque só quando cruza a Ipiranga e a Avenida São João\nÉ que quando eu cheguei por aqui eu nada entendi\nDa dura poesia concreta de tuas esquinas\nDa deselegância discreta de tuas meninas'",
+            "question":"Quando Caetano Veloso canta estes versos, ele faz homenagem para qual cidade?\n'Alguma coisa acontece no meu coração,\nque só quando cruza a Ipiranga e a Avenida São João'",
             "answers":["Rio de Janeiro", "Salvador", "São Paulo"],
             "correct":2,
             "fact":"A música Sampa foi composta por Caetano Veloso em 1978 em homenagem a São Paulo, capital paulista.",

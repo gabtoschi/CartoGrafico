@@ -20,7 +20,7 @@
         },
         {
             "id":2,
-            "question":"Quem nasce em manaus é chamado de:",
+            "question":"Quem nasce em Manaus é chamado de:",
             "answers":["Manauara", "Manauano", "Manauerense"],
             "correct":0,
             "fact":"Pessoa que nasceu em Manaus, capital do Amazonas, estado situado no norte do Brasil; manauense.",
