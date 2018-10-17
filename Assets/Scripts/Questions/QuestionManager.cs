@@ -51,8 +51,9 @@ public class QuestionManager : MonoBehaviour {
         if (PlayerPrefs.HasKey(packFilename + checkerSuffix)) {
             Debug.Log("checker for " + packFilename + " exists in playerprefs");
 
-            // get current checker
-            checker = PlayerPrefs.GetString(packFilename + checkerSuffix).ToCharArray();
+            //checker = PlayerPrefs.GetString(packFilename + checkerSuffix).ToCharArray();
+            // reset past checkers
+            resetChecker();
             Debug.Log(PlayerPrefs.GetString(packFilename + checkerSuffix));
 
             // if the length of the checker is less than the number of questions, update it
@@ -135,4 +136,5 @@ public class QuestionManager : MonoBehaviour {
 
         return returnQuestion;
     }
+    
 }
