@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class BtnController : MonoBehaviour {
 
+    private string privacyPolicyLink = "https://github.com/gabtoschi/CartoGrafico/blob/master/privacy_policy.md";
+
 	public void StartBtn()
     {
         //Debug.Log("OI");
@@ -44,5 +46,9 @@ public class BtnController : MonoBehaviour {
         {
             SceneManager.LoadScene("LevelSelection");
         }
+    }
+
+    public void OpenPrivacyPolicy() {
+        Application.OpenURL(privacyPolicyLink);
     }
 }
